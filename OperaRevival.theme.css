@@ -1,6 +1,8 @@
 /**
- * @name OperaGXRevival
- * @author Discord Addons
+ * @name OperaGXRevived
+ * @author Discord Addons/Revived By L-Ratio
+ * @description An OperaGX Theme for discord! The orginally creator of this theme disapeared!
+ * @source https://github.com/L-Ratio/OperaGXTheme
  * @version 1.1.0
 */
 /*~~ 1. Imports ~~*/
@@ -14,8 +16,8 @@
     --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
 
  /*  Background-Settings                                                                                                                                                                                                                                                                                                                                         */
- --background:                     none                 ;/* Default: var(--opera-gx-bg-1)                                  - Background for app-mount, you can use a preset var, your own url, transparent (requires transparency enabled and dark theme set) or just a color. Var syntax: var(--var-name), url syntax: url(https://…).     */
- --background-behind-appmount:     none   ;/* Default: rgb(var(--darker-background-color))                   - Background that is behind the --background variable, in case if --background is unloaded. To make your app transparent, set BOTH background variables to transparent. Otehrwise, put a background color.       */
+ --background:                     var(--opera-gx-bg-1)                 ;/* Default: var(--opera-gx-bg-1)                                  - Background for app-mount, you can use a preset var, your own url, transparent (requires transparency enabled and dark theme set) or just a color. Var syntax: var(--var-name), url syntax: url(https://…).     */
+ --background-behind-appmount:     rgb(var(--darker-background-color))   ;/* Default: rgb(var(--darker-background-color))                   - Background that is behind the --background variable, in case if --background is unloaded. To make your app transparent, set BOTH background variables to transparent. Otehrwise, put a background color.       */
  
 /*  Color-Settings (RGB only)                                                                                                                                                                                                                                                                                                                                   */
  --accent-color-1:                 250, 30, 70                           ;/* Default: 250, 30, 70                                           - The main accent color used in the theme.                                                                                                                                                                       */
