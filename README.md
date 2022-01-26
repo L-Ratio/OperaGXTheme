@@ -6,4 +6,3 @@
     - You can find the correct folder by going to Settings, Themes then clicking the "Open Themes Folder" button.
 ### Information
 - This theme was orginally created by Discord Addons, I take no credit for making this theme
-- I do not take crediting for making this theme
