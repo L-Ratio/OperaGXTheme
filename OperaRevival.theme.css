@@ -6627,7 +6627,10 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .platform-web .searchResultsWrap-5RVOkx {
     border-bottom: none;
 }
-/* Memberlist */
+/* Memberlist Borders*/
+.content-2a4AW9{
+    height: calc(100vh - 112px)!important;
+}
 .members-3WRCEx {
     border-right: solid 1px var(--line-color);
     border-bottom: solid 1px var(--line-color);
