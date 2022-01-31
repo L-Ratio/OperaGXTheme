@@ -6,5 +6,5 @@
     - You can find the correct folder by going to Settings, Themes then clicking the "Open Themes Folder" button.
 ### Information
 - This theme was orginally created by Discord Addons, I take no credit for making this theme
-- All of the items on this repo were pulled by ```web.archive.org``` and reuploaded.
+- All of the items on this repo were pulled by ```cachedview.com``` and reuploaded.
 - This repo will be up until the creator of the theme is back or request this to  be taken down
