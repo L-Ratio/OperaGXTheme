@@ -4040,6 +4040,7 @@ span.roleColor-nA7BqX::after {
     -webkit-box-shadow: none;
     max-height: calc(100vh - 51px);
     border-radius: 0;
+    border-color: rgb(var(--accent-color-1));
 }
 .wrapper--nA0oy{
   
