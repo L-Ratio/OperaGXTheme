@@ -1,3 +1,4 @@
+@import url('https://github.com/L-Ratio/L-ratio.github.io/raw/main/ChakraPetchRegular400.ttf');
 :root {
     /* Theme Support */
     --oggt-build: "241";
@@ -349,7 +350,7 @@
 
 /*~~ 4. Font ~~*/
 @font-face {
-    src: url(https://raw.githubusercontent.com/L-Ratio/OperaGxTheme/main/ChakraPetchRegular400);
+    src: url('https://github.com/L-Ratio/L-ratio.github.io/raw/main/ChakraPetchRegular400.ttf');
     font-family: "Chakra Petch Regular";
 }
 :root {
@@ -6615,6 +6616,13 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .colorable-3rVGna.primaryDark-2UJt1G{
     background-color: var(rgb(--darker-background-color));    
     border-radius: 100px;
+}
+.videoControls-353CsJ{
+    border-right: 2px solid rgb(var(--accent-color-1))!important;
+    border-bottom: 1px solid rgb(var(--accent-color-1))!important;
+}
+.videoGridWrapper-2WpXPj{
+    border-top: 1px solid rgb(var(--accent-color-1))!important;
 }
 
 
