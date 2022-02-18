@@ -1,5 +1,149 @@
-                                                                                                     
-#app-mount,
+:root {
+    /* Theme Support */
+    --oggt-build: "241";
+    --oggt-info: "Opera GX Gaming Theme " var(--oggt-build);
+    --theme-name: "Opera GX Gaming Theme";
+        /* Common Backgrounds */
+        --opera-gx-bg-1: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/01.jpg);
+        --opera-gx-bg-2: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/02.jpg);
+        --opera-gx-bg-3: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/03.jpg);
+        --opera-gx-bg-4: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/04.jpg);
+        --opera-gx-bg-5: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/05.jpg);
+        --opera-gx-bg-6: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/06.jpg);
+        --opera-gx-bg-7: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/07.jpg);
+        --opera-gx-bg-8: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/08.jpg);
+        --opera-gx-bg-9: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/09.jpg);
+        --opera-gx-bg-10: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/10.jpg);
+        --opera-gx-bg-11: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/11.jpg);
+        --opera-gx-bg-12: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/12.jpg);
+        --opera-gx-bg-13: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/13.jpg);
+        --opera-gx-bg-14: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/14.jpg);
+        --opera-gx-bg-15: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/15.jpg);
+        --opera-gx-bg-16: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/16.jpg);
+        /* Default Dark Backgrounds */
+        --opera-gx-bg-17: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/17.png); /* GX Classic */
+        --opera-gx-bg-18: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/18.png); /* Ultraviolet */
+        --opera-gx-bg-19: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/19.png); /* Frutti Di Mare */
+        --opera-gx-bg-20: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/20.png); /* Purple Haze */
+        --opera-gx-bg-21: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/21.png); /* Vaporwave */
+        --opera-gx-bg-22: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/22.png); /* Rose Quartz */
+        --opera-gx-bg-23: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/23.png); /* Coming Soon */
+        --opera-gx-bg-24: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/24.png); /* Hackerman */
+        --opera-gx-bg-25: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/25.png); /* Lambda */
+        --opera-gx-bg-26: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/26.png); /* After Eight */
+        --opera-gx-bg-27: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/27.png); /* Pay-To-Win */
+        --opera-gx-bg-28: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/28.png); /* White Wolf */
+        /* Default Light Backgrounds */
+        --opera-gx-bg-29: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/29.png); /* GX Classic */
+        --opera-gx-bg-30: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/30.png); /* Ultraviolet */
+        --opera-gx-bg-31: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/31.png); /* Frutti Di Mare */
+        --opera-gx-bg-32: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/32.png); /* Purple Haze */
+        --opera-gx-bg-33: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/33.png); /* Vaporwave */
+        --opera-gx-bg-34: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/34.png); /* Rose Quartz */
+        --opera-gx-bg-35: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/35.png); /* Coming Soon */
+        --opera-gx-bg-36: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/36.png); /* Hackerman */
+        --opera-gx-bg-37: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/37.png); /* Lambda */
+        --opera-gx-bg-38: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/38.png); /* After Eight */
+        --opera-gx-bg-39: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/39.png); /* Pay-To-Win */
+        --opera-gx-bg-40: url(https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/Backgrounds/40.png); /* White Wolf */
+                /* Quick variables */
+    --line-color: var(--line-color-1);
+    --line-color-1: rgba(var(--accent-color-1, 250, 30, 70), var(--lines-transparency, 1));
+    --line-color-2: rgba(var(--accent-color-2, 255, 55, 109), var(--lines-transparency, 1));
+
+    /* Theme default variables */
+    --background:                     var(--opera-gx-bg-1)                  ;
+    --background-behind-appmount:     rgb(var(--darker-background-color))   ;
+
+
+    --accent-color-1:                 250, 30, 70                           ;
+    --accent-color-2:                 255, 55, 109                          ;
+    --dark-background-color:          18, 16, 25                            ;
+    --darker-background-color:        8, 5, 14                              ;
+
+
+    --gx-red:                         255, 34, 34                           ;
+    --gx-red-2:                       255, 66, 66                           ;
+    --gx-yellow:                      234, 234, 34                          ;
+    --gx-yellow-2:                    255, 255, 68                          ;
+    --gx-green:                       0, 212, 81                            ;
+    --gx-green-2:                     0, 255, 129                           ;
+    --gx-grey:                        47, 44, 59                            ;
+    --gx-grey-2:                      62, 58, 67                            ;
+
+
+    --fullwhite-font:                 250, 253, 255                         ;
+    --normal-font:                    201, 203, 206                         ;
+    --normal-hover-font:              238, 239, 240                         ;
+    --muted-font:                     114, 118, 125                         ;
+    --link-text:                      0, 176, 244                           ;
+    --font-in-accent:                 0, 0, 0                               ;
+
+
+    --channel-name-transform:         capitalize                            ;
+    --category-name-transform:        unset                                 ;
+
+
+    --wintitlebar-background-blur:    none                                  ;
+    --wintitlebar-transparency:       0.7                                   ;
+    --wintitlebar-transparency-color: var(--dark-background-color)          ;
+    --wintb-focused-alpha:            1                                     ;
+    --wintb-focused-color:            var(--darker-background-color)        ;
+
+    --header-background-blur:         none                                  ;
+    --header-transparency:            0.3                                   ;
+    --header-transparency-color:      var(--dark-background-color)          ;
+
+    --serverlist-background-blur:     none                                  ;
+    --serverlist-transparency:        0                                     ;
+    --serverlist-transparency-color:  var(--dark-background-color)          ;
+
+    --channels-background-blur:       none                                  ;
+    --channels-transparency:          0                                     ;
+    --channels-transparency-color:    var(--dark-background-color)          ;
+
+    --chat-background-blur:           none                                  ;
+    --chat-transparency:              0                                     ;
+    --chat-transparency-color:        var(--dark-background-color)          ;
+
+    --memberlist-background-blur:     none                                  ;
+    --memberlist-transparency:        0.5                                   ;
+    --memberlist-transparency-color:  var(--dark-background-color)          ;
+
+
+    --st-l-scroller-bg-blur:          none                                  ;
+    --st-l-scroller-transparency:     1                                     ;
+    --st-l-scroller-color:            var(--dark-background-color)          ;
+    --st-r-scroller-bg-blur:          none                                  ;
+    --st-r-scroller-transparency:     1                                     ;
+    --st-r-scroller-color:            var(--darker-background-color)        ;
+
+
+    --chatbox-transparency:           1                                     ;
+    --chatbox-focused-transparency:   1                                     ;
+    --other-transparency:             1                                     ;
+    --other-highlighted-transparency: 1                                     ;
+    --lines-transparency:             1                                     ;
+
+
+    --channeltabs-background-color:   var(--darker-background-color)        ;
+    --channeltabs-background-blur:    none                                  ;
+    --channeltabs-bg-transparency:    1                                     ;
+    --channeltabs-tab-bg-color:       var(--dark-background-color)          ;
+    --channeltabs-tab-bg-transparency:1                                     ;
+
+    --channeltabs-fav-bg-color:       var(--dark-background-color)          ;
+    --channeltabs-fav-bg-blur:        none                                  ;
+    --channeltabs-fav-bg-transparency:1                                     ;
+    --channeltabs-fav-hover:          111, 125, 138                         ;
+    --channeltabs-fav-hover-alpha:    0.3                                   ;
+
+
+    /* Theme compatibility variables */
+    /* UT00_AllUTilities */
+    --categorySize: 15px; /* /* NOTE: If the value you set for this variable in the UT00_AllUTilities theme file doesn't work with OperaGxGamingTheme, try adding !important next to your value. */
+}                                                                                                   
+#app-mount, 
 .theme-light,
 .theme-dark {
     /* Discord colors and font */
