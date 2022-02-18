@@ -143,7 +143,6 @@
     /* UT00_AllUTilities */
     --categorySize: 15px; /* /* NOTE: If the value you set for this variable in the UT00_AllUTilities theme file doesn't work with OperaGxGamingTheme, try adding !important next to your value. */
 }                                                                                                   
-#app-mount, 
 .theme-light,
 .theme-dark {
     /* Discord colors and font */
