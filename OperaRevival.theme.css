@@ -6,7 +6,9 @@
  * @version 1.1.0
 */
 /*~~ 1. Imports ~~*/
-@import url(https://raw.githubusercontent.com/L-Ratio/OperaGxTheme/main/TS_Core.css);
+
+/* @import url(https://raw.githubusercontent.com/L-Ratio/OperaGxTheme/main/TS_Core.css);*/
+
 
 /*~~ 2. Vars ~~*/
 :root {
@@ -6639,6 +6641,24 @@ div[style*="background-color: var(--background-secondary); border-radius: 8px; b
 .platform-web .searchResultsWrap-5RVOkx {
     border-bottom: none;
 }
+
+
+/* In Call/Group Borders*/
+.colorable-3rVGna.red-3T8maV{
+    border-radius: 10px;
+    padding: 11px;
+}
+.wrapper-3t3Yqv{
+    background-color: rgb(var(--darker-background-color));
+    border: 1px double rgb(var(--accent-color-1));
+    border-radius: 5px;
+}
+.colorable-3rVGna.primaryDark-2UJt1G{
+    background-color: var(rgb(--darker-background-color));    
+    border-radius: 100px;
+}
+
+
 /* Memberlist Borders*/
 .content-2a4AW9{
     height: calc(100vh - 112px)!important;
