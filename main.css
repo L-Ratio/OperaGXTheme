@@ -1,3 +1,16 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/main.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/variables.css);
-@import "css/general/background"
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/center.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/channels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/guildseps.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/header.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/inlinereplys.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/memberlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/modals.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/panels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/searchbar.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/serverlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/servernameban.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/settings.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/threads.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/borders/veriboost.css);
