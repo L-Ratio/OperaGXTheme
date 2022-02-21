@@ -35,6 +35,20 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/css/colors/oldcolors.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/colors/newcolors.css);
 
+/* Channels */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/chatbox.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/announcement.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/catagories.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/channelname.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/channels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/dms.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/mentioned.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/pingbadges.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/privatechannels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/channels/reactions.css);
+
+
+
 /* Buttons */
 @import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/addrolebutton.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/closebutton.css);

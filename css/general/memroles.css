@@ -1,3 +1,6 @@
+:root{
+    --cp-size: 4px;
+}
 /* Memberlist */
 .mulitplePlaceholderUsername-2T3DCI,
 .placeholderAvatar-1qAcRZ,
@@ -6,7 +9,6 @@
     background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
     border-radius: 2px;
     clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-    --cp-size: 4px;
 }
 .members-3WRCEx .layout-1qmrhw {
     border-radius: 10;
