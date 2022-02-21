@@ -1,8 +1,5 @@
 /*~~ 4. Font ~~*/
-@font-face {
-    src: url(https://raw.githubusercontent.com/L-Ratio/OperaGxTheme/main/ChakraPetchRegular400);
-    font-family: "Chakra Petch Regular";
-}
+
 :root {
     --cf: var(--customFont, --custom-font, Chakra Petch, "Chakra Petch Regular", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
     --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);

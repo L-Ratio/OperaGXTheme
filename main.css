@@ -1,6 +1,9 @@
+/* Variables, Font, Backgrounds */
 @import url(https://l-ratio.github.io/OperaGXTheme/css/variables.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/general/font.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/general/background.css);
+/* @import url(https://l-ratio.github.io/OperaGXTheme/css/keyframes.css); <--- I personally keep this one disabled, the animations makes it feel slower */
+
  
 /* Borders */
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/center.css);
@@ -18,18 +21,6 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/threads.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/veriboost.css);
 
-/* Buttons */
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/addrolebutton.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/closebutton.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/emojibutton.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/iconbuttonpanels.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/jumpbutton.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/macbutton.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/messagebuttons.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/paginationbuttons.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/svgbuttons.css);
-@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/winbuttons.css);
-
 /* Betterdiscord */
 @import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdaddoncard.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bderrors.css);
@@ -38,3 +29,126 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdupdates.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/bd/pubserverbutton.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/bd/settingsui.css);
+
+/* Colors */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/colors/lang.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/colors/oldcolors.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/colors/newcolors.css);
+
+/* Buttons */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/addrolebutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/closebutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/emojibuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/iconbuttonpanels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/jumpbutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/macbuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/messagebuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/paginationbuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/svgbuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/winbuttons.css);
+
+/* Context Menus */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/contextmenus/autocomplete.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/contextmenus/contextmenumain.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/contextmenus/contextseparators.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/contextmenus/emojiNSearch.css);
+
+/* Embeds */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/embed/attachments.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/embed/embeds.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/embed/embimages.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/embed/musicfile.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/embed/uploads.css);
+
+/* Emojis & Gifs */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/emojigifs/emojiinfo.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/emojigifs/emojipicker.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/emojigifs/gifs.css);
+
+/* General (will probably get re-reorganized) */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/addserver.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/authscreens.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/authui.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/calander.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/cards.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/changelogs.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/downloadappsui.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/folders.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/friendsstage.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/invites.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/keyboard.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/library.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/loading.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/memroles.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/nitro.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/nsfwwarning.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/pubserverlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/screensharing.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/scrollbars.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/settingssidebar.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/startscreenshare.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/updateui.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/voicechannels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/voicecontrols.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/widgets.css);
+
+/* Messages (Text Area...etc) */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/messages/inbox.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/messages/messages.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/messages/moremessages.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/messages/unreads.css);
+
+/* Misc */
+/*@import url(https://l-ratio.github.io/OperaGXTheme/css/misc/discorddevs.css);*/
+@import url(https://l-ratio.github.io/OperaGXTheme/css/misc/Elementhider.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/misc/hljsnames.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/misc/serverbackground.css);
+
+/* Popouts */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/popouts/newrolepopout.css);
+/*@import url(https://l-ratio.github.io/OperaGXTheme/css/popouts/oldrolepopout.css);*/
+@import url(https://l-ratio.github.io/OperaGXTheme/css/popouts/popoutsNback.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/popouts/userpopouts.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/popouts/quickswitcher.css);
+
+/* Search results, Search Bars, Search Chat */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/search/sdsearch.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/search/searchbar.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/search/searchchat.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/search/searchresults.css);
+
+/* Server related (server boots, lists etc) */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/server/serverboost.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/server/serverlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/server/serverregion.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/server/welcome.css);
+
+/* Transparency and Blur effects */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/badges.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/buttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/channeldms.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/chatsearch.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/emptyservchan.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/header.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/memberlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/permstab.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/selections.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/serverlist.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/topbar.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/TransBlur/warnings.css);
+
+/* User related items (custom status, status etc) */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/user/status.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/user/usernotes.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/user/userprofile.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/user/userprofilebanner.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/user/Wumpustooltip.css);
+
+
+
+
+
+
+
+
+
