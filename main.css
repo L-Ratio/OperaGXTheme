@@ -1,4 +1,8 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/css/variables.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/font.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/general/background.css);
+ 
+/* Borders */
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/center.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/channels.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/guildseps.css);
@@ -13,3 +17,24 @@
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/settings.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/threads.css);
 @import url(https://l-ratio.github.io/OperaGXTheme/css/borders/veriboost.css);
+
+/* Buttons */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/addrolebutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/closebutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/emojibutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/iconbuttonpanels.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/jumpbutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/macbutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/messagebuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/paginationbuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/svgbuttons.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/buttons/winbuttons.css);
+
+/* Betterdiscord */
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdaddoncard.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bderrors.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdfdb.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdtoast.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/bdupdates.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/pubserverbutton.css);
+@import url(https://l-ratio.github.io/OperaGXTheme/css/bd/settingsui.css);
