@@ -1,0 +1,19 @@
+/*-- 20.1. Settings Sidebar footer --*/
+.side-2ur1Qk .info-1sUqUG:last-of-type:after {
+    content: var(--oggt-info) !important; /* You can show this in settings and scroll down — If you want to have the latest version of this theme, use Ctrl + R to reload Discord. */
+    font-size: 12px !important;
+    color: var(--text-muted) !important;
+    display: inline !important;
+    opacity: 1 !important;
+    padding: 0 !important;
+    cursor: text !important;
+    visibility: visible !important;
+    position: relative !important;
+    top: unset !important;
+    left: unset !important;
+    bottom: 1px !important;
+    right: unset !important;
+    transform: unset !important;
+    animation: unset !important;
+    text-transform: none !important;
+}

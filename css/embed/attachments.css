@@ -1,0 +1,20 @@
+
+/* Attachments */
+.attachment-1PZZB2 {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
+    border-radius: 10;
+}
+.attachment-1PZZB2:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .attachment-1PZZB2:hover {
+    animation: accent-blinking 450ms infinite;
+}
+.filenameLinkWrapper-3Rc6sk {
+    line-height: 16px;
+}
+.metadata-1E7Z4i {
+    color: rgb(var(--muted-font));
+}

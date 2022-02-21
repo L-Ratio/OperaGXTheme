@@ -1,0 +1,17 @@
+/* NSFW Channel Warning */
+.actionRed-gYn8D3 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-red));
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.actionRed-gYn8D3:hover {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-red-2));
+}
+.chatContent-3KubbW,
+.scroller-3KyaqJ {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+}

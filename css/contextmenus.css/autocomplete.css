@@ -1,0 +1,54 @@
+/* AutocompleteMenus */
+#app-mount .autocomplete-3NRXG8 {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-2));
+}
+.full-motion.app-focused #app-mount .autocomplete-3NRXG8 {
+    animation: accent-blinking 450ms infinite;
+}
+.base-2v-uc0 {
+    border: solid 1px transparent;
+    border-radius: 10;
+}
+.selectorSelected-1_M1WV.base-2v-uc0,
+.selected-3H3-RC.base-2v-uc0 {
+    border-radius: 10;
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .selectorSelected-1_M1WV.base-2v-uc0,
+.full-motion.app-focused .selected-3H3-RC.base-2v-uc0 {
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .divider-1bJsnZ,
+#app-mount .selectorSelected-1_M1WV,
+#app-mount .selected-3H3-RC {
+    background-color: rgb(var(--dark-background-color));
+}
+#app-mount .content-Qb0rXO {
+    color: rgb(var(--normal-font));
+}
+#app-mount .selectorSelected-1_M1WV .content-Qb0rXO,
+#app-mount .selected-3H3-RC .content-Qb0rXO {
+    color: rgb(var(--fullwhite-font));
+}
+#app-mount .description-11DmNu,
+#app-mount .descriptionUsername-J_75O8 {
+    color: rgb(var(--muted-font));
+}
+.icon-nmEpWl polygon {
+    fill: rgb(var(--normal-font)) !important;
+}
+.selectorSelected-1_M1WV .icon-nmEpWl polygon,
+.selected-3H3-RC .icon-nmEpWl polygon {
+    fill: rgb(var(--fullwhite-font)) !important;
+}
+#app-mount .contentTitle-3CylD3 {
+    color: rgb(var(--muted-font));
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+#app-mount .contentTitle-3CylD3 strong {
+    color: rgb(var(--fullwhite-font));
+}

@@ -1,0 +1,17 @@
+/* Header */
+.title-31SJ6t,
+.container-ZMc96U {
+    border: solid 1px var(--line-color);
+}
+.headerBarContainer-31FKNA > .headerBarContainer-31FKNA {
+    border: none;
+    background-color: transparent !important;
+}
+.platform-web .title-31SJ6t,
+.platform-web .container-ZMc96U {
+    border-right: none;
+    border-top: none;
+}
+.divider-q3P9HC {
+    background: var(--line-color);
+}

@@ -1,0 +1,6 @@
+/* Memberlist private channels */
+.addMembersIcon-2xvix1 {
+    border-radius: 10;
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
+    border: solid 1px var(--line-color);
+}

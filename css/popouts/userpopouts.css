@@ -1,0 +1,73 @@
+/* UserPopouts */
+#app-mount .userPopout-3XzG_A,
+#app-mount .userPopout-2j1gM4 {
+    border-radius: 10;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+    max-height: calc(100vh - 52px);
+    background-color: rgb(var(--darker-background-color));
+}
+
+.headerPlaying-j0WQBV,
+.topSectionPlaying-1J5E4n {
+    background: linear-gradient(120deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
+}
+
+.activity-3v9l4T {
+    padding: 8px 16px;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+
+/* Header */
+/*.full-motion.app-focused .headerPlaying-j0WQBV,
+                .full-motion.app-focused .topSectionPlaying-1J5E4n {
+                animation: animated-background 3s infinite;
+                }*/
+/*.headerPlaying-j0WQBV *,
+                .topSectionPlaying-1J5E4n * {
+                 color: rgb(var(--font-in-accent)) !important;
+                }*/
+.headerTop-2y3V6H {
+    border-bottom: none;
+}
+
+.activity-fViXj7 {
+    border-bottom: none;
+    margin: 0;
+    padding: 16px;
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+
+.badges-XRnWAp .topSectionPlaying-1J5E4n {
+    background: none !important;
+}
+
+/*.full-motion.app-focused .badges-XRnWAp .topSectionPlaying-1J5E4n {
+                    animation: none !important;
+                }*/
+.discriminator[style*="88, 101, 242"] {
+    color: rgb(88, 101, 242) !important;
+}
+
+#app-mount .headerNormal-T_seeN {
+    background-color: rgb(var(--dark-background-color));
+}
+
+#app-mount .body-3iLsc4,
+#app-mount .footer-1fjuF6,
+#app-mount .footer-1N3bR3 {
+    background-color: rgb(var(--darker-background-color));
+    color: rgba(var(--fullwhite-font), 0.8);
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+
+.footer-1fjuF6,
+.footer-1N3bR3 {
+    padding-top: 12px;
+}
+
+#app-mount .headerNormal-T_seeN .headerName-fajvi9,
+#app-mount .headerNormal-T_seeN .headerTagUsernameNoNickname-2_H881 {
+    color: rgb(var(--fullwhite-font));
+}

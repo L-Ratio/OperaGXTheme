@@ -1,0 +1,19 @@
+/* Verified Server and Server Boost icons */
+.verified-1Jv_7P {
+    color: rgb(var(--gx-green));
+}
+.disableColor-2z9rkr,
+.iconBackgroundTierOne-2OQMBY,
+.iconBackgroundTierThree-FWlUL9,
+.iconBackgroundTierTwo-Eab9L6 {
+    color: var(--background-accent);
+}
+.iconBackgroundTierNone-3ZkOsa {
+    color: rgb(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.icon-3BYlXK {
+    transition: color 150ms;
+}
+.disableColor-2z9rkr .icon-3BYlXK {
+    color: rgb(var(--font-in-accent));
+}

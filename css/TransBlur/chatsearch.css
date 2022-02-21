@@ -1,0 +1,9 @@
+/* Chat window (and search) */
+.chatContent-3KubbW,
+.searchResultsWrap-5RVOkx {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+}
+#app-mount .title-2CL_z0 {
+    color: rgb(var(--muted-font));
+}

@@ -1,0 +1,139 @@
+/*-- 6.4. Voice Channels --*/
+.videoGridWrapper-2WpXPj {
+    background: transparent;
+    backdrop-filter: blur(var(--chat-background-blur));
+}
+.wrapper-1gVUIN {
+    background-color: transparent;
+}
+.root-22AK9z {
+    background: rgba(var(--header-transparency-color), var(--header-transparency));
+    backdrop-filter: blur(var(--header-background-blur));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.tile-2TcwiO {
+    background-color: rgb(var(--darker-background-color));
+}
+.button-3Vyz67 {
+    background-color: rgb(var(--dark-background-color));
+}
+.root-22AK9z .title-31SJ6t {
+    border-left: none;
+}
+.quickSelect-384d3G {
+    line-height: 16px;
+}
+#app-mount .quickSelectPopout-2F0PXw {
+    background: rgb(var(--dark-background-color));
+    color: rgb(var(--normal-hover-font));
+    border-radius: 10;
+    border: solid 1px var(--line-color);
+}
+.regionSelectPopout-3sEzVB {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#app-mount .quickSelectPopoutOption-2E2UmS {
+    border: solid 1px #0000;
+    border-left: none;
+    border-right: none;
+}
+#app-mount .quickSelectPopoutOption-2E2UmS:hover {
+    background-color: rgb(var(--darker-background-color));
+    border-color: var(--line-color);
+}
+#app-mount .quickSelectPopoutOption-2E2UmS:hover:first-child {
+    border-top-color: #0000;
+}
+#app-mount .quickSelectPopoutOption-2E2UmS:hover:last-child {
+    border-bottom-color: #0000;
+}
+#app-mount .regionSelectName-1Tj9C9 {
+    color: rgb(var(--normal-font));
+}
+.colorable-3rVGna.primaryDark-2UJt1G,
+.colorable-3rVGna.primaryDark-2UJt1G .centerIcon-JYpTUi,
+.colorable-3rVGna.white-11auuQ,
+.colorable-3rVGna.white-11auuQ .centerIcon-JYpTUi,
+.controlIcon-10O-4h,
+.controlIcon-10O-4h:hover {
+    color: rgb(var(--fullwhite-font));
+}
+.colorable-3rVGna.primaryDark-2UJt1G,
+.colorable-3rVGna.white-11auuQ {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+}
+.colorable-3rVGna.primaryDark-2UJt1G:hover,
+.colorable-3rVGna.white-11auuQ:hover,
+.colorable-3rVGna.primaryDark-2UJt1G.active-3D763s, .colorable-3rVGna.primaryDark-2UJt1G:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.status-1ZXjSF {
+    background-color: rgb(var(--gx-red));
+}
+.colorable-3rVGna.red-3T8maV {
+    background: rgb(var(--gx-red));
+}
+.colorable-3rVGna.red-3T8maV:hover {
+    background: rgb(var(--gx-red-2));
+}
+.iconBadge-2wi9r4.participating-NBGDkr {
+    background-color: rgb(var(--gx-green));
+}
+.colorable-3rVGna.green-3wkLbx,
+.colorable-3rVGna.green-3wkLbx.active-3D763s {
+    background: rgb(var(--gx-green));
+}
+.colorable-3rVGna.green-3wkLbx:hover {
+    background: rgb(var(--gx-green-2));
+}
+.border-2BJQjd.speaking-3RWJBr,
+.avatarSpeaking-2pCGrZ {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px var(--background-floating);
+    box-shadow: inset 0 0 0 2px rgb(var(--gx-green)) ,inset 0 0 0 3px var(--background-floating);
+}
+.tile-38DNjt:hover .sourceThumbnail-3n4cjJ {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1));
+    box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1));
+}
+.rtcConnectionQualityFine-3zZrSa .pingForeground-1BRBTc {
+    color: rgb(var(--gx-green));
+}
+.rtcConnectionStatusConnected-1c73OK {
+    color: rgb(var(--gx-green));
+}
+.moreUsers-Gej0iV {
+    background-color: rgb(var(--dark-background-color));
+    color: rgb(var(--normal-font));
+}
+/* VC counters */
+.wrapper-pZmgj4,
+.wrapper-2fEmwW {
+    border-radius: 10;
+    height: 18px;
+    margin-right: -3px;
+    border: solid 1px var(--line-color);
+}
+.users-i_3-kL,
+.users-2JoyGL {
+    width: 24px;
+    padding: 2px 8px 0 5px;
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.total-3tKGEB,
+.total-1c5KCN {
+    width: 24px;
+    padding-left: 4px;
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+}
+.total-3tKGEB:after,
+.total-1c5KCN:after {
+    border-right-color: transparent;
+}
+.wrapper-1gVUIN.minimum-fXpVNc,
+.wrapper-2fEmwW.minimum-fXpVNc {
+    background: none;
+    border-bottom: solid 1px var(--line-color);
+    border-right: solid 1px var(--line-color);
+}

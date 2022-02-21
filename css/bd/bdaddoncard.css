@@ -1,0 +1,4 @@
+/*-- 20.2. BD Addon Card --*/
+[id*="OperaGxGamingTheme"] .bd-addon-header .bd-meta:before,
+[id*="OGGT"] .bd-addon-header .bd-meta:before {
+    content: "build " var(--oggt-build) " ";}

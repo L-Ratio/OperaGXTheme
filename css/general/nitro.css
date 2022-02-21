@@ -1,0 +1,38 @@
+/* Nitro Tab */
+.scroller-29cQFV {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+    border: solid 1px var(--line-color);
+    border-top: none;
+    border-bottom: none;
+}
+/* Discord Gift */
+#app-mount .embedHorizontal-2GF6zV,
+#app-mount .embedVertical-2vpt72 {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 10;
+    border: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
+    transition: none;
+    transition-delay: none;
+}
+#app-mount .embedHorizontal-2GF6zV:hover,
+#app-mount .embedVertical-2vpt72:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-radius: 10;
+    border-color: rgb(var(--accent-color-2));
+    transition: none;
+    transition-delay: none;
+}
+.full-motion.app-focused #app-mount .embedHorizontal-2GF6zV:hover,
+.full-motion.app-focused #app-mount .embedVertical-2vpt72:hover {
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .description-X8_53U {
+    color: rgb(var(--normal-hover-font));
+}
+#app-mount .tagline-3DhQWg {
+    color: rgb(var(--normal-font));
+}
+#app-mount .invalidPoop--w1123 {
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+}

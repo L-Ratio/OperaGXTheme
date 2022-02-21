@@ -1,0 +1,11 @@
+/* Esc close button */
+#app-mount .closeButton-PCZcma {
+    border-radius: 10;
+    border: ridge 2px rgb(var(--accent-color-1));
+}
+#app-mount .closeButton-PCZcma:hover {
+    background-color: var(--background-modifier-hover);
+}
+#app-mount .closeButton-PCZcma > svg > path {
+    fill: rgb(var(--normal-font));
+}

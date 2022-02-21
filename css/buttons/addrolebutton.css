@@ -1,0 +1,22 @@
+/* Add role btn */
+#app-mount .userPopout-3XzG_A .actionButton-1YKTU0,
+#app-mount .userPopout-2j1gM4 .actionButton-1YKTU0 {
+    position: absolute;
+    top: -21px;
+    right: 6px;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 0;
+    border-radius: 10;
+    color: rgb(var(--normal-hover-font));
+    border: none;
+    opacity: 1 !important;
+}
+#app-mount .userPopout-3XzG_A .actionButton-1YKTU0:after,
+#app-mount .userPopout-2j1gM4 .actionButton-1YKTU0:after {
+    content: "+";
+    font-size: 20px;
+    font-weight: 100;
+    line-height: 20px;
+}

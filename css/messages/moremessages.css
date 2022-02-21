@@ -1,0 +1,42 @@
+/* Quotes */
+.blockquoteDivider-363utW {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+.blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
+    border-radius: 10;
+}
+/* Spoilers */
+#app-mount .spoilerText-27bIiA {
+    border-radius: 10;
+}
+#app-mount .spoilerText-27bIiA.hidden-3B-Rum {
+    background: rgb(var(--darker-background-color));
+}
+#app-mount .spoilerText-27bIiA:hover.hidden-3B-Rum {
+    background-color: rgb(var(--dark-background-color));
+}
+/* Codeblocks and codelines */
+.markup-eYLPri code,
+.after_inlineCode-WydEur,
+.before_inlineCode-xn8Llh,
+.inlineCode-2auMQi {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-color: rgba(var(--dark-background-color), var(--other-transparency));
+    border-radius: 10;
+    /*font-size: 0.8rem;
+    line-height: 1rem;*/
+}
+.markup-eYLPri code:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .markup-eYLPri code:hover {
+    animation: accent-blinking 450ms infinite;
+}
+code.inline {
+    border-radius: 0 !important;
+}
+.codeBlockLang-3OMn-4 {
+    color: rgb(var(--accent-color-1));
+    font-weight: 900;
+}

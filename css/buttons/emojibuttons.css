@@ -1,0 +1,37 @@
+/* Buttons */
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B,
+#app-mount .lookOutlined-3yKVGo,
+#app-mount .lookOutlined-3yKVGo.colorWhite-1H92hK {
+    color: rgb(var(--normal-hover-font));
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 10;
+}
+#app-mount .lookOutlined-3yKVGo.colorWhite-1H92hK:disabled {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+}
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:hover,
+#app-mount .lookOutlined-3yKVGo:hover,
+#app-mount .lookOutlined-3yKVGo.colorWhite-1H92hK:hover {
+    color: rgb(var(--fullwhite-font));
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2));
+}
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:disabled,
+#app-mount .lookFilled-yCfaCM.colorGrey-2iAG-B:disabled {
+    background: rgb(var(--darker-background-color));
+    border: solid rgb(var(--dark-background-color)) 1px;
+}
+#app-mount .lookOutlined-3yKVGo.colorBrand-I6CyqQ {
+    color: rgb(var(--accent-color-2));
+    border-color: rgb(var(--accent-color-1));
+}
+#app-mount .lookFilled-yCfaCM.colorBrandNew-2-gGsS {
+    color: rgb(var(--font-in-accent));
+    background-color: rgb(var(--accent-color-1));
+}
+#app-mount .lookFilled-yCfaCM.colorBrandNew-2-gGsS:hover {
+    background-color: rgb(var(--accent-color-2));
+}

@@ -1,0 +1,11 @@
+/* Mac buttons */
+.macButtons-eIdy0e {
+    border: solid 1px var(--line-color);
+    width: 72px;
+    height: 31px;
+}
+.unfocused-1U-yOa .macButtonClose-3IXwAm,
+.unfocused-1U-yOa .macButtonMaximize-1vTCwt,
+.unfocused-1U-yOa .macButtonMinimize-Q8clSI {
+    background-color: rgb(var(--accent-color-2));
+}

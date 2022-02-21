@@ -1,0 +1,11 @@
+/*~~ 14. ElementHider ~~*/
+.children-3xh0VB:after,
+.form-3gdLxP:before,
+.description-3Cwkxk,
+.searchResult-O9NDji:before,
+.searchResult-O9NDji:after {
+    display: none;
+}
+.channelName-3w2Y3c {
+    background: none;
+}

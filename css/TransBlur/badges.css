@@ -1,0 +1,24 @@
+/* Server boost status tiers - stickers */
+.tier-3CS7-p {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .tierHeaderLocked-30MLlO {
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--normal-font));
+    border-radius: 10;
+}
+#app-mount .tierBody-1d3UiS {
+    border-top: solid 1px rgb(var(--accent-color-1));
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--normal-font));
+    border-radius: 10;
+}
+/* NEW badges */
+.textBadge-1fdDPJ {
+    background-color: rgb(var(--gx-red)) !important;
+    color: rgb(var(--fullwhite-font)) !important;
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}

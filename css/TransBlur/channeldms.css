@@ -1,0 +1,9 @@
+/* Channels and DMs */
+.sidebar-1tnWFu {
+    background-color: rgba(var(--channels-transparency-color), var(--channels-transparency));
+    backdrop-filter: blur(var(--channels-background-blur));
+    border-top: solid 1px var(--line-color);
+}
+.platform-web .sidebar-1tnWFu {
+    border-top: none;
+}

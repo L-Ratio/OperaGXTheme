@@ -1,0 +1,73 @@
+/* Add Server */
+.wrapper-2ZbzR9.theme-light,
+.wrapper-2ZbzR9.theme-dark {
+    background: rgb(var(--darker-background-color));
+    border-radius: 10;
+}
+.wrapper-2ZbzR9 {
+    border: solid 1px rgb(var(--accent-color-1)) !important;
+}
+.header-3ZP1MY {
+    color: rgb(var(--accent-color-1));
+    font-weight: 900;
+    font-size: 30px;
+}
+#app-mount .action-1lSjCi {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.full-motion.app-focused #app-mount .action-1lSjCi {
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .action-1lSjCi .colorStandard-21JIj7 {
+    color: rgb(var(--normal-font));
+}
+/* Server Discovery/Discord Public Servers */
+.categoryItem-3zFJns .itemInner-3gVXMG {
+    border-radius: 10;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 7px;
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    color: rgb(var(--font-in-accent));
+}
+#app-mount .pageWrapper-2PwDoS {
+    background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+    backdrop-filter: blur(var(--chat-background-blur));
+    border: solid 1px var(--line-color);
+    color: rgb(var(--normal-font));
+}
+.platform-web #app-mount .pageWrapper-2PwDoS {
+    border-top: none;
+    border-bottom: none;
+}
+#app-mount .activeButton-LRWFC_,
+#app-mount .activeButton-LRWFC_:hover,
+.categoryItem-1QIroW.selectedCategoryItem-FHKU_o .itemInner-gPkiWb {
+    color: rgb(var(--font-in-accent));
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+#app-mount .card-2TuZPZ {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:hover,
+.searchPage-3tt6dh .search-25t1e9 .searchBox-31Zv9h:focus-within {
+    border-color: rgb(var(--accent-color-2));
+}
+.categoryPill-1zjNrr.selected-bLcqYK {
+    background-color: rgb(var(--accent-color-1));
+    color: rgb(var(--font-in-accent));
+}
+.categoryPill-1zjNrr.selected-bLcqYK .categoryLabel-2m4AT- {
+    color: rgb(var(--font-in-accent));
+}
+.loading-3ozbwt {
+    background: transparent;
+}

@@ -1,0 +1,15 @@
+/* GoogleTranslateOption */
+#app-mount .select-1YfRS9 [class*="-menu"] {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 10;
+}
+.full-motion.app-focused #app-mount .select-1YfRS9 [class*="-menu"] {
+    animation: accent-blinking 450ms infinite;
+}
+
+.message-2CShn3 a.flexChild-3PzYmX {
+    border-color: rgba(var(--link-text), var(--other-highlighted-transparency)) !important;
+}

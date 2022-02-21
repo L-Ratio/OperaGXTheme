@@ -1,0 +1,59 @@
+/* FriendNotifications and ServerCounter */
+.scroller-2TZvBN .label-2wRs_g,
+.scroller-3X7KbA .label-2wRs_g {
+    font-size: 9px;
+}
+.label-9FgsSa {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+.label-9FgsSa[style*="background-color"] {
+    color: rgb(255, 255, 255)
+}
+.label-9FgsSa[style*="background-color: var(--bdfdb-blurple)"] {
+    color: rgb(var(--font-in-accent));
+}
+.bg-8df5St {
+    background-color: rgba(var(--darker-background-color), 0.75) !important;
+    border-color: rgb(var(--accent-color-1));
+}
+.inner-6Fsw34 {
+    color: rgb(var(--normal-font)) !important;
+}
+/*.friendnotifications-online-toast {
+    border-color: rgb(var(--gx-green));
+}
+.friendnotifications-online-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-green-2)) !important;
+}*/
+.customBar-3RsUzs[style*="background-color: rgb(59, 165, 92)"] {
+    background: linear-gradient(90deg, rgb(var(--gx-green)), rgb(var(--gx-green-2)));
+}
+/*.friendnotifications-idle-toast {
+    border-color: rgb(var(--gx-yellow));
+}
+.friendnotifications-idle-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-yellow-2)) !important;
+}*/
+.customBar-3RsUzs[style*="background-color: rgb(250, 166, 26)"] {
+    background: linear-gradient(90deg, rgb(var(--gx-yellow)), rgb(var(--gx-yellow-2)));
+}
+/*.friendnotifications-dnd-toast {
+    border-color: rgb(var(--gx-red));
+}
+.friendnotifications-dnd-toast .inner-6Fsw34 {
+    color: rgb(var(--gx-red-2)) !important;
+}*/
+.customBar-3RsUzs[style*="background-color: rgb(237, 66, 69)"] {
+    background: linear-gradient(90deg, rgb(var(--gx-red)), rgb(var(--gx-red-2)));
+}
+/*.friendnotifications-offline-toast {
+    border-color: rgb(var(--gx-grey));
+}
+.friendnotifications-offline-toast .inner-6Fsw34 {
+    color: rgb(var(--muted-font)) !important;
+}*/
+.customBar-3RsUzs[style*="background-color: rgb(116, 127, 141)"] {
+    background: linear-gradient(90deg, rgb(var(--gx-grey)), rgb(var(--gx-grey-2)));
+}

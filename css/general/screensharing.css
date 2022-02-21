@@ -1,0 +1,64 @@
+/* Video/Screen sharing/Streaming */
+.badge-3RBqXG {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 1px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 3px;
+}
+.icon-10cLkJ {
+    border-radius: 1px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 3px;
+}
+.pictureInPictureVideo-2puO2Q {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .elevationHigh-3KUiqj {
+    -webkit-box-shadow: 0 0 0 3px rgb(var(--accent-color-1));
+    box-shadow: 0 0 0 3px rgb(var(--accent-color-1));
+}
+.videoWrapper-3rtb_V {
+    background-color: rgb(var(--dark-background-color));
+}
+.border-2Vy6FN {
+    border-radius: 10;
+}
+.border-2Vy6FN.speaking-7QZEkv {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
+    box-shadow: inset 0 0 0 2px rgb(var(--gx-green)), inset 0 0 0 3px rgb(var(--darker-background-color));
+}
+.tile-2TcwiO {
+    border-radius: 10;
+}
+.live-1V2D-f {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+}
+.participantsButton-1WBdFP {
+    border-radius: 10;
+    background: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+    transition: 200ms cubic-bezier(0, 0, 0, 1) !important;
+    transition-property: background, color, border !important;
+}
+.participantsButton-1WBdFP:hover {
+    border-radius: 10;
+    background: rgb(var(--dark-background-color));
+    border: solid 1px rgb(var(--accent-color-2));
+}
+#app-mount .streamPreview-3qoMP4 {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .previewContainer-21fFBz {
+    background-color: transparent;
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+}
+.container-8Futzw {
+    border-radius: 10;
+    background-color: rgb(var(--darker-background-color));
+    border: solid 1px rgb(var(--accent-color-1));
+}

@@ -1,0 +1,7 @@
+/* Modals */
+#app-mount .modal-2RrUKJ {
+    background-color: rgba(var(--dark-background-color), var(--lines-transparency));
+    border-radius: 10;
+    -webkit-box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0 0 1px rgb(var(--accent-color-1)), 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+}

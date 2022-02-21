@@ -1,0 +1,39 @@
+/* Embeds */
+.embedFull-1HGV2S {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px;
+    border-radius: 10;
+    cursor: default;
+}
+.embedFull-1HGV2S {
+    border-color: rgb(var(--accent-color-1));
+}
+.embedFull-1HGV2S:hover {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2)) !important;
+}
+.full-motion.app-focused .embedFull-1HGV2S:hover {
+    animation: accent-blinking 450ms infinite;
+}
+.embedGalleryImagesWrapper-3BWvNM {
+    border-radius: 10;
+}
+/*.embedAuthorName-pGyUPR {
+    font-size: 0.875rem;
+    line-height: 0.9rem;
+}
+.embedTitle-2n1pEb,
+.embedFieldName-9LYSyR {
+    font-size: 0.95rem;
+    line-height: 1.25rem;
+}
+.embedDescription-1DrJxZ,
+.embedFieldValue-3EHtvR {
+    font-size: 0.85rem;
+    line-height: 1.1rem;
+}
+.embedFooterText-2Mc7H9 {
+    font-size: 0.7rem;
+    line-height: 0.9rem;
+}*/
+

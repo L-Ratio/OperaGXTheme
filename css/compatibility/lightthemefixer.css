@@ -1,0 +1,53 @@
+/*~~ 8. Theme light fixer ~~*/
+#app-mount .username-h_Y3Us {
+    font-weight: 500;
+    text-shadow: var(--shadow-currentcolor);
+}
+#app-mount .text-27cdrj {
+    font-weight: 400;
+    color: rgba(var(--normal-font), 0.8);
+}
+#app-mount .embedAuthorName-pGyUPR {
+    font-weight: 600;
+}
+#app-mount .embedDescription-1DrJxZ {
+    font-weight: 400;
+}
+#app-mount .markup-eYLPri:-webkit-input-placeholder {
+    font-weight: 400 !important;
+}
+#app-mount .blockedMessageText-3Zeg3y {
+    font-weight: 400;
+}
+#app-mount .expanded-3lghlw {
+    background: none;
+}
+.themeDefault-24hCdX.sizeDefault-2YlOZr:after {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+#app-mount h2.ui-form-title,
+#app-mount .ui-switch-item h3 {
+    color: rgb(var(--normal-hover-font)) !important;
+}
+#app-mount #bd-settingspane-container .ui-switch-item .style-description {
+    color: rgb(var(--muted-font));
+}
+#app-mount .ui-switch-item .style-description {
+    color: rgba(255, 255, 255, 0.6);
+    font-weight: 400;
+}
+#app-mount .topic-11NuQZ {
+    font-weight: 400;
+}
+#app-mount .gameName-Uw4dbt {
+    color: rgb(var(--fullwhite-font));
+    font-weight: 600;
+}
+#app-mount ::placeholder,
+#app-mount ::-webkit-input-placeholder,
+#app-mount input,
+#app-mount select,
+#app-mount textarea {
+    font-weight: 400;
+}

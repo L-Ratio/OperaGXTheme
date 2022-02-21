@@ -1,0 +1,6 @@
+* Ping badges */
+.numberBadge-37OJ3S[style*="background-color: rgb(88, 101, 242)"],
+.numberBadge-37OJ3S[style*="background: rgb(88, 101, 242)"] {
+    color: rgb(var(--font-in-accent)) !important;
+    font-weight: 700;
+}

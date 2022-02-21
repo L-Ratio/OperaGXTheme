@@ -1,0 +1,28 @@
+/* Icon buttons in panels */
+.button-12Fmur.enabled-9OeuTA {
+    color: transparent;
+    stroke: rgb(var(--fullwhite-font));
+    margin-left: -1px;
+    border: solid 1px rgba(0, 0, 0, 0);
+}
+.button-12Fmur.enabled-9OeuTA:hover {
+    border-radius: 10;
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+    color: transparent;
+}
+.container-6sXIoE .button-12Fmur .contents-3ca1mk {
+    color: rgb(var(--normal-font));
+}
+.container-6sXIoE .button-12Fmur.active-6TsW-_ .contents-3ca1mk {
+    color: rgb(var(--gx-green));
+}
+.container-YkUktl .redIcon-1ppjsM {
+    color: transparent;
+    stroke: rgb(var(--gx-red));
+}
+.strikethrough-2Kl6HF,
+.strikethrough-3Wiitd {
+    color: rgb(var(--gx-red));
+    stroke: rgb(var(--gx-red));
+}

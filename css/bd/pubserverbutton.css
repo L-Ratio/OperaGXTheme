@@ -1,0 +1,20 @@
+/* Public button */
+#bd-pub-button {
+    border-radius: 2px;
+    background-color: rgba(var(--dark-background-color), var(--other-transparency));
+    color: rgb(var(--normal-font));
+    text-transform: uppercase;
+    font-weight: 500;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 4px;
+    height: 20px;
+    line-height: 22px;
+    font-size: 11px;
+    transition: 200ms cubic-bezier(0, 0, 0.35, 1);
+    transition-property: color, background-color, font-weight;
+}
+#bd-pub-button:hover {
+    background-color: rgb(var(--accent-color-2));
+    color: rgb(var(--font-in-accent));
+    font-weight: 900;
+}

@@ -1,0 +1,53 @@
+/* SVG buttons */
+.toolbar-3_r2xA .icon-2xnN2Y {
+    color: transparent;
+    stroke: rgb(var(--normal-font));
+}
+.toolbar-3_r2xA .icon-2xnN2Y path[fill="#3ba55c"] {
+    fill: transparent !important;
+    stroke: rgb(var(--gx-green));
+}
+.toolbar-3_r2xA .icon-2xnN2Y:hover path[fill="#3ba55c"] {
+    fill: transparent !important;
+    stroke: rgb(var(--gx-green-2));
+}
+.toolbar-3_r2xA.clickable-ZD7xvu .icon-2xnN2Y {
+    color: transparent;
+    stroke: rgb(var(--normal-font));
+}
+.toolbar-3_r2xA .clickable-ZD7xvu:hover .icon-2xnN2Y {
+    color: transparent;
+    stroke: rgb(var(--normal-hover-font));
+}
+.toolbar-3_r2xA .updateIconForeground-2V_zo4 {
+    fill: transparent;
+    stroke: rgb(var(--gx-green));
+}
+.toolbar-3_r2xA .clickable-ZD7xvu .icon-2xnN2Y:hover {
+    color: transparent;
+    stroke: rgb(var(--normal-hover-font));
+}
+.toolbar-3_r2xA .selected-29KTGM .icon-2xnN2Y {
+    color: transparent;
+    stroke: rgb(var(--accent-color-1));
+}
+.toolbar-3_r2xA .selected-29KTGM .icon-2xnN2Y:hover {
+    color: transparent;
+    stroke: rgb(var(--accent-color-2));
+}
+.actionIcon-3Otb6z,
+.actionIcon-2sw4Sl {
+    opacity: 1;
+}
+.children-Bmpf2Q path,
+.children-283-lq path,
+.children-1MGS9G path {
+    color: transparent;
+    stroke: rgb(var(--normal-font));
+}
+.privateChannels-oVe7HL .children-Bmpf2Q path,
+.privateChannels-oVe7HL .children-283-lq path,
+.privateChannels-oVe7HL .children-1MGS9G path {
+    color: rgb(var(--normal-font));
+    stroke: none;
+}

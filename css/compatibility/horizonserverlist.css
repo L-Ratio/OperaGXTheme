@@ -1,0 +1,5 @@
+/* Serverlist at Bottom (+ HorizontalServerList) */
+#app-mount .guilds-2JjMmN .expandedFolderBackground-2sPsd-,
+#app-mount .guilds-2JjMmN .expandedFolderBackground-1cujaW {
+    z-index: -1;
+}

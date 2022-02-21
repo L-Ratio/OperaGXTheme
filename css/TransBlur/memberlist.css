@@ -1,0 +1,5 @@
+/* Memberlist */
+.members-3WRCEx {
+    background-color: rgba(var(--memberlist-transparency-color), var(--memberlist-transparency));
+    backdrop-filter: blur(var(--memberlist-background-blur));
+}

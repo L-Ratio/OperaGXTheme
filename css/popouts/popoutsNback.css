@@ -1,0 +1,40 @@
+/* Popouts */
+#app-mount .root-g14mjS {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 10;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .footer-31IekZ {
+    background-color: rgb(var(--darker-background-color));
+    border-radius: 10;
+    box-shadow: inset 0 1px 0 rgb(var(--accent-color-1));
+    -webkit-box-shadow: inset 0 1px 0 rgb(var(--accent-color-1));
+}
+#app-mount .message-G6O-Wv {
+    background: var(--background) center;
+    backdrop-filter: blur(var(--chat-background-blur));
+    background-size: cover;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 10;
+}
+.content-s2SEQO h1 {
+    text-transform: capitalize;
+    font-size: 18px !important;
+}
+.content-2hZxGK {
+    padding-top: 20px;
+}
+.tips-39ZVzW {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+/* Popout background */
+.backdropWithLayer-3_uhz4 {
+    background-color: transparent !important;
+    background-image: linear-gradient(135deg, rgba(var(--dark-background-color), var(--backdrop-opacity)), rgba(var(--darker-background-color), var(--backdrop-opacity)));
+    --backdrop-opacity: 0.8;
+}

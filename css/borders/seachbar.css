@@ -1,0 +1,8 @@
+/* Searchbar */
+.searchBar-3TnChZ {
+    height: 46px;
+    border-bottom: solid 1px var(--line-color);
+}
+.platform-web .searchBar-3TnChZ {
+    height: 47px;
+}

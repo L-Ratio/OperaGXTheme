@@ -1,0 +1,12 @@
+/* BetterReplyer */
+.replyer {
+    border-radius: 10;
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px rgba(var(--accent-color-1), calc(var(--other-transparency) + 0.3));
+    color: rgb(var(--normal-hover-font));
+}
+.replyer:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgba(var(--accent-color-2), calc(var(--other-highlighted-transparency) + 0.3));
+    color: rgb(var(--fullwhite-font));
+}

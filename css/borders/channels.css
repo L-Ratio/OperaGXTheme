@@ -1,0 +1,28 @@
+
+/* Channels */
+.scroller-2wx7Hm,
+.scroller-1ox3I2 {
+    border-top: solid 1px var(--line-color);
+    opacity: 1;
+}
+.channelNotice-3DDmsB ~ .scroller-1ox3I2 {
+    border-top: none;
+}
+.channelNotice-3DDmsB {
+    border-top: solid 1px var(--line-color);
+}
+.sidebar-1tnWFu {
+    border-left: solid 1px var(--line-color);
+}
+.platform-web .sidebar-1tnWFu {
+    border-left: none;
+}
+.panels-3wFtMD {
+    border-bottom: solid 1px var(--line-color);
+}
+.platform-web .panels-3wFtMD {
+    border-bottom: none;
+}
+.platform-web .clickable-vvKY2q .header-3OsQeK {
+    border-top: none;
+}

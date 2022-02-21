@@ -1,0 +1,26 @@
+/* Select a server region */
+.regionSelectModal-12e-57 {
+    background: rgb(var(--dark-background-color)) !important;
+}
+.regionSelectModal-12e-57 .regionSelectModalHeader-21khC1 {
+    color: rgb(var(--accent-color-1));
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3 {
+    border: solid 1px transparent;
+    border-radius: 10;
+    background-color: rgb(var(--darker-background-color));
+}
+.regionSelectModal-12e-57 .regionSelectModalOption-2DSIZ3:hover {
+    border-color: rgb(var(--accent-color-1));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.regionSelectFlag-3uwFtG {
+    background-color: transparent;
+}
+.regionSelectName-2-2FWh {
+    color: rgb(var(--normal-font));
+}
+.regionSelectModal-12e-57 .regionSelectModalFooter-20C5iA {
+    color: rgb(var(--muted-font));
+}

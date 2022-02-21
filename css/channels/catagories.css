@@ -1,0 +1,82 @@
+/* Categories */
+.containerDefault-3GGEv_,
+.containerDragAfter-3TEhpe,
+.containerDragBefore-3Dzc5x,
+.containerUserOver-1Tcb7l,
+.membersGroup-2eiWxl,
+.privateChannelsHeaderContainer-1UWASm,
+.containerDefault-3TQ5YN {
+    border-top: solid 1px var(--line-color);
+    margin-left: 6px;
+}
+.containerDefault-3GGEv_,
+.containerDefault-3TQ5YN {
+    padding-top: 8px;
+    margin-top: 8px;
+}
+.privateChannelsHeaderContainer-1UWASm {
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-top: 2px;
+}
+.pinnedChannelsHeaderContainer-89Gjv4 .headerAmount-_-7GrS {
+    height: 17px;
+}
+.membersGroup-2eiWxl {
+    margin: 12px 4px 0 8px;
+    padding: 12px 4px 0 8px;
+}
+.containerDefault-3GGEv_:nth-child(2),
+.containerDragAfter-3TEhpe:nth-child(2),
+.containerDragBefore-3Dzc5x:nth-child(2),
+.containerUserOver-1Tcb7l:nth-child(2),
+.membersGroup-2eiWxl:first-child,
+.membersGroup-2eiWxl:nth-child(2),
+.containerDefault-3TQ5YN:nth-child(2) {
+    border-top: none !important;
+}
+.name-IbjUBS,
+.container-q97qHp {
+    color: rgba(var(--accent-color-1), 1);
+    font-weight: 900;
+    font-size: var(--categorySize, 15px);
+    text-transform: var(--category-name-transform, unset);
+    line-height: calc(var(--categorySize) + 6px);
+    transition: color 100ms cubic-bezier(0, 0, 0.35, 1);
+    text-shadow: var(--shadow-currentcolor);
+}
+.containerDefault-3GGEv_ .arrow-2HswgU,
+.containerDefault-3TQ5YN .arrow-2HswgU {
+    color: rgb(var(--accent-color-1));
+    transition: color 100ms cubic-bezier(0, 0, 0.35, 1);
+}
+.name-IbjUBS:hover {
+    color: rgba(var(--accent-color-1), 1);
+}
+.collapsed-4WdoJ7 .name-IbjUBS,
+.collapsed-2KOacR .name-3BUDLf {
+    color: rgba(var(--accent-color-1), 0.7);
+}
+.membersGroup-2eiWxl {
+    color: rgb(var(--accent-color-1));
+    font-weight: 900;
+    font-size: var(--categorySize, 15px);
+    text-transform: var(--category-name-transform, unset);
+    margin-right: 0;
+    margin-left: 8px;
+    text-shadow: var(--shadow-currentcolor);
+}
+.icon-2xnN2Y.privateChannelRecipientsInviteButtonIcon-1ObKXK {
+    color: rgb(var(--accent-color-1));
+    stroke: transparent !important;
+}
+.icon-2xnN2Y.privateChannelRecipientsInviteButtonIcon-1ObKXK:hover {
+    color: rgb(var(--fullwhite-font));
+}
+.pinnedChannelsHeaderArrow-44rrTz path {
+    fill: rgb(var(--accent-color-1));
+    stroke: transparent !important;
+}
+.clickable-2AoIYN {
+    cursor: default;
+}

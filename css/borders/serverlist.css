@@ -1,0 +1,26 @@
+/* Serverlist */
+.wrapper-1_HaEi {
+    background-color: transparent;
+}
+.scroller-2TZvBN,
+.scroller-3X7KbA {
+    border-top: solid 1px var(--line-color);
+    border-bottom: solid 1px var(--line-color);
+    padding-top: 8px !important;
+}
+.guilds-2JjMmN:first-child .scroller-2TZvBN,
+.guilds-2JjMmN:first-child .scroller-3X7KbA {
+    border-left: solid 1px var(--line-color);
+    border-top: solid 1px var(--line-color);
+}
+.platform-web .scroller-2TZvBN,
+.platform-web .scroller-3X7KbA {
+    border-left: none !important;
+    border-bottom: none;
+    border-top: none !important;
+    border-right: solid 1px var(--line-color);
+}
+/* Channels sidebar */
+#app-mount .sidebar-1tnWFu {
+    border-radius: 0;
+}

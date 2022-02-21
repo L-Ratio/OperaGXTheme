@@ -1,0 +1,49 @@
+/* Custom Status Setting */
+.optionNormal-12VR9V:hover,
+.optionActive-KkAdqq,
+.optionFocused-8MflSE {
+    background-color: rgb(var(--darker-background-color));
+}
+.lookFilled-1h1y05.select-1Pkeg4 {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    transition: 150ms cubic-bezier(0, 0, 0.35, 1);
+    transition-property: border-color, background-color;
+}
+.popout-2sKjHu {
+    border-color: rgb(var(--accent-color-2));
+}
+.lookFilled-1h1y05.popout-2sKjHu,
+.lookFilled-1h1y05.select-1Pkeg4 {
+    border-radius: 10;
+}
+.full-motion.app-focused .popout-2sKjHu {
+    animation: accent-blinking 450ms infinite;
+}
+.lookFilled-1h1y05.select-1Pkeg4 {
+    border-color: rgb(var(--darker-background-color));
+}
+.lookFilled-1h1y05.select-1Pkeg4:hover {
+    border-color: rgb(var(--accent-color-2));
+}
+.lookFilled-1h1y05.select-1Pkeg4:focus,
+.lookFilled-1h1y05.select-1Pkeg4:hover.selectOpen-hQuR6b,
+.lookFilled-1h1y05.selectOpen-hQuR6b {
+    border-color: rgb(var(--accent-color-1));
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+}
+/* Status picker */
+.item-1OdjEX.focused-3qFvc8#status-picker-online foreignObject {
+    color: rgb(var(--gx-green-2));
+}
+.item-1OdjEX.focused-3qFvc8#status-picker-idle foreignObject {
+    color: rgb(var(--gx-yellow-2));
+}
+.item-1OdjEX.focused-3qFvc8#status-picker-dnd foreignObject {
+    color: rgb(var(--gx-red-2));
+}
+.item-1OdjEX.focused-3qFvc8#status-picker-invisible foreignObject {
+    color: rgb(141, 162, 176);
+}
+.statusItem-2hiCNB foreignObject {
+    mask: unset !important;
+}

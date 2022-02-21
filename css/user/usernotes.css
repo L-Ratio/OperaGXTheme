@@ -1,0 +1,20 @@
+/* UserNotes */
+.note-3HfJZ5 .input-2g-os5,
+.note-QfFU8y .input-2g-os5,
+.note-1MiCN7 .input-2g-os5,
+.note-3M15gE .input-2g-os5 {
+    color: rgb(var(--normal-hover-font));
+    border: solid 1px rgb(var(--dark-background-color));
+}
+.note-3HfJZ5 .input-2g-os5:hover,
+.note-QfFU8y .input-2g-os5:hover,
+.note-1MiCN7 .input-2g-os5:hover,
+.note-3M15gE .input-2g-os5:hover {
+    border-color: rgb(var(--accent-color-2));
+}
+.note-3HfJZ5 .input-2g-os5:focus,
+.note-QfFU8y .input-2g-os5:focus,
+.note-1MiCN7 .input-2g-os5:focus,
+.note-3M15gE .input-2g-os5:focus {
+    border-color: rgb(var(--accent-color-1));
+}

@@ -1,0 +1,22 @@
+/* Red buttons */
+.lookFilled-yCfaCM.colorRed-rQXKgM {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-red)) !important;
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.lookFilled-yCfaCM.colorRed-rQXKgM:hover {
+    background-color: rgb(var(--gx-red-2)) !important;
+}
+/* Green buttons */
+.lookFilled-yCfaCM.colorGreen-3y-Z79 {
+    color: rgb(255, 255, 255);
+    background-color: rgb(var(--gx-green)) !important;
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 6px;
+}
+.lookFilled-yCfaCM.colorGreen-3y-Z79:hover {
+    background-color: rgb(var(--gx-green-2)) !important;
+}

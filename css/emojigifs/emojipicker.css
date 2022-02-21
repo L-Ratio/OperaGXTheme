@@ -1,0 +1,149 @@
+/* Emoji, GIF, Stickers Pickers */
+.navButtonActive-1EqC5l,
+.navButtonActive-1EqC5l:hover {
+    color: rgb(var(--font-in-accent));
+}
+.contentWrapper-3vHNP2,
+.categoryList-2qRrlj {
+    border-radius: 10;
+}
+.contentWrapper-3vHNP2 {
+    background-color: rgb(var(--dark-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+}
+.nav-1zWVQw {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-bottom: none;
+    padding-top: 4px;
+    padding-bottom: 28px;
+}
+.emojiPicker-6YCk8a {
+    background-color: rgb(var(--dark-background-color));
+    border-radius: 10;
+}
+.categoryList-2qRrlj {
+    background-color: rgb(var(--darker-background-color));
+}
+.emojiPicker-6YCk8a .header-11eigE {
+    border: solid 1px rgb(var(--accent-color-1));
+    background-color: rgb(var(--dark-background-color));
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding: 5px;
+}
+.inspector-sdLnLS,
+.inspector-DFKXwB {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-left: none;
+    background-color: rgb(var(--darker-background-color));
+}
+.list-3V14yy {
+    border-right: solid 1px rgb(var(--accent-color-1));
+}
+.list-obNEuP {
+    border: solid 1px rgb(var(--accent-color-1));
+}
+.autocomplete-3NRXG8 .list-obNEuP {
+    border-top: none;
+}
+.emojiItem-277VFM {
+    border: solid 1px transparent;
+    border-radius: 10;
+    padding: 1px;
+}
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    border-color: rgb(var(--accent-color-2));
+    background-color: rgb(var(--darker-background-color));
+}
+.full-motion.app-focused .emojiItem-277VFM.emojiItemSelected-2Lg50V {
+    animation: both-blinking 450ms infinite;
+}
+.unicodeShortcut-3N8oDe {
+    margin-left: 1px;
+    margin-bottom: 1px;
+    border-top: solid 1px rgb(var(--accent-color-1));
+    height: 46px;
+    width: 46px;
+}
+.premiumPromo-1eKAIB {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+    opacity: 1;
+}
+.searchBar-2M9mRP {
+    border-radius: 10;
+    border: solid 1px #0000;
+    transition: border 200ms cubic-bezier(0, 0, 0.35, 1);
+}
+.app-focused .searchBar-2M9mRP:hover {
+    border-color: rgb(var(--accent-color-2));
+}
+.app-focused .searchBar-2M9mRP:focus-within {
+    border-color: rgb(var(--accent-color-1));
+}
+#app-mount .wrapper-1NNaWG {
+    background: none;
+}
+#app-mount .imageLoading-2uloYN {
+    background-image: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    border-radius: 30%;
+    opacity: 0.5;
+}
+.categoryItemDefaultCategory-3haEDq {
+    border-radius: 10;
+    border: solid 1px #0000;
+    width: 22px;
+    height: 22px;
+    transition: none;
+}
+.categoryItemDefaultCategory-3haEDq:hover {
+    border-color: rgb(var(--accent-color-2));
+    background-color: rgb(var(--dark-background-color))
+}
+.categoryItemDefaultCategory-3haEDq.categoryItemDefaultCategorySelected-2YeRUu {
+    border-color: rgb(var(--accent-color-1));
+}
+.categoryIcon-2cYeku {
+    width: 22px;
+    height: 22px;
+}
+#app-mount .categoryItemDefaultCategorySelected-2YeRUu .categoryIcon-2cYeku,
+#app-mount .categoryItemDefaultCategorySelected-2YeRUu:hover .categoryIcon-2cYeku {
+    color: rgb(var(--fullwhite-font));
+}
+.feature-1nRVr5 {
+    color: rgb(var(--font-in-accent));
+}
+#app-mount .focused-q9B2e4:after,
+#app-mount .result-3OpoO7:hover:after {
+    -webkit-box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1)), inset 0 0 0 3px rgb(var(--dark-background-color));
+    box-shadow: inset 0 0 0 2px rgb(var(--accent-color-1)), inset 0 0 0 3px rgb(var(--dark-background-color));
+}
+.result-3OpoO7:after,
+.gif-1EWTs-,
+.categoryFade-2EGqIh,
+.categoryFadeBlurple-1HuV1x,
+.result-3OpoO7 {
+    border-radius: 10;
+}
+#app-mount .categoryFadeBlurple-1HuV1x {
+    background-color: rgba(var(--accent-color-1), 0.8);
+}
+#app-mount .categoryFadeBlurple-1HuV1x:hover {
+    background-color: rgba(var(--accent-color-1), 0.95);
+}
+#app-mount .emptyHintCard-3Btf0V {
+    background-color: rgb(var(--darker-background-color));
+    color: rgb(var(--normal-font));
+    border-radius: 10;
+}
+#app-mount .emptyHintFavorite-1cKHnJ,
+.gifFavoriteButton-2IttKp.selected-7JJuv5 {
+    color: rgb(var(--gx-yellow));
+}
+.result-3OpoO7[style*="background-color:"] {
+    background-color: rgb(var(--accent-color-2)) !important;
+}

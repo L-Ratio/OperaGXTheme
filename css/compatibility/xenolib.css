@@ -1,0 +1,17 @@
+/* XenoLib */
+.xenoLib-notification-content {
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+    background: linear-gradient(135deg, rgb(var(--dark-background-color)), rgb(var(--darker-background-color))) !important;
+    color: rgb(var(--fullwhite-font));
+    line-height: 18px;
+}
+.xenoLib-notification-loadbar {
+    bottom: 1px;
+    left: 1px;
+}
+.xenoLib-centering-topRight,
+.xenoLib-centering-topMiddle,
+.xenoLib-centering-topLeft {
+    top: 16px !important;
+}

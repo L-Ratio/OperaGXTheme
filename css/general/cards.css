@@ -1,0 +1,42 @@
+/* Quiet card */
+.emptyCard-KDifrB {
+    border: solid rgba(var(--dark-background-color), var(--other-transparency)) 1px;
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 10;
+}
+/* Activity card */
+.itemCard-3Etziu {
+    border-radius: 10;
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px var(--line-color);
+}
+.itemCard-3Etziu:hover {
+    border-color: var(--line-color-2);
+}
+#app-mount .outer-2JOHae.active-1W_Gl9,
+#app-mount .outer-2JOHae.interactive-2zD88a:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+.full-motion.app-focused #app-mount .outer-2JOHae.active-1W_Gl9,
+.full-motion.app-focused #app-mount .outer-2JOHae.interactive-2zD88a:hover {
+    animation: accent-blinking 450ms infinite;
+}
+#app-mount .inset-SbsSFp {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px var(--line-color);
+    border-radius: 10;
+}
+#app-mount .inset-SbsSFp:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+}
+#app-mount .separator-2OaeRP {
+    background-color: var(--line-color);
+}
+/* MentionBars */
+.mention-3XBnnZ,
+.mention-3XBnnZ:hover {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+.mention-3XBnnZ .text-2GsXbW {
+    color: rgb(var(--font-in-accent));
+}

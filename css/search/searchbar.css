@@ -1,0 +1,13 @@
+/* Searchbar - Find or start a conversation */
+.searchBar-3TnChZ .searchBarComponent-3N7dCG {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid rgb(var(--dark-background-color)) 1px;
+    border-radius: 10;
+}
+.searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border: solid rgb(var(--accent-color-2)) 1px;
+}
+.full-motion.app-focused .searchBar-3TnChZ .searchBarComponent-3N7dCG:hover {
+    animation: accent-blinking 450ms infinite;
+}

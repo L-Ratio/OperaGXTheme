@@ -1,0 +1,6 @@
+/* BetterFormattingRedux */
+#app-mount .bf-toolbar::before {
+    border: solid 1px rgb(var(--accent-color-1));
+    background: rgb(var(--darker-background-color));
+    border-radius: 10;
+}

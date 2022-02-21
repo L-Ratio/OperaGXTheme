@@ -1,0 +1,14 @@
+/* Guild separator */
+.guildSeparator-3s64Iy {
+    height: 1px;
+    background-color: rgb(var(--accent-color-1));
+}
+.card-PQEqCK {
+    border-radius: 10;
+    border: solid 1px rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+    background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
+}
+.card-PQEqCK:hover {
+    border-radius: 10;
+    border-color: rgba(var(--accent-color-2), var(--lines-transparency));
+}

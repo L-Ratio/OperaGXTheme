@@ -1,0 +1,13 @@
+/* Voice controls */
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    color: rgb(var(--gx-green));
+    border-color: rgb(var(--gx-green));
+}
+.button-1EGGcP.buttonColor-3bP3fX.buttonActive-Uc1jHx:hover,
+.button-1EGGcP .buttonColor-3bP3fX.buttonActive-Uc1jHx:hover {
+    background-color: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+    color: rgb(var(--gx-green-2));
+    border-color: rgb(var(--gx-green-2));
+}

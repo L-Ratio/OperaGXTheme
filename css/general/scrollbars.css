@@ -1,0 +1,74 @@
+/*~~ 13. ScrollBars ~~*/
+/* General */
+::-webkit-scrollbar {
+    width: 6px !important;
+    height: 6px !important;
+    border-radius: 2000 !important;
+}
+/*.scroller-2wx7Hm::-webkit-scrollbar,
+.scroller-kQBbkU::-webkit-scrollbar,
+.scroller-WSmht3::-webkit-scrollbar,
+.scroller-2TZvBN::-webkit-scrollbar,
+.scroller-3X7KbA::-webkit-scrollbar {
+    border-left: solid 1px var(--line-color) !important;
+}*/
+#app-mount .scrollerWrap-2lJEkd .scroller-kQBbkU::-webkit-scrollbar {
+    width: 9px !important;
+    border-radius: 0 !important;
+    /*border-bottom: solid 1px var(--line-color) !important;*/
+}
+.scroller-2TZvBN::-webkit-scrollbar,
+.scroller-3X7KbA::-webkit-scrollbar {
+    width: 0 !important;
+}
+.scroller-2TZvBN:hover::-webkit-scrollbar,
+.scroller-3X7KbA:hover::-webkit-scrollbar {
+    width: 6px !important;
+}
+.scroller-2TZvBN::-webkit-scrollbar-thumb,
+.scroller-3X7KbA::-webkit-scrollbar-thumb {
+    background: transparent !important;
+}
+.scroller-2TZvBN:hover::-webkit-scrollbar-thumb,
+.scroller-3X7KbA:hover::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
+    border-radius: 0;
+}
+.hasBanner-14PPlG .scroller-2wx7Hm::-webkit-scrollbar {
+    border-left-color: transparent !important;
+}
+::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+.scrollerWrap-2lJEkd .scroller-kQBbkU::-webkit-scrollbar-track-piece {
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+}
+/*.scroller-kQBbkU::-webkit-scrollbar {
+    border-bottom: solid 1px var(--line-color);
+}*/
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
+    border: none !important;
+    border-radius: 50 !important;
+}
+::-webkit-scrollbar-corner {
+    background: transparent !important;
+    border-radius: 0 !important;
+}
+.scroller-1bVxF5::-webkit-scrollbar-track {
+    background-color: rgb(var(--darker-background-color)) !important;
+    border-radius: 0 !important;
+}
+/*.scroller-kQBbkU::-webkit-scrollbar {
+    border-bottom: solid 1px var(--line-color) !important;
+}*/
+/* Emoji picker categories */
+.scroller-2MALzE.list-obNEuP::-webkit-scrollbar {
+    width: 0 !important;
+}
+.scroller-2MALzE.list-obNEuP:hover::-webkit-scrollbar {
+    width: 6px !important;
+}

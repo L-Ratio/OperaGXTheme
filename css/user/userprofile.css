@@ -1,0 +1,26 @@
+/* UserProfile */
+.root-SR8cQa {
+    border: solid 1px rgb(var(--accent-color-1));
+    border-radius: 10;
+}
+.tabBarContainer-1s1u-z,
+.topSectionNormal-2-vo2m .tabBarContainer-1s1u-z {
+    border-top-color: rgb(var(--accent-color-1));
+}
+.top-K_jibn .selected-g-kMVV.themed-2-lozF.item-3XjbnG,
+.top-K_jibn .themed-2-lozF.item-3XjbnG:active {
+    background: none !important;
+}
+.connectedAccount-36nQx7 {
+    border-radius: 10;
+    border-color: rgb(var(--accent-color-1));
+}
+.connectedAccountName-f8AEe2 {
+    line-height: 25px;
+}
+.assetsLargeImage-8U5dlz {
+    border-radius: 10;
+}
+.userInfoSection-2acyCx+.userInfoSection-2acyCx {
+    border-top-color: rgb(var(--accent-color-1));
+}

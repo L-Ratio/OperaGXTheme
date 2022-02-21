@@ -1,0 +1,146 @@
+/* Channels */
+.wrapper-1ucjTd,
+.wrapper-NhbLHG {
+    padding: 0;
+}
+.content-3at_AU,
+.content-1gYQeQ {
+    border-radius: 10;
+    margin-left: 3px;
+    border-left: solid 2px transparent;
+    height: 34px;
+}
+.addButton-1BORro,
+.addButtonIcon-3rJeaD {
+    color: rgba(var(--accent-color-1), 0.9);
+}
+.name-3_Dsmg,
+.name-28HaxV {
+    color: rgb(var(--normal-font));
+    font-weight: 500;
+    font-size: var(--textSize, 13px);
+    text-transform: var(--channel-name-transform, capitalize);
+}
+.containerDefault-1ZnADq:hover .content-3at_AU,
+.containerDefault-YUSmu3:hover .content-1gYQeQ {
+    border-left: solid rgba(var(--accent-color-2), var(--other-highlighted-transparency)) 2px;
+    background: rgba(var(--darker-background-color), var(--other-highlighted-transparency));
+}
+.full-motion.app-focused .containerDefault-1ZnADq:hover .content-3at_AU,
+.full-motion.app-focused .containerDefault-YUSmu3:hover .content-1gYQeQ {
+    animation: both-blinking-with-transparency 450ms infinite;
+}
+.modeSelected-1zApJ_ .content-3at_AU,
+.modeSelected-1zApJ_:hover .content-3at_AU,
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-left: solid rgb(var(--accent-color-1)) 2px;
+}
+.full-motion.app-focused .modeSelected-1zApJ_:hover .content-3at_AU,
+.full-motion.app-focused .modeSelected-3DmyhH:hover .content-1gYQeQ {
+    animation: none;
+}
+.name-3_Dsmg,
+.name-28HaxV,
+.title-17SveM {
+    text-transform: var(--channel-name-transform);
+}
+.modeSelected-1zApJ_ .name-3_Dsmg,
+.modeSelected-3DmyhH .name-28HaxV,
+.title-17SveM {
+    font-weight: 700;
+    text-shadow: var(--shadow-currentcolor);
+}
+.containerDefault-1ZnADq:hover .name-3_Dsmg,
+.containerDefault-YUSmu3:hover .name-28HaxV,
+.containerDefault-1ZnADq:hover .icon-1_QxNX,
+.containerDefault-1ZnADq:hover .icon-1_QxNX path,
+.containerDefault-YUSmu3:hover .icon-2W8DHg,
+.containerDefault-YUSmu3:hover .icon-2W8DHg path {
+    color: rgb(var(--normal-hover-font));
+    fill: rgb(var(--normal-hover-font));
+}
+.unread-3zKkbm,
+.unread-36eUEm {
+    display: none;
+}
+.modeUnread-1zpFdA .content-3at_AU,
+.modeUnread-3Cxepe .content-1gYQeQ {
+    border-left: solid rgb(var(--fullwhite-font)) 2px;
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+}
+.modeUnread-1zpFdA .name-3_Dsmg,
+.modeUnread-3Cxepe .name-28HaxV {
+    font-style: italic;
+}
+.modeSelected-1zApJ_ .icon-1_QxNX,
+.modeSelected-1zApJ_ .icon-1_QxNX path,
+.modeSelected-1zApJ_:hover .icon-1_QxNX,
+.modeSelected-1zApJ_:hover .icon-1_QxNX path,
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH .icon-2W8DHg path,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg path {
+    fill: rgb(var(--fullwhite-font)) !important;
+}
+.modeSelected-1zApJ_:hover .name-3_Dsmg,
+.modeSelected-3DmyhH:hover .name-28HaxV {
+    color: rgb(var(--fullwhite-font));
+}
+.actionIcon-2Hi9ZG:hover path,
+.actionIcon-2sw4Sl:hover path {
+    stroke: rgb(var(--fullwhite-font));
+}
+.modeUnread-1zpFdA .icon-1_QxNX,
+.modeUnread-1zpFdA:hover .icon-1_QxNX,
+.modeUnread-3Cxepe .icon-2W8DHg,
+.modeUnread-3Cxepe:hover .icon-2W8DHg {
+    color: rgb(var(--normal-font));
+}
+.modeUnread-1zpFdA .name-3_Dsmg,
+.modeUnread-3Cxepe .name-28HaxV {
+    color: rgb(var(--fullwhite-font));
+}
+.icon-1_QxNX path,
+.icon-2W8DHg path {
+    fill: rgb(var(--normal-font));
+}
+.iconLive-nQxzyp path {
+    fill: rgb(var(--gx-green));
+}
+.modeMuted-3osy7j .icon-1_QxNX path,
+.modeMuted-2T4MDZ .icon-2W8DHg path {
+    fill: rgb(var(--muted-font));
+}
+.modeMuted-3osy7j .icon-1_QxNX,
+.modeMuted-3osy7j .name-3_Dsmg,
+.modeMuted-2T4MDZ .icon-2W8DHg,
+.modeMuted-2T4MDZ .name-28HaxV {
+    color: rgb(var(--muted-font));
+}
+.modeMuted-3osy7j .actionIcon-2Hi9ZG,
+.modeMuted-2T4MDZ .actionIcon-2sw4Sl {
+    stroke: rgb(var(--muted-font));
+}
+.mainContent-ENyL1r,
+.mainContent-20q_Hp {
+    cursor: default;
+}
+.channelNotice-tO6Tus,
+.channelNotice-2bJINM {
+    border-top: solid 1px var(--line-color);
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.channelNotice-2bJINM {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+    margin-bottom: 16px;
+    border-bottom: none;
+}

@@ -1,0 +1,59 @@
+/* Discord Invites */
+.wrapper-1HIH0j {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border: solid 1px var(--line-color);
+    border-radius: 10;
+}
+.wrapper-1HIH0j:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused .wrapper-1HIH0j:hover {
+    animation: accent-blinking 450ms infinite;
+}
+.guildIconExpired-2BFmZC {
+    background-color: transparent;
+}
+#app-mount .resolvingBackground-1MSH01 {
+    background-image: linear-gradient(90deg, rgba(var(--accent-color-1), 0.4), rgba(var(--accent-color-2), 0.4));
+}
+.statusOnline-Iw3r2o {
+    background-color: rgb(var(--gx-green));
+}
+.statusOffline-2R-ArP {
+    background-color: rgb(var(--gx-grey));
+}
+/* Spotify Invites */
+#app-mount .invite-3uuHYQ {
+    background: rgba(var(--darker-background-color), var(--other-transparency));
+    border-color: var(--line-color);
+    border-radius: 10;
+}
+#app-mount .invite-3uuHYQ:hover {
+    background: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-color: rgb(var(--accent-color-2));
+}
+.full-motion.app-focused #app-mount .invite-3uuHYQ:hover {
+    animation: accent-blinking 450ms infinite;
+}
+.coverImageWrapper-2wx5q1 {
+    border-radius: 10;
+}
+#app-mount .helpIcon-24pk1Z {
+    background-color: rgb(40, 196, 87);
+}
+#app-mount .helpIcon-24pk1Z g {
+    fill: rgb(var(--fullwhite-font)) !important;
+}
+.artwork-28Cmnt {
+    border-radius: 2px;
+    clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+    --cp-size: 12px;
+}
+#app-mount .name-QjR4Jk,
+#app-mount .partyStatus-2-VcyG {
+    color: rgb(var(--normal-font));
+}
+#app-mount .header-1Fx4D1 {
+    color: rgb(var(--muted-font));
+}

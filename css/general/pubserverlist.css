@@ -1,0 +1,46 @@
+/* Public list */
+.bd-server-card.bd-server-card-pinned:after {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+}
+.bd-server-card .bd-server-tags {
+    color: rgb(var(--muted-font));
+    text-transform: capitalize;
+}
+#pubslayer .ui-tab-bar-header {
+    color: rgb(var(--normal-font));
+}
+#pubslayer button {
+    background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
+    color: rgb(var(--fullwhite-font));
+    font-size: 14px;
+    border: 0;
+    border-radius: 10;
+}
+.bd-server-name {
+    color: rgb(var(--accent-color-1));
+    text-transform: unset;
+    font-size: 15px;
+    font-weight: 900;
+}
+.bd-server-description-container {
+    color: rgb(var(--normal-font));
+    border-top: solid 1px rgb(var(--accent-color-1));
+    border-bottom: solid 1px rgb(var(--accent-color-1));
+    margin-top: 5px;
+    font-size: 13px;
+}
+#pubslayer input {
+    color: rgb(var(--normal-font));
+    background-color: rgba(var(--darker-background-color), 0.7);
+    border: solid 1px rgb(var(--darker-background-color));
+    border-radius: 10;
+    transition: background-color 0.15s ease, border 0.15s ease;
+}
+#pubslayer input:hover {
+    background-color: rgba(var(--darker-background-color), 0.8);
+    border-color: rgb(var(--accent-color-2));
+}
+#pubslayer input:focus {
+    background-color: rgba(var(--darker-background-color), 1);
+    border-color: rgb(var(--accent-color-1));
+}

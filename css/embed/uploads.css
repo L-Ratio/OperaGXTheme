@@ -1,0 +1,31 @@
+/* Upload Modal */
+#app-mount .uploadModal-2ie9O_ {
+    background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+    border-radius: 10;
+    border: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .footer-VCsJQY {
+    background-color: rgba(var(--darker-background-color), var(--other-transparency));
+    border-radius: 10;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+    border-top: solid 1px rgb(var(--accent-color-1));
+}
+#app-mount .lookLink-15mFoz.colorPrimary-2AuQVo {
+    color: rgb(var(--fullwhite-font));
+}
+/* Uploading */
+.progressBar-1T6LYX {
+    background: rgb(var(--accent-color-1)) !important;
+    border-radius: 10;
+}
+.full-motion.app-focused .progressBar-1T6LYX {
+    animation: background-accent-blinking 2s infinite;
+}
+.progress-xNqAjK {
+    background: rgb(var(--darker-background-color));
+    border-radius: 10;
+}
+.full-motion.app-focused .progress-xNqAjK {
+    animation: background-blinking 2s infinite;
+}
