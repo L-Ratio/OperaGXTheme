@@ -73,3 +73,12 @@
     box-shadow: none;
     -webkit-box-shadow: none;
 }
+ /* Server boost window and Server boost popout */
+ .upsellTooltipWrapper-1wqikQ,
+ .perksModal-CLcR1c{
+  border: 1px solid rgb(var(--accent-color-1))!important;
+  background-color: rgb(var(--darker-background-color))!important;
+ }
+ .closeWrapper-1aVqeP{
+  border-bottom: 1px solid rgb(var(--accent-color-1));
+}
