@@ -5,18 +5,19 @@
 }
 .contentWrapper-3vHNP2,
 .categoryList-2qRrlj {
-    border-radius: 10;
+    border-radius: 0px;
 }
 .contentWrapper-3vHNP2 {
     background-color: rgb(var(--dark-background-color));
+    border: 1px solid rgb(var(--accent-color-1))!important;
     -webkit-box-shadow: none;
     box-shadow: none;
     padding: 0;
     margin: 0;
 }
 .nav-1zWVQw {
-    border: solid 1px rgb(var(--accent-color-1));
-    border-bottom: none;
+    border: none;
+    border-bottom: 1px solid rgb(var(--accent-color-1));
     padding-top: 4px;
     padding-bottom: 28px;
 }
@@ -38,6 +39,7 @@
 .inspector-DFKXwB {
     border: solid 1px rgb(var(--accent-color-1));
     border-left: none;
+    border-bottom: none;
     background-color: rgb(var(--darker-background-color));
 }
 .list-3V14yy {
@@ -146,4 +148,8 @@
 }
 .result-3OpoO7[style*="background-color:"] {
     background-color: rgb(var(--accent-color-2)) !important;
+}
+/* Sticker search bar*/
+.wrapper-n2dlvs{
+    margin-top: 8px;
 }
