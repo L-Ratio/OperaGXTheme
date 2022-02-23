@@ -11,3 +11,12 @@
     color: rgb(var(--gx-green-2));
     border-color: rgb(var(--gx-green-2));
 }
+/* Adds border and background around the Stream/Mute/Call buttons */
+.wrapper-3t3Yqv{
+    border: 1px solid rgb(var(--accent-color-1));
+    border-radius: 200px;
+    background: rgb(var(--darker-background-color));
+}
+.colorable-3rVGna.red-3T8maV{
+    padding: 10px;
+}

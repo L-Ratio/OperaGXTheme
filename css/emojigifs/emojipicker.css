@@ -153,3 +153,9 @@
 .wrapper-n2dlvs{
     margin-top: 8px;
 }
+/* Gif search bar and border */
+.header-2TLOnc{
+    padding-bottom: 2px;
+    margin-top: 2px;
+    border-bottom: 1px solid rgb(var(--accent-color-1));
+}
