@@ -1,10 +1,42 @@
-# OperaGXTheme
- The orginal creator of this theme disapeared so here I am. I will be updating this theme and adding new features
-## Getting Started
- 1. First download [OperaGX Theme](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/OperaRevival.theme.css).
- 2. After you downloaded the theme put it in the folder. 
-    - You can find the correct folder by going to Settings, Themes then clicking the "Open Themes Folder" button.
-### Information
-- This theme was orginally created by Discord Addons, I take no credit for making this theme
-- All of the items on this repo were pulled by ```cachedview.com``` and reuploaded.
-- This repo will be up until the creator of the theme is back or request this to  be taken down
+# OperaGXTheme AKA OperaGXGamingTheme
+
+OperaGXTheme is a highly customizable theme built off of trying to look like OperaGX
+
+This theme is being actively maintained by [him](https://github.com/L-Ratio)
+> This theme was orginally created by Discord Addons, I take no credit for making this theme
+
+# Table of Contents
+
+* [Installation](#installation)
+* [Previews](#previews)
+* [Bugs/Issue/Suggestions](#bugs-issue-suggestions)
+* [Customizing Theme](#Customizing-Theme)
+* [Contributing](#contributing)
+
+## Installation
+
+ To install the theme follow these steps
+>
+>1. Download the [Theme File](https://raw.githubusercontent.com/7-TE/OperaGXTheme/main/OperaRevival.theme.css)
+>2. Extract that to your BD theme folder
+>3. Enable the theme
+
+## Previews
+
+![image](https://i.imgur.com/e0MNqbY.png)
+![image](https://i.imgur.com/PZzicXh.png)
+![image](https://i.imgur.com/RPbGmnX.png)
+
+## Customizing Theme
+
+   To customize the theme please refer to the `theme.css` file
+
+## Bugs/Issue/Suggestions
+
+ For all bugs and/or issues please make a issue request. Same goes for suggestions as well
+
+ You can make those [here](https://github.com/L-Ratio/OperaGXTheme/issues)
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
