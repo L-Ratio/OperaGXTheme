@@ -23,7 +23,6 @@ This theme is being actively maintained by [him](https://github.com/L-Ratio)
 
 ## Previews
 
-![image](https://i.imgur.com/e0MNqbY.png)
 ![image](https://i.imgur.com/PZzicXh.png)
 ![image](https://i.imgur.com/RPbGmnX.png)
 
