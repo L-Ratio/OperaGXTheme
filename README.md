@@ -22,7 +22,7 @@ This theme is being actively maintained by [him](https://github.com/L-Ratio)
 >3. Enable the theme
 
 ## Previews
-
+![image](https://i.imgur.com/7CxP3tL.png)
 ![image](https://i.imgur.com/PZzicXh.png)
 ![image](https://i.imgur.com/RPbGmnX.png)
 
