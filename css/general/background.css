@@ -108,7 +108,7 @@ body,
 }
 .theme-dark
 .option-ayUoaq:after {display: none;}
-/* Discord Post background and border color*/
+/* Discord Post background and border color.*/
 .list-3FIpnh{
     background-color: rgba(var(--chat-transparency-color), var(--chat-transparency))!important;
     border: solid 1px var(--line-color);
