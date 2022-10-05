@@ -30,3 +30,7 @@
 .collapsed-23aTv6, .guidelinesButton-3Vrz0u, .pill-3pRQlO, .tagsButton-4pwOKH, .sortDropdown-hY93nR, .container-2qVG6q, .sidebarCard-1Gn1ch{
     border: solid 1px var(--line-color);
    }
+/* Wave to person button */
+.compactButton-3hG-bs{
+    border: 1px solid var(--line-color);
+} 
