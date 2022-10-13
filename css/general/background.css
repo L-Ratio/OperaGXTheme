@@ -41,7 +41,7 @@ body,
 }
 .theme-dark,
 .theme-light {
-    background: transparent; /* Default: var(--background-behind-appmount).  Tooltip had a problem with showing a background this is a temp fix */
+    display: hidden; /* Default: var(--background-behind-appmount).  Tooltip had a problem with showing a background this is a temp fix. If "display: hidden" does not woork for you or causes bugs use "background: transparent"*/
 }
 .layer-1Ixpg3 .theme-dark,
 .layer-1Ixpg3 .theme-light {
