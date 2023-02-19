@@ -17,11 +17,12 @@ This theme is being actively maintained by [him](https://github.com/L-Ratio)
 
  To install the theme follow these steps
 >
->1. Download the [Theme File](https://raw.githubusercontent.com/7-TE/OperaGXTheme/main/OperaRevival.theme.css)
+>1. Download the [Theme File](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/release/OperaGX.theme.css)
 >2. Extract that to your BD theme folder
 >3. Enable the theme
 
 ## Previews
+   images are currently out of date, they will be updated sometime
 ![image](https://i.imgur.com/7CxP3tL.png)
 ![image](https://i.imgur.com/PZzicXh.png)
 ![image](https://i.imgur.com/RPbGmnX.png)
