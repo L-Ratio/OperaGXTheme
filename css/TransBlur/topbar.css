@@ -1,8 +1,0 @@
-/* Top bar */
-.withFrame-2dL45i {
-    background-color: rgba(var(--wintitlebar-transparency-color), var(--wintitlebar-transparency));
-    backdrop-filter: blur(var(--wintitlebar-background-blur));
-}
-.app-focused .withFrame-2dL45i {
-    background-color: rgba(var(--wintb-focused-color), var(--wintb-focused-alpha));
-}

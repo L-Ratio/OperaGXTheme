@@ -1,9 +1,0 @@
-/* Serverlist */
-.scroller-2TZvBN,
-.scroller-3X7KbA {
-    background: rgba(var(--serverlist-transparency-color), var(--serverlist-transparency));
-    backdrop-filter: blur(var(--serverlist-background-blur));
-}
-.tree-3tCaw8:focus {
-    outline: transparent;
-}
