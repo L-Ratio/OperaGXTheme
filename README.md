@@ -3,7 +3,7 @@
 OperaGXTheme is a highly customizable theme built off of trying to look like OperaGX
 
 This theme is being actively maintained by [him](https://github.com/L-Ratio)
-> This theme was orginally created by Discord Addons, I take no credit for making this theme
+> This theme was orginally created by Discord Addons
 
 # Table of Contents
 
