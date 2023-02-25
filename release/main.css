@@ -601,6 +601,12 @@ html #app-mount:before,
   border-bottom: var(--border-color-accent-1);
 }
 
+/* Add border to website of camera preview*/
+.content-2hZxGK.content-Xzime-.thin-31rlnD.scrollerBase-_bVAAt {
+  border: var(--border-color-accent-1);
+  border-bottom: none;
+}
+
 /* Tooltips border */
 #app-mount .tooltip-14MtrL,
 #app-mount .tooltipBlack-vMYxvw {
@@ -862,6 +868,12 @@ html #app-mount:before,
 
 .removeButton-v6eolJ .contents-3NembX {
   color: red !important;
+}
+
+/* Button in the button left Screenshare etc*/
+.button-1EGGcP.buttonColor-3bP3fX.button-ejjZWC.lookFilled-1H2Jvj {
+  color: white !important;
+  border: var(--border-color-accent-1);
 }
 
 /* Settings Profile Buttons */
