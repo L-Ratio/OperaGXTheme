@@ -949,12 +949,13 @@ html #app-mount:before,
 }
 
 .paymentRow-1HKOLu.bottomDivider-ZmTm-j:not(.payment-2bOh4k, .verticalFit-21XL0v) {
-  border: var(--border-color-accent-1);
-  border-radius: 5px 5px 0px 0px;
+  border: var(--border-color-accent-1) !important;
+  border-radius: 5px 5px 0px 0px !important;
 }
 
-.bottomDivider-ZmTm-j.thin-31rlnD.scrollerBase-_bVAAt {
-  border: var(--border-color-accent-1);
+.bottomDivider-ZmTm-j.thin-31rlnD.scrollerBase-_bVAAt,
+.bottomDivider-ZmTm-j.thin-RnSY0a.scrollerBase-1Pkza4 {
+  border: var(--border-color-accent-1) !important;
   background: rgb(var(--darker-background-color)) !important;
   border-bottom: var(--border-color-accent-1) !important;
   border-radius: 0px 0px 5px 5px;
@@ -969,15 +970,15 @@ html #app-mount:before,
   border-bottom: none !important;
 }
 
-.hoverablePayment-lE1s4t:hover {
+#app-mount .hoverablePayment-lE1s4t:hover {
   background-color: rgba(var(--accent-color-1), 0.2) !important;
-  border-left: 2px solid rgb(var(--accent-color-1));
+  border-left: 2px solid rgb(var(--accent-color-1)) !important;
   margin-left: 5px;
 }
 
 .payment-2bOh4k .expandedInfo-1W31i3 {
   background-color: rgb(var(--dark-background-color)) !important;
-  border: var(--border-color-accent-1);
+  border: var(--border-color-accent-1) !important;
 }
 
 .paymentHeader-2o7Phd {
@@ -986,13 +987,13 @@ html #app-mount:before,
 
 .payment-2bOh4k.paymentRow-1HKOLu:not(.hoverablePayment-lE1s4t) {
   background: rgb(var(--accent-color-1), 0.4) !important;
-  margin-left: 3px;
-  padding-bottom: 1px;
+  margin-left: 3px !important;
+  padding-bottom: 1px !important;
   border: var(--border-color-accent-1) !important;
 }
 
 .paymentRow-1HKOLu.bottomDivider-ZmTm-j {
-  background: rgb(var(--darker-background-color));
+  background: rgb(var(--darker-background-color)) !important;
 }
 
 /*Page buttons*/
