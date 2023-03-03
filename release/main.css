@@ -47,6 +47,7 @@
   --brand-experiment-400: rgb(var(--accent-color-1)) !important;
   --brand-experiment-500: rgb(var(--accent-color-2)) !important;
   --brand-experiment-560: rgba(var(--accent-color-2), 0.5)!important;
+  --brand-experiment-600: rgba(var(--accent-color-2), 0.5) !important;
   --primary-dark-600: rgb(var(--dark-background-color))!important;
   --modal-background: rgb(var(--dark-background-color))!important;
   --modal-footer-background: rgb(var(--dark-background-color))!important;
@@ -609,7 +610,9 @@ html #app-mount:before,
 
 /* Tooltips border */
 #app-mount .tooltip-14MtrL,
-#app-mount .tooltipBlack-vMYxvw {
+#app-mount .tooltipBlack-vMYxvw,
+.tooltipPointer-sMBQqe,
+.tooltip-33Jwqe {
   border: solid 1px rgb(var(--accent-color-1));
   background: linear-gradient(135deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
   border-radius: 0;
