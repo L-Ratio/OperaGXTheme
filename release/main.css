@@ -1200,7 +1200,8 @@ html #app-mount:before,
 }
 
 /* Main context menu border*/
-.menu-1QACrS {
+.menu-1QACrS,
+.menu-2TXYjN  {
   background-color: rgb(var(--darker-background-color));
   border: var(--border-color-accent-1);
   box-shadow: none;
