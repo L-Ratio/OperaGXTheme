@@ -198,8 +198,8 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 :root {
-  --cf: var(--customFont, --custom-font, Chakra Petch, "Chakra Petch Regular", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
-  --cbcf: var(--codeBlocksCustomFont, --codeblocks-custom-font, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
+  --cf: var(--customFont, Chakra Petch, "Chakra Petch Regular", Whitney, Whitney Book, Helvetica Neue, Helvetica, Arial, sans-serif);
+  --cbcf: var(--codeBlocksCustomFont, Consolas, Andale Mono WT, Andale Mono, Lucida Console, Lucida Sans Typewriter, DejaVu Sans Mono, Bitstream Vera Sans Mono, Liberation Mono, Nimbus Mono L, Monaco, Courier New, Courier, monospace);
 }
 
 #app-mount :where(::-webkit-input-placeholder,
@@ -210,6 +210,32 @@ select,
 textarea,
 *) {
   font-family: var(--cf);
+}
+
+/* Code block custom font*/
+span[class*=hljs],
+span[class*=hljs] span,
+.codeLine-3a3dbd span span span,
+code,
+.markup-eYLPri code.inline,
+.codeBlockText-311wOq,
+.codeLine-3a3dbd,
+.after_inlineCode-WydEur,
+.before_inlineCode-xn8Llh,
+.inlineCode-2auMQi span,
+.durationTimeDisplay-QwCeRr,
+.durationTimeSeparator-1Cqi9N,
+.powercord-codeblock-table td,
+.prefix-24L010,
+.maxLength-IdVNmX,
+.wrapper-pZmgj4 *,
+.wrapper-2fEmwW *,
+.inviteCode-3IYjBf,
+#bd-customcss-editor *,
+.timestamp-p1Df1m span,
+.timestamp-2qj4__,
+.messageContent-2t3eCI:after {
+  font-family: var(--cbcf) !important;
 }
 
 /* Loading Channel Messages */
