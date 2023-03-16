@@ -296,6 +296,7 @@ code,
 .chat-2ZfjoI,
 .title-31SJ6t,
 .container-2o3qEW,
+.container-1Lk8p7,
 .member-48YF_l,
 .members-3WRCEx,
 .container-3wLKDe,
@@ -628,57 +629,19 @@ html #app-mount:before,
   border-bottom: var(--border-color-accent-1);
 }
 
-/* Add border to website of camera preview*/
-.content-2hZxGK.content-Xzime-.thin-31rlnD.scrollerBase-_bVAAt {
-  border: var(--border-color-accent-1);
-  border-bottom: none;
-}
-
-/* Leaving a server border
+/* Almost all popout borders if not all of them
+    some examples include but are not limted to are: Leaving a server, Inviting a person to a server, Creating/Joining a server, Edit upload popout, Payment popout
   added as of 3/3/2023
   might break most borders :/
   */
-.header-1ffhsl {
-  border: var(--border-color-accent-1) !important;
-}
-
-.scroller-3nFW5p.thin-RnSY0a.scrollerBase-1Pkza4 {
-  border: var(--border-color-accent-1);
-  border-bottom: none;
-}
-
-.content-1OG56Q.thin-RnSY0a.scrollerBase-1Pkza4 {
-  border: var(--border-color-accent-1);
-  border-top: none;
-  border-radius: 0px;
-}
-
-.footer-1hTRRZ {
-  background-color: rgb(var(--dark-background-color)) !important;
-  border: var(--border-color-accent-1);
-}
-
-.footerSeparator-3U8YsT {
-  border: var(--border-color-accent-1);
+.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+  border: 1px solid rgb(var(--accent-color-1)) !important;
   box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border-radius: 5px !important;
 }
 
-#app-mount > div.appAsidePanelWrapper-ev4hlp > div.notAppAsidePanel-3yzkgB > div:nth-child(3) > div.layer-fP3xEz > div > div > form {
-  border-left: var(--border-color-accent-1);
-  border-right: var(--border-color-accent-1);
-  border-radius: 10px;
-}
-
-.content-1OG56Q.contentWithVideoBackgrounds-24dI6h.content-Xzime-.thin-RnSY0a.scrollerBase-1Pkza4 {
-  border-top: var(--border-color-accent-1);
-}
-
-.breadcrumb.wrapper-wOVKdL,
-.paymentNote-1JTD1J {
-  border-left: var(--border-color-accent-1);
-  border-right: var(--border-color-accent-1);
-}
-
+/* End of ^ */
 .modalHeader-gQTY3L {
   border-bottom: none !important;
 }
@@ -860,7 +823,8 @@ html #app-mount:before,
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
 }
 
-#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover {
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ:hover,
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo:hover {
   color: var(--normal-hover-font);
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
 }
@@ -886,7 +850,8 @@ html #app-mount:before,
 }
 
 #app-mount .lookFilled-1H2Jvj.colorPrimary-2-Lusz,
-#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ {
+#app-mount .lookFilled-yCfaCM.colorBrand-I6CyqQ,
+#app-mount .lookFilled-yCfaCM.colorPrimary-2AuQVo {
   color: rgb(var(--font-in-accent));
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   border-radius: 2px;
@@ -944,8 +909,19 @@ html #app-mount:before,
   background: linear-gradient(135deg, rgb(var(--accent-color-1), 0.5), rgb(var(--accent-color-2), 0.5)) !important;
 }
 
+/* Remove phone number button*/
+.removeButton-v6eolJ { /* Website Button*/ }
 .removeButton-v6eolJ .contents-3NembX {
   color: red !important;
+}
+.removeButton-v6eolJ .contents-3ca1mk {
+  color: red !important;
+}
+
+/* Disable account button*/
+.disableButton-3BR0Vj:hover {
+  color: rgb(var(--font-in-accent)) !important;
+  background: rgba(248, 70, 70, 0.5) !important;
 }
 
 /* Button in the button left Screenshare etc*/
