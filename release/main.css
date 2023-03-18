@@ -634,11 +634,16 @@ html #app-mount:before,
   added as of 3/3/2023
   might break most borders :/
   */
-.root-g14mjS.fullscreenOnMobile-ixj0e3 {
+.root-g14mjS.fullscreenOnMobile-ixj0e3,
+.root-1CAIjD.fullscreenOnMobile-2971EC {
   border: 1px solid rgb(var(--accent-color-1)) !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
   border-radius: 5px !important;
+}
+
+.container-1Lk8p7 {
+  background: transparent !important;
 }
 
 /* End of ^ */
