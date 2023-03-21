@@ -9,7 +9,6 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 >> This theme was orginally created by Discord Addons
 
 ## Table of Contents
-
 - [OperaGXTheme AKA OperaGXGamingTheme](#operagxtheme-aka-operagxgamingtheme)
   - [Table of Contents](#table-of-contents)
   - [Installation](#installation)
@@ -82,7 +81,7 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 
  For all bugs and/or issues please make a issue request. Same goes for suggestions as well
 
- You can make those [here](https://github.com/L-Ratio/OperaGXTheme/issues)
+ You can make those [here](https://github.com/L-Ratio/OperaGXTheme/issues) or in the [Support Server](https://discord.gg/Xn7UUQUHbN)
 
 ## Contributing
 
