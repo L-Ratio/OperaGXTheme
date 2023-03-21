@@ -28,7 +28,7 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
   <summary>Better Discord</summary>
 
    ### Installing
-1. Download the [theme](https://github.com/L-Ratio/OperaGXTheme/issues)
+1. Download the [theme](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/main/release/OperaGX.theme.css)
    - Extract the `theme.css` to your BD theme folder
      -  Enable it in settings
 ### Customization
