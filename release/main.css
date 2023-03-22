@@ -1687,9 +1687,17 @@ code.inline {
   background-color: rgb(var(--accent-color-1), 0.2);
 }
 
-/* Audio attachment border*/
+/* Anything thats not a video/embed attachment border*/
 .nonMediaAttachmentItem-1e7YaR {
   border: var(--border-color-accent-1);
+  border-radius: 5px;
+}
+
+/* The button for that AKA the trash button*/
+.hoverButtonGroup-2yZIzC.nonMediaAttachment-3C_4Pd {
+  border: var(--border-color-accent-1);
+  overflow: hidden;
+  outline: none;
   border-radius: 5px;
 }
 
