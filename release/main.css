@@ -263,10 +263,29 @@ code,
 /* Embed Background and border */
 #app-mount .embedFull-1HGV2S {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
-  border: solid 1px;
-  border-radius: 0;
+  border: 1px solid;
   cursor: default;
-  border-color: rgb(var(--accent-color-1));
+  border-color: inherit;
+  overflow: hidden;
+  z-index: 0;
+}
+
+/* Embed Hover Effect*/
+#app-mount .embedFull-1HGV2S:hover {
+  background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
+  border-color: rgb(var(--accent-color-2)) !important;
+}
+
+.embedFull-1HGV2S::before {
+  display: block;
+  content: "";
+  height: 100%;
+  position: absolute;
+  width: 0;
+  border-right: 100vw solid transparent;
+  border-color: inherit;
+  opacity: 0.1;
+  z-index: -1;
 }
 
 /* Folder Background Color */
@@ -454,10 +473,6 @@ html #app-mount:before,
 .loaded-igpmmx {
   border: var(--border-color-accent-1);
   border-radius: 10px;
-}
-
-.list-3FIpnh.auto-2K3UW5.scrollerBase-_bVAAt {
-  border-right: var(--border-color-accent-1);
 }
 
 .recentMentionsPopout-2bI1ZN {
@@ -662,7 +677,8 @@ html #app-mount:before,
   color: rgb(var(--fullwhite-font));
 }
 
-.tooltipPointer-3L49xb {
+.tooltipPointer-3L49xb,
+.tooltipPointer-sMBQqe {
   display: none;
 }
 
@@ -723,6 +739,36 @@ html #app-mount:before,
 
 .popout-TdhJ6Z {
   border: var(--border-color-accent-1);
+}
+
+/* Main border to the right of the scrollbar*/
+.list-3FIpnh.auto-2K3UW5.scrollerBase-_bVAAt,
+.list-3FIpnh.scrollerBase-1Pkza4 {
+  border-right: var(--border-color-accent-1);
+}
+
+/* Forums Floating Chat Window*/
+.chatLayerWrapper-2mgEK- .container-3XgAHv.floating-3M3WeH {
+  border-left: var(--border-color-accent-1);
+  border-radius: 0px;
+  background: rgba(var(--dark-background-color), 0.4) !important;
+}
+
+.box-2iMsQm {
+  border: var(--border-color-accent-1);
+  background: rgb(var(--darker-background-color));
+}
+.box-2iMsQm::after {
+  border-top: var(--border-color-accent-1) !important;
+}
+
+/* Floating Window react buttons*/
+.messagesWrapper-RpOMA3 .contents-3NembX.buttonInner-3aRbcx {
+  border: var(--border-color-accent-1);
+}
+.messagesWrapper-RpOMA3 .contents-3NembX.buttonInner-3aRbcx:hover {
+  border: var(--border-color-accent-1);
+  background: rgba(var(--accent-color-1), 0.4) !important;
 }
 
 #app-mount :where(.containerDefault-3GGEv_,
@@ -1204,7 +1250,8 @@ html #app-mount:before,
 
 /* Forums */
 .list-3FIpnh.auto-2K3UW5.scrollerBase-_bVAAt,
-.grid-21dB-S.thin-31rlnD.scrollerBase-_bVAAt {
+.grid-21dB-S.thin-31rlnD.scrollerBase-_bVAAt,
+.list-3FIpnh.scrollerBase-1Pkza4 {
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
@@ -1470,11 +1517,11 @@ strong {
 
 .isUnread-3Lojb-,
 .isUnread-3Lojb- .content-3spvdd {
-  color: rgb(var(--accent-color-2));
+  color: rgb(var(--accent-color-2)) !important;
 }
 
 .isUnread-3Lojb- {
-  border-color: rgb(var(--accent-color-2));
+  border-color: rgb(var(--accent-color-2)) !important;
 }
 
 .divider-IqmEqJ:not(.hasContent-1y12-u) {
@@ -1638,6 +1685,17 @@ code.inline {
 /* Hover effect when hovering over chat messages */
 .app-focused .messageListItem-ZZ7v6g:hover:hover {
   background-color: rgb(var(--accent-color-1), 0.2);
+}
+
+/* Audio attachment border*/
+.nonMediaAttachmentItem-1e7YaR {
+  border: var(--border-color-accent-1);
+  border-radius: 5px;
+}
+
+/* Border around thread boxes in chat*/
+.container-3i3IzO {
+  border: var(--border-color-accent-1);
 }
 
 .app-focused .channelTextArea-1FufC0,
@@ -2506,13 +2564,19 @@ code.inline {
 }
 
 /* Top search queue back*/
-.queryContainer-ZunrLZ.focused-2FU0YH {
+#app-mount .queryContainer-ZunrLZ.focused-2FU0YH {
   background-color: rgb(var(--dark-background-color));
 }
 
+/* Search Result selected filter*/
+.item-2GWPIy.selected-1sf9UK.themed-qqoYp3 {
+  background: rgb(var(--accent-color-1)) !important;
+}
+
 /* Change enter color and remove box shadow from it */
-.theme-dark .dim-2Uxgxb .key-N5VmHN {
-  background-color: rgb(var(--accent-color-1));
+.theme-dark .dim-2Uxgxb .key-N5VmHN,
+.theme-dark .dim-GXxpGm .key-RP8gj3 {
+  background-color: rgb(var(--accent-color-1)) !important;
 }
 
 .theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
@@ -2564,9 +2628,10 @@ code.inline {
 
 .drawerSizingWrapper-1txdWG,
 .wrapper-1NB3WY[id=sticker-picker-tab-panel] .container-1SX9VC.medium-13kyaW.disabled-2QaYSb,
+.wrapper-1NB3WY[id=sticker-picker-tab-panel] .container-1SX9VC.medium-13kyaW,
 .wrapper-3u51GQ[id=emoji-picker-tab-panel] .searchBar-2M9mRP.container-1SX9VC.medium-13kyaW,
 .container-3u7RcY[id=gif-picker-tab-panel] .searchBar-3aIzc-.container-2oNtJn.medium-2NClDM,
-.diversitySelectorOptions-3DhNYs {
+#app-mount .diversitySelectorOptions-3DhNYs {
   border: 1px solid rgb(var(--accent-color-1));
   border-radius: 8px;
 }
@@ -2583,6 +2648,7 @@ code.inline {
 .wrapper-22rqw6.categoryListWithSearch-2jrzH6.categoryList-2GgCrD,
 .wrapper-22rqw6.categoryList-2qRrlj {
   margin-top: 2px;
+  border-right: 1px solid rgb(var(--accent-color-1));
 }
 
 .scroller-2MALzE.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt {
@@ -2791,12 +2857,6 @@ code.inline {
 #app-mount .interactiveSelected-29CP8y:hover {
   border-left: 0px;
   padding-left: 0px;
-}
-
-/* Embed Hover Effect*/
-#app-mount .embedFull-1HGV2S:hover {
-  background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-  border-color: rgb(var(--accent-color-2)) !important;
 }
 
 /* Channels Hover Effects */
