@@ -263,7 +263,7 @@ code,
 /* Embed Background and border */
 #app-mount .embedFull-1HGV2S {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
-  border: 1px solid;
+  border: 2px solid;
   cursor: default;
   border-color: inherit;
   overflow: hidden;
@@ -273,19 +273,6 @@ code,
 /* Embed Hover Effect*/
 #app-mount .embedFull-1HGV2S:hover {
   background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
-  border-color: rgb(var(--accent-color-2)) !important;
-}
-
-.embedFull-1HGV2S::before {
-  display: block;
-  content: "";
-  height: 100%;
-  position: absolute;
-  width: 0;
-  border-right: 100vw solid transparent;
-  border-color: inherit;
-  opacity: 0.1;
-  z-index: -1;
 }
 
 /* Folder Background Color */
@@ -961,11 +948,12 @@ html #app-mount:before,
 }
 
 /* Remove phone number button*/
-.removeButton-v6eolJ { /* Website Button*/ }
 .removeButton-v6eolJ .contents-3NembX {
   color: red !important;
 }
+
 .removeButton-v6eolJ .contents-3ca1mk {
+  /* Website Button*/
   color: red !important;
 }
 
@@ -1002,20 +990,20 @@ html #app-mount:before,
 }
 
 /* Settings Border*/
-.sidebarRegion-1VBisG,
 .contentRegion-3HkfJJ {
-  border-right: var(--border-color-accent-1);
-  border-top: var(--border-color-accent-1);
-  border-bottom: var(--border-color-accent-1);
+  border: var(--border-color-accent-1);
+  border-left: none;
 }
 
 .sidebarRegion-1VBisG {
-  border-left: var(--border-color-accent-1);
+  border: var(--border-color-accent-1);
+  background: transparent;
+  overflow: hidden;
 }
 
-/* Settings Backgroudn */
+/* Settings Background */
 .contentRegion-3HkfJJ {
-  background: rgb(var(--darker-background-color));
+  background: rgb(var(--darker-background-color)) !important;
 }
 
 /* Language effects*/
@@ -2090,7 +2078,7 @@ code.inline {
 }
 
 .content-1jQy2l.container-2IKOsH {
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
@@ -2165,7 +2153,7 @@ code.inline {
 .scroller-38C5lh,
 .pageContainer-oSrRSz.auto-2K3UW5.scrollerBase-_bVAAt {
   border-right: var(--border-color-accent-1);
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
@@ -2598,6 +2586,10 @@ code.inline {
   background-color: rgb(var(--darker-background-color));
 }
 
+.menu-2TXYjN.flexible-3B4jwn.menu-2-eHMB {
+  border: none !important;
+}
+
 /* Status change remove extra borders*/
 .userPopoutOverlayBackground-dKOOda.overlayBackground-1KgwVi .menu-KSaHL1 {
   border: none;
@@ -2612,8 +2604,14 @@ code.inline {
 
 /* User profile popout for Non nitro users*/
 .userProfileOuterUnthemed-2b2rsv,
-.userProfileInnerThemedNonPremium-1gT-zY .containerWithContent-2_V0PM {
+.userProfileInnerThemedNonPremium-1gT-zY .containerWithContent-2_V0PM,
+.userProfileOuterUnthemed-11rPfA {
   border: 1px solid rgba(var(--accent-color-1), 1);
+}
+
+.userProfileInnerThemedNonPremium-2AJg-H .role-2TIOKu {
+  border: 1px solid rgb(65, 65, 67) !important;
+  background: rgb(18, 18, 20) !important;
 }
 
 /* What's new / Changelog background and border */
@@ -2649,12 +2647,14 @@ code.inline {
 .wrapper-i1awk3,
 .inspector-DFKXwB,
 .wrapper-22rqw6.categoryList-2qRrlj,
-.listWrapper-2nHLP8 {
+.listWrapper-2nHLP8,
+.categoryList-2GgCrD {
   border-top: 1px solid rgb(var(--accent-color-1));
 }
 
 .wrapper-22rqw6.categoryListWithSearch-2jrzH6.categoryList-2GgCrD,
-.wrapper-22rqw6.categoryList-2qRrlj {
+.wrapper-22rqw6.categoryList-2qRrlj,
+.categoryList-2GgCrD {
   margin-top: 2px;
   border-right: 1px solid rgb(var(--accent-color-1));
 }
@@ -2675,6 +2675,11 @@ code.inline {
 /* Lightmode gif panel color*/
 .theme-light .container-3u7RcY {
   background-color: rgb(var(--dark-background-color)) !important;
+}
+
+/* Popout border*/
+.animatorTop-3DwSmU:has(.emojiPicker-6YCk8a) {
+  border: var(--border-color-accent-1);
 }
 
 #app-mount .form-2oOOG9 {
@@ -2770,6 +2775,10 @@ code.inline {
 }
 .button-TGAkj4.button-f2h6uQ.lookOutlined-3yKVGo.watchButton-2YRKxv.buttonSize-dIiz43.fullWidth-fJIsjq.grow-2sR_-F:hover {
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
+}
+
+.container-8Futzw:has(.activity-1DK9Xa) {
+  border: var(--border-color-accent-1);
 }
 
 [aria-label="Thread header"] {
