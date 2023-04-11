@@ -2826,6 +2826,32 @@ code.inline {
   border-bottom: var(--border-color-accent-1);
 }
 
+.picker-20lcBA:has(.categoryList-iuh2t0) {
+  border: var(--border-color-accent-1);
+}
+
+.categoryList-iuh2t0 {
+  border-right: var(--border-color-accent-1);
+  margin-top: 3px;
+}
+
+.header-3YNgrp {
+  border-bottom: var(--border-color-accent-1);
+}
+
+.keybindHint-2zIIxQ,
+.soundButtonWrapper-109xRW,
+.soundButtonWrapper-Uf4PN_ {
+  border: var(--border-color-accent-1);
+  border-radius: 5px;
+}
+
+.container-1SX9VC:focus-within,
+.container-1SX9VC:hover,
+.container-1SX9VC:focus {
+  border: var(--border-color-accent-1);
+}
+
 #app-mount .channel-1Shao0 {
   margin-left: 2px;
   max-width: unset;
