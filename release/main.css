@@ -410,6 +410,38 @@ html #app-mount:before,
 }
 
 /*#region ~~~ Borders ~~~*/
+/*
+ ! Prevent borders from appearing on certain things
+ */
+.root-g14mjS.fullscreenOnMobile-ixj0e3,
+.root-8LYsGj.root-1CAIjD.small-2xUY-3.fullscreenOnMobile-2971EC.rootWithShadow-2hdL2J,
+.modal-3Crloo.root-1CAIjD.fullscreenOnMobile-2971EC.rootWithShadow-2hdL2J:has(.imageWrapper-oMkQl4,
+.userProfileModalOuter-2wdWjU.userProfileOuter-2tQwNf.userProfileOuterUnthemed-11rPfA.profileColors-2AgAV4) {
+  border: none !important;
+}
+
+/*
+* End of above */
+/* 
+! Almost all popout borders if not all of them
+* some examples include but are not limted to are: Leaving a server, Inviting a person to a server, Creating/Joining a server, Edit upload popout, Payment popout
+* added as of 3/3/2023
+! might break most borders :/
+*/
+.root-g14mjS.fullscreenOnMobile-ixj0e3,
+.root-1CAIjD.fullscreenOnMobile-2971EC {
+  border: 1px solid rgb(var(--accent-color-1)) !important;
+  box-shadow: none !important;
+  -webkit-box-shadow: none !important;
+  border-radius: 5px !important;
+}
+
+.container-1Lk8p7 {
+  background: transparent !important;
+}
+
+/*
+   * End of above */
 .tree-3agP2X {
   border-left: var(--border-color-accent-1);
   border-right: var(--border-color-accent-1);
@@ -631,24 +663,6 @@ html #app-mount:before,
   border-bottom: var(--border-color-accent-1);
 }
 
-/* Almost all popout borders if not all of them
-    some examples include but are not limted to are: Leaving a server, Inviting a person to a server, Creating/Joining a server, Edit upload popout, Payment popout
-  added as of 3/3/2023
-  might break most borders :/
-  */
-.root-g14mjS.fullscreenOnMobile-ixj0e3,
-.root-1CAIjD.fullscreenOnMobile-2971EC {
-  border: 1px solid rgb(var(--accent-color-1)) !important;
-  box-shadow: none !important;
-  -webkit-box-shadow: none !important;
-  border-radius: 5px !important;
-}
-
-.container-1Lk8p7 {
-  background: transparent !important;
-}
-
-/* End of ^ */
 .modalHeader-gQTY3L {
   border-bottom: none !important;
 }
@@ -987,6 +1001,35 @@ html #app-mount:before,
   background-color: rgb(var(--accent-color-1)) !important;
   color: rgb(var(--font-in-accent));
   font-weight: 900;
+}
+
+/* Role buttons in settings*/
+.circleButton-2Yr5A1.button-1_oXub.secondary-2bzKEX.size36-3VxB5R {
+  background: rgb(var(--dark-background-color));
+  box-sizing: border-box;
+}
+
+.circleButton-2Yr5A1.button-1_oXub.secondary-2bzKEX.size36-3VxB5R:hover {
+  background: rgba(var(--accent-color-1), 0.5);
+  border: var(--border-color-accent-1);
+}
+
+/* Friends List buttons*/
+.peopleColumn-1wMU14 .actionButton-3-B2x- {
+  opacity: 0;
+  border: var(--border-color-accent-1);
+  background: rgb(var(--dark-background-color));
+  box-sizing: border-box;
+}
+
+.peopleColumn-1wMU14 .actionButton-3-B2x-:hover {
+  background: rgba(var(--accent-color-1), 0.5);
+  border: var(--border-color-accent-1);
+}
+
+.peopleListItem-u6dGxF:hover .actionButton-3-B2x-,
+.peopleListItem-u6dGxF.active-2UF8Zh .actionButton-3-B2x- {
+  opacity: 1;
 }
 
 /* Settings Border*/
@@ -2565,7 +2608,7 @@ code.inline {
 }
 
 /* Search Result selected filter*/
-.item-2GWPIy.selected-1sf9UK.themed-qqoYp3 {
+.searchResultsWrap-5RVOkx .item-2GWPIy.selected-1sf9UK.themed-qqoYp3 {
   background: rgb(var(--accent-color-1)) !important;
 }
 
