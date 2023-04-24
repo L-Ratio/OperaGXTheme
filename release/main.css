@@ -489,11 +489,6 @@ html #app-mount:before,
   border-right: var(--border-color-accent-1);
 }
 
-.loaded-igpmmx {
-  border: var(--border-color-accent-1);
-  border-radius: 10px;
-}
-
 .recentMentionsPopout-2bI1ZN {
   border: var(--border-color-accent-1);
 }
@@ -665,6 +660,16 @@ html #app-mount:before,
 
 .modalHeader-gQTY3L {
   border-bottom: none !important;
+}
+
+/* New Unreads*/
+.bar-wDIGjg {
+  border: var(--border-color-accent-1);
+}
+
+/* Network Graph Popup*/
+.container-1ILvLB:has(.graphContainer-3Txdak) {
+  border: var(--border-color-accent-1);
 }
 
 /* Tooltips border */
@@ -1167,6 +1172,24 @@ html #app-mount:before,
   border: var(--border-color-accent-1);
 }
 
+/* Friends Input Wrapper*/
+.addFriendInputWrapper-kkoSV9 {
+  background-color: transparent !important;
+}
+
+.addFriendInputWrapper-kkoSV9,
+.addFriendInputWrapper-kkoSV9:focus-within {
+  border: var(--border-color-accent-1);
+}
+
+.addFriendInputWrapper-kkoSV9:focus-within {
+  background-color: rgb(var(--dark-background-color));
+}
+
+.tabBar-ra-EuL .addFriend-emTWY1.addFriend-emTWY1.addFriend-emTWY1[aria-selected=true] {
+  color: rgb(var(--fullwhite-font));
+}
+
 /* Quick Switch Background and border */
 .input-3r5zZY {
   background: rgb(var(--darker-background-color)) !important;
@@ -1302,6 +1325,21 @@ html #app-mount:before,
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
+}
+
+/* Adds a border and a background to the nitro tab in friendslist area*/
+.premiumContainer-3GGa8Q {
+  border-top: var(--border-color-accent-1);
+  border-right: var(--border-color-accent-1);
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
+  backdrop-filter: blur(var(--chat-background-blur)) !important;
+}
+
+/* Purge box shadows*/
+.footerSeparator-3U8YsT,
+.header-1c1AhF {
+  box-shadow: none !important;
 }
 
 /* Server boost menu */
@@ -2219,6 +2257,25 @@ code.inline {
   margin: 15px 0px 10px;
 }
 
+.guildList-3GXKvP .loaded-igpmmx {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 20px;
+  background: rgba(var(--accent-color-1), var(--border-brightness));
+  padding: 1px;
+  padding-right: 3px;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.guildList-3GXKvP .card-2TuZPZ {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 20px;
+  border-radius: 0px !important;
+  margin: 1px;
+}
+
 /* Create Channel/Category Border*/
 .modal-1Kmy_E {
   border: var(--border-color-accent-1) !important;
@@ -2491,6 +2548,11 @@ code.inline {
   border-bottom: var(--border-color-accent-1);
 }
 
+/* Selected Tab Background*/
+.topPill-2vcLsa .themed-qqoYp3.selected-1sf9UK.item-2GWPIy {
+  background-color: rgba(var(--accent-color-1), 0.45) !important;
+}
+
 /* Search popout border and background color */
 #app-mount .container-2McqkF {
   background-color: rgb(var(--dark-background-color));
@@ -2621,6 +2683,11 @@ code.inline {
 .theme-dark .keybindShortcut-3zF1P9 .key-N5VmHN {
   box-shadow: none;
   -webkit-box-shadow: none;
+}
+
+/* Jump button in search results*/
+.searchResult-O9NDji .button-cfOvv- {
+  border: var(--border-color-accent-1);
 }
 
 /* Status change background and border*/
@@ -2904,20 +2971,22 @@ code.inline {
 #app-mount .channel-1Shao0,
 #app-mount .layout-1qmrhw {
   border-radius: 0;
-  border-left: solid 2px transparent;
   cursor: default;
   padding: 0px !important;
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+}
+
+/* Hover Effect for Memebers of the server*/
+#app-mount .channel-1Shao0:hover,
+#app-mount .layout-1qmrhw:hover {
+  border-left: var(--border-color-accent-1);
+  border-width: 2px;
 }
 
 #app-mount .clickable-28SzVr {
   background: none;
-}
-
-#app-mount .channel-1Shao0:hover,
-#app-mount .layout-1qmrhw:hover,
-#app-mount .clickable-28SzVr:hover {
-  border-left-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
-  cursor: default;
 }
 
 #app-mount .layout-1qmrhw:hover > .avatar-6qzftW {
@@ -2925,24 +2994,33 @@ code.inline {
 }
 
 #app-mount .selected-1-Z6gm {
-  background-color: rgba(var(--accent-color-1), 0.8);
-  border-left: solid rgb(var(--accent-color-1)) 2px;
-  border-radius: 5px;
+  background-color: rgba(var(--accent-color-1), 0.3);
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
 }
 #app-mount .selected-1-Z6gm:hover {
-  border-left: 2px;
   background: rgba(var(--accent-color-1), 0.5) !important;
 }
 
 /* When a dm/group chat is selected*/
 #app-mount .interactiveSelected-29CP8y {
-  background-color: rgba(var(--accent-color-1), 0.3);
-  border-left: solid rgb(var(--accent-color-1)) 2px;
+  background-color: rgba(var(--accent-color-1), 0.6);
   border-radius: 0px;
 }
 #app-mount .interactiveSelected-29CP8y:hover {
   border-left: 0px;
   padding-left: 0px;
+}
+
+/* When a user is selected in a group chat*/
+[aria-expanded=true] .layout-1qmrhw {
+  background-color: rgba(var(--accent-color-1), 0.3);
+  border-left: solid 2px rgb(var(--accent-color-1)) !important;
+}
+
+[aria-expanded=true] .layout-1qmrhw .avatar-6qzftW {
+  margin-left: 5px !important;
 }
 
 /* Channels Hover Effects */
@@ -2978,8 +3056,10 @@ code.inline {
 }
 
 /* Hover over channel move to the right*/
-#app-mount :where(.modeUnread-1zpFdA:hover, .content-3at_AU:hover,
-.modeUnread-3Cxepe:hover, .content-1gYQeQ:hover,
+#app-mount :where(.modeUnread-1zpFdA:hover,
+.content-3at_AU:hover,
+.modeUnread-3Cxepe:hover,
+.content-1gYQeQ:hover,
 .modeSelected-3DmyhH:hover) {
   padding-left: 2px;
 }
@@ -2990,7 +3070,10 @@ code.inline {
 .modeSelected-3DmyhH .content-1gYQeQ,
 .modeSelected-3DmyhH:hover .content-1gYQeQ) {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
-  border-left: solid rgb(var(--accent-color-1)) 2px;
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  margin-right: 5px !important;
 }
 
 #app-mount .unread-3zKkbm,
@@ -2998,10 +3081,44 @@ code.inline {
   display: none;
 }
 
+/* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
 #app-mount .modeUnread-3Cxepe .content-1gYQeQ {
   border-left: solid rgb(var(--fullwhite-font)) 2px;
-  background-color: rgba(var(--darker-background-color), var(--other-transparency));
+  background-color: rgb(var(--fullwhite-font));
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+/* Adds the background layer ontop of the main layer to give the left and right side a border*/
+.modeUnread-3Cxepe .content-1gYQeQ::before {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  background: rgba(var(--darker-background-color), var(--other-transparency));
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 99%; /* container height - (border thickness * 2) */
+  height: 100%; /* container height - (border thickness * 2) */
+}
+
+/* Change background color of unread channels on hover*/
+#app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
+#app-mount .modeUnread-3Cxepe .content-1gYQeQ:hover {
+  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+
+/* Hover effect in channels background color/clip-path*/
+.wrapper-NhbLHG:hover .content-1gYQeQ {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  margin-right: 5px;
+  background: rgb(var(--accent-color-1), 0.2);
 }
 
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg,
