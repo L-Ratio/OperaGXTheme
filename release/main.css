@@ -1328,7 +1328,7 @@ html #app-mount:before,
 }
 
 /* Adds a border and a background to the nitro tab in friendslist area*/
-.premiumContainer-3GGa8Q {
+.scroller-29cQFV.auto-2TJ1RH.scrollerBase-1Pkza4:has(.premiumContainer-3GGa8Q) {
   border-top: var(--border-color-accent-1);
   border-right: var(--border-color-accent-1);
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
@@ -2113,6 +2113,11 @@ code.inline {
 }
 
 /*#endregion Scrollbars*/
+/* Change background color*/
+.directoryModal-YJsOMv {
+  background-color: rgb(var(--dark-background-color)) !important;
+}
+
 .directoryModal-YJsOMv .item-2Nx4LP.container-2NdZr9.hasImage-CFE7SV.clickable-O5xo4T,
 .directoryModal-YJsOMv .item-2Nx4LP.linkCard-2SSonX.container-2NdZr9.hasImage-CFE7SV,
 .directoryModal-YJsOMv .itemContainer-RkoeKz,
@@ -2156,6 +2161,11 @@ code.inline {
 /* Fix lightmode card under home etccc*/
 .theme-light .card-2TuZPZ {
   background-color: rgb(var(--dark-background-color));
+}
+
+/* Adds a bigger gap between the scrollbar and cards*/
+.directoryModal-YJsOMv .itemsContainer-mAsB3S {
+  margin-bottom: 5px;
 }
 
 .content-1jQy2l.container-2IKOsH {
