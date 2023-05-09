@@ -1775,6 +1775,11 @@ code.inline {
   border: var(--border-color-accent-1);
 }
 
+/* Quick Formatting*/
+.toolbar-37BrJ5 {
+  border: var(--border-color-accent-1);
+}
+
 .app-focused .channelTextArea-1FufC0,
 .app-focused .channelTextArea-220_Gz,
 .app-focused .channelTextAreaUpload-30SRDh,
