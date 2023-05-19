@@ -669,7 +669,7 @@ html #app-mount:before,
 
 /* Remove the "New Messages" bar*/
 #---new-messages-bar {
-  display: none !important;
+  opacity: 0 !important;
 }
 
 /* Network Graph Popup*/
@@ -3245,5 +3245,5 @@ code.inline {
 .scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .birthdayExplanationWrapper-c5wg5T,
 .scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .heroWrapper-20MPew,
 .scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .whatsNewItemContainer-1iRxax {
-  border: var(--border-color-accent-1)!important;
+  border: var(--border-color-accent-1) !important;
 }
