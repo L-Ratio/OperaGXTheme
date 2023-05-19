@@ -667,11 +667,6 @@ html #app-mount:before,
   border: var(--border-color-accent-1);
 }
 
-/* Remove the "New Messages" bar*/
-#---new-messages-bar {
-  opacity: 0 !important;
-}
-
 /* Network Graph Popup*/
 .container-1ILvLB:has(.graphContainer-3Txdak) {
   border: var(--border-color-accent-1);
