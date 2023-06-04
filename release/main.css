@@ -672,6 +672,11 @@ html #app-mount:before,
   border: var(--border-color-accent-1);
 }
 
+/* ANother popout border mainly role popouts*/
+.popoutContainer-2wbmiM {
+  border: var(--border-color-accent-1);
+}
+
 /* Tooltips border */
 #app-mount .tooltip-14MtrL,
 #app-mount .tooltipBlack-vMYxvw,
@@ -918,6 +923,7 @@ html #app-mount:before,
 }
 
 .side-2ur1Qk .item-3XjbnG,
+.side-1lrxIh .item-2GWPIy,
 #app-mount .ui-tab-bar-item {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -1002,7 +1008,9 @@ html #app-mount:before,
 
 /* Selected button color*/
 .side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG,
-.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover {
+.side-2ur1Qk .themed-2-lozF.selected-g-kMVV.item-3XjbnG:hover,
+.side-1lrxIh .item-2GWPIy.selected-1sf9UK,
+.side-1lrxIh .item-2GWPIy.selected-1sf9UK:hover {
   background-color: rgb(var(--accent-color-1)) !important;
   color: rgb(var(--font-in-accent));
   font-weight: 900;
@@ -3036,6 +3044,11 @@ code.inline {
 
 [aria-expanded=true] .layout-1qmrhw .avatar-6qzftW {
   margin-left: 5px !important;
+}
+
+/* Channel Emojis */
+.channelEmoji-NJOZuV {
+  z-index: 1;
 }
 
 /* Channels Hover Effects */
