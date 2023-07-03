@@ -1761,6 +1761,11 @@ code.inline {
   border: var(--border-color-accent-1);
 }
 
+.reactionTooltip-3IOBwg {
+  border: var(--border-color-accent-1);
+  border-radius: 5px;
+}
+
 /* Discord Invite*/
 .wrapper-1HIH0j.userSelectNone-3AtPzf.cursorDefault-2KkZ5q {
   border: var(--border-color-accent-1);
@@ -2520,6 +2525,7 @@ code.inline {
 .footerSeparator-3U8YsT { /* New footer as of 3/3/2023*/
   box-shadow: none;
   border-top: var(--border-color-accent-1);
+  background: rgb(var(--darker-background-color));
 }
 
 /* Join server input box */
@@ -3255,24 +3261,4 @@ code.inline {
   padding-top: 16px;
   margin-bottom: 16px;
   border-bottom: none;
-}
-
-/*
-! Discord Birthday event can be deleted after end of event
- */
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.activityCard-3EABg3) {
-  border-top: var(--border-color-accent-1);
-  border-right: var(--border-color-accent-1);
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
-  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
-  backdrop-filter: blur(var(--chat-background-blur)) !important;
-}
-
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .flipCardInner-2hI9Pw,
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4 .activityCard-3EABg3,
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .celebrateCardContainer-MAdnBa,
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .birthdayExplanationWrapper-c5wg5T,
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .heroWrapper-20MPew,
-.scroller-3y59C7.thin-RnSY0a.scrollerBase-1Pkza4:has(.birthdayExplanationWrapper-c5wg5T) .whatsNewItemContainer-1iRxax {
-  border: var(--border-color-accent-1) !important;
 }
