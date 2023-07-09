@@ -3085,10 +3085,9 @@ code.inline {
 }
 
 #app-mount .content-3at_AU,
-#app-mount .content-1gYQeQ {
+#app-mount .link-1_kTxV {
   border-radius: 0;
   border-left: solid 2px transparent;
-  height: 36px;
 }
 
 #app-mount .addButton-1BORro,
@@ -3106,7 +3105,7 @@ code.inline {
 
 /* Hover over channels color*/
 #app-mount .containerDefault-1ZnADq:hover .content-3at_AU,
-#app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ {
+#app-mount .containerDefault-YUSmu3:hover .link-1_kTxV {
   border-left: solid rgba(var(--accent-color-2), var(--other-highlighted-transparency)) 2px;
 }
 
@@ -3114,7 +3113,7 @@ code.inline {
 #app-mount :where(.modeUnread-1zpFdA:hover,
 .content-3at_AU:hover,
 .modeUnread-3Cxepe:hover,
-.content-1gYQeQ:hover,
+.link-1_kTxV:hover,
 .modeSelected-3DmyhH:hover) {
   padding-left: 2px;
 }
@@ -3122,8 +3121,8 @@ code.inline {
 /* Currently Selected Channel */
 #app-mount :where(.modeSelected-1zApJ_ .content-3at_AU,
 .modeSelected-1zApJ_:hover .content-3at_AU,
-.modeSelected-3DmyhH .content-1gYQeQ,
-.modeSelected-3DmyhH:hover .content-1gYQeQ) {
+.modeSelected-3DmyhH .link-1_kTxV,
+.modeSelected-3DmyhH:hover .link-1_kTxV) {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3138,7 +3137,7 @@ code.inline {
 
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
-#app-mount .modeUnread-3Cxepe .content-1gYQeQ {
+#app-mount .modeUnread-3Cxepe .link-1_kTxV {
   border-left: solid rgb(var(--fullwhite-font)) 2px;
   background-color: rgb(var(--fullwhite-font));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3149,26 +3148,27 @@ code.inline {
 }
 
 /* Adds the background layer ontop of the main layer to give the left and right side a border*/
-.modeUnread-3Cxepe .content-1gYQeQ::before {
+.modeUnread-3Cxepe .link-1_kTxV::before {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   background: rgba(var(--darker-background-color), var(--other-transparency));
   content: "";
   position: absolute;
-  left: 0px;
+  margin: -6px; /*One of the fixes to the border being broken*/
+  left: 6px;
   width: 99%; /* container height - (border thickness * 2) */
   height: 100%; /* container height - (border thickness * 2) */
 }
 
 /* Change background color of unread channels on hover*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
-#app-mount .modeUnread-3Cxepe .content-1gYQeQ:hover {
+#app-mount .modeUnread-3Cxepe .link-1_kTxV:hover {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
 }
 
 /* Hover effect in channels background color/clip-path*/
-.wrapper-NhbLHG:hover .content-1gYQeQ {
+.wrapper-NhbLHG:hover .link-1_kTxV {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
