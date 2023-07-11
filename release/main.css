@@ -3155,8 +3155,8 @@ code.inline {
   background: rgba(var(--darker-background-color), var(--other-transparency));
   content: "";
   position: absolute;
-  margin: -6px; /*One of the fixes to the border being broken*/
-  left: 6px;
+  margin: 1px !important; /*One of the fixes to the border being broken*/
+  left: -1px;
   width: 99%; /* container height - (border thickness * 2) */
   height: 100%; /* container height - (border thickness * 2) */
 }
