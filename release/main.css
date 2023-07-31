@@ -577,7 +577,7 @@ html #app-mount:before,
 
 #app-mount .autocomplete-3NRXG8 {
   background-color: rgb(var(--darker-background-color));
-  border-radius: 0;
+  border-radius: 0px;
   border: solid 1px rgb(var(--accent-color-2));
 }
 
@@ -700,7 +700,7 @@ html #app-mount:before,
 .tooltip-33Jwqe {
   border: solid 1px rgb(var(--accent-color-1));
   background: linear-gradient(135deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
-  border-radius: 0;
+  border-radius: 0px;
   color: rgb(var(--fullwhite-font));
 }
 
@@ -716,6 +716,10 @@ html #app-mount:before,
 
 .guildNameText-74xXQn {
   color: rgb(var(--fullwhite-font));
+}
+
+[class*=tooltip-] {
+  border-radius: 0px !important;
 }
 
 /* Pills */
@@ -1236,7 +1240,7 @@ html #app-mount:before,
 
 .contentDefault-17ewQQ,
 .contentUnread-1_MVDK {
-  border-radius: 0;
+  border-radius: 0px;
   cursor: default;
 }
 .contentDefault-17ewQQ:hover,
@@ -1465,7 +1469,7 @@ html #app-mount:before,
 }
 
 .item-1OdjEX {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .item-1OdjEX,
@@ -1659,12 +1663,12 @@ strong {
 }
 
 .blockquoteContainer-3VtvI1 .blockquoteDivider-363utW {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /* Spoilers */
 #app-mount .spoilerText-27bIiA {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 #app-mount .spoilerText-27bIiA.hidden-3B-Rum {
@@ -1682,7 +1686,7 @@ strong {
 .inlineCode-2auMQi {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
   border-color: rgba(var(--dark-background-color), var(--other-transparency));
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .markup-eYLPri code:hover {
@@ -1695,7 +1699,7 @@ strong {
 }
 
 code.inline {
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 .codeBlockLang-3OMn-4 {
@@ -1706,7 +1710,7 @@ code.inline {
 /* Replying */
 .container-A2jo65 {
   background-color: rgba(var(--darker-background-color), var(--chatbox-transparency));
-  border-radius: 0;
+  border-radius: 0px;
   border-bottom: solid 1px rgba(var(--dark-background-color), var(--other-transparency));
   transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
   transition-property: background-color, border-color, color;
@@ -1740,7 +1744,7 @@ code.inline {
 
 .replySpine-M8CUPF:before,
 .repliedMessage-3Z6XBG:before {
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 .colorBrand-21Le_q {
@@ -1989,7 +1993,7 @@ code.inline {
 
 /* Esc close button */
 #app-mount .closeButton-PCZcma {
-  border-radius: 0;
+  border-radius: 0px;
   border: ridge 2px rgb(var(--accent-color-1));
 }
 
@@ -2077,12 +2081,12 @@ code.inline {
 ::-webkit-scrollbar {
   width: 6px !important;
   height: 6px !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 #app-mount .scrollerWrap-2lJEkd .scroller-kQBbkU::-webkit-scrollbar {
   width: 9px !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 .scroller-2qwVWY::-webkit-scrollbar,
@@ -2112,29 +2116,29 @@ code.inline {
 
 ::-webkit-scrollbar-track, ::-webkit-scrollbar-track-piece {
   background: transparent !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 .scrollerWrap-2lJEkd .scroller-kQBbkU::-webkit-scrollbar-track-piece {
   background: transparent !important;
   border: none !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 ::-webkit-scrollbar-thumb {
   background: linear-gradient(rgb(var(--accent-color-1)), rgb(var(--accent-color-2))) !important;
   border: none !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 ::-webkit-scrollbar-corner {
   background: transparent !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 .scroller-1bVxF5::-webkit-scrollbar-track {
   background-color: rgb(var(--darker-background-color)) !important;
-  border-radius: 0 !important;
+  border-radius: 0px !important;
 }
 
 /* Emoji picker categories */
@@ -2318,6 +2322,17 @@ code.inline {
   --cp-size: 20px;
   border-radius: 0px !important;
   margin: 1px;
+}
+
+.itemCard-3Etziu,
+.sidebar-1tnWFu .button-1EGGcP,
+.newMessagesBar-1hF-9G,
+.layout-1qmrhw,
+.messageInputContainer-24qqT,
+.inputWrapper-2K8ds1,
+.inner-2pOSmK,
+.container-2oNtJn {
+  border-radius: 0px !important;
 }
 
 /* Create Channel/Category Border*/
@@ -2608,7 +2623,7 @@ code.inline {
   background-color: rgb(var(--dark-background-color));
   box-shadow: none;
   border: 1px solid rgb(var(--accent-color-2));
-  border-radius: 0;
+  border-radius: 0px;
 }
 
 /* Search Header*/
@@ -3020,7 +3035,7 @@ code.inline {
 
 #app-mount .channel-1Shao0,
 #app-mount .layout-1qmrhw {
-  border-radius: 0;
+  border-radius: 0px;
   cursor: default;
   padding: 0px !important;
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3086,7 +3101,7 @@ code.inline {
 
 #app-mount .content-3at_AU,
 #app-mount .link-1_kTxV {
-  border-radius: 0;
+  border-radius: 0px;
   border-left: solid 2px transparent;
 }
 
@@ -3169,6 +3184,196 @@ code.inline {
 
 /* Hover effect in channels background color/clip-path*/
 .wrapper-NhbLHG:hover .link-1_kTxV {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  margin-right: 5px;
+  background: rgb(var(--accent-color-1), 0.2);
+}
+
+#app-mount .modeUnread-1zpFdA .name-3_Dsmg,
+#app-mount .modeUnread-3Cxepe .name-28HaxV {
+  font-weight: 600;
+}
+#app-mount .modeUnread-1zpFdA .name-3_Dsmg:hover,
+#app-mount .modeUnread-3Cxepe .name-28HaxV:hover {
+  font-weight: bolder;
+}
+
+#app-mount :where(.modeSelected-1zApJ_ .icon-1_QxNX,
+.modeSelected-1zApJ_ .icon-1_QxNX path,
+.modeSelected-1zApJ_:hover .icon-1_QxNX,
+.modeSelected-1zApJ_:hover .icon-1_QxNX path,
+.modeSelected-3DmyhH .icon-2W8DHg,
+.modeSelected-3DmyhH .icon-2W8DHg path,
+.modeSelected-3DmyhH:hover .icon-2W8DHg,
+.modeSelected-3DmyhH:hover .icon-2W8DHg path) {
+  fill: rgb(var(--fullwhite-font)) !important;
+}
+
+#app-mount .modeSelected-1zApJ_:hover .name-3_Dsmg,
+#app-mount .modeSelected-3DmyhH:hover .name-28HaxV {
+  color: rgb(var(--fullwhite-font));
+}
+
+.actionIcon-2Hi9ZG:hover path,
+.actionIcon-2sw4Sl:hover path {
+  stroke: rgb(var(--fullwhite-font));
+}
+
+#app-mount .modeUnread-1zpFdA .icon-1_QxNX,
+#app-mount .modeUnread-1zpFdA:hover .icon-1_QxNX,
+#app-mount .modeUnread-3Cxepe .icon-2W8DHg,
+#app-mount .modeUnread-3Cxepe:hover .icon-2W8DHg {
+  color: rgb(var(--normal-font));
+}
+
+#app-mount .modeUnread-1zpFdA .name-3_Dsmg,
+#app-mount .modeUnread-3Cxepe .name-28HaxV {
+  color: rgb(var(--fullwhite-font));
+}
+
+.icon-1_QxNX path,
+.icon-2W8DHg path {
+  fill: rgb(var(--normal-font));
+}
+
+.modeMuted-3osy7j .icon-1_QxNX path,
+.modeMuted-2T4MDZ .icon-2W8DHg path {
+  fill: rgb(var(--muted-font));
+}
+
+#app-mount .modeMuted-3osy7j .icon-1_QxNX,
+#app-mount .modeMuted-3osy7j .name-3_Dsmg,
+#app-mount .modeMuted-2T4MDZ .icon-2W8DHg,
+#app-mount .modeMuted-2T4MDZ .name-28HaxV {
+  color: rgb(var(--muted-font));
+}
+
+#app-mount .modeMuted-3osy7j .actionIcon-2Hi9ZG,
+#app-mount .modeMuted-2T4MDZ .actionIcon-2sw4Sl {
+  stroke: rgb(var(--muted-font));
+}
+
+.mainContent-ENyL1r,
+.mainContent-20q_Hp {
+  cursor: default;
+}
+
+.channelNotice-tO6Tus,
+.channelNotice-2bJINM {
+  border-top: var(--border-color-accent-1);
+  box-shadow: none;
+}
+
+.channelNotice-2bJINM {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  padding-bottom: 0;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  margin-bottom: 16px;
+  border-bottom: none;
+}
+
+/* Channel Emojis */
+.channelEmoji-NJOZuV {
+  z-index: 1;
+}
+
+/* Channels Hover Effects */
+#app-mount .wrapper-1ucjTd,
+#app-mount .wrapper-NhbLHG {
+  padding: 0;
+}
+
+#app-mount .content-3at_AU,
+#app-mount .content-1gYQeQ {
+  border-radius: 0px;
+  border-left: solid 2px transparent;
+  height: 36px;
+}
+
+#app-mount .addButton-1BORro,
+#app-mount .addButtonIcon-3rJeaD {
+  color: rgba(var(--accent-color-1), 0.9);
+}
+
+#app-mount .name-3_Dsmg,
+#app-mount .name-28HaxV {
+  color: rgb(var(--normal-font));
+  font-weight: 600;
+  font-size: var(--textSize, 13px);
+  text-transform: unset;
+}
+
+/* Hover over channels color*/
+#app-mount .containerDefault-1ZnADq:hover .content-3at_AU,
+#app-mount .containerDefault-YUSmu3:hover .content-1gYQeQ {
+  border-left: solid rgba(var(--accent-color-2), var(--other-highlighted-transparency)) 2px;
+}
+
+/* Hover over channel move to the right*/
+#app-mount :where(.modeUnread-1zpFdA:hover,
+.content-3at_AU:hover,
+.modeUnread-3Cxepe:hover,
+.content-1gYQeQ:hover,
+.modeSelected-3DmyhH:hover) {
+  padding-left: 2px;
+}
+
+/* Currently Selected Channel */
+#app-mount :where(.modeSelected-1zApJ_ .content-3at_AU,
+.modeSelected-1zApJ_:hover .content-3at_AU,
+.modeSelected-3DmyhH .content-1gYQeQ,
+.modeSelected-3DmyhH:hover .content-1gYQeQ) {
+  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  margin-right: 5px !important;
+}
+
+#app-mount .unread-3zKkbm,
+#app-mount .unread-36eUEm {
+  display: none;
+}
+
+/* Adds a layer in the backgroudn to give the outside a border*/
+#app-mount .modeUnread-1zpFdA .content-3at_AU,
+#app-mount .modeUnread-3Cxepe .content-1gYQeQ {
+  border-left: solid rgb(var(--fullwhite-font)) 2px;
+  background-color: rgb(var(--fullwhite-font));
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  box-sizing: border-box;
+  margin-right: 5px;
+}
+
+/* Adds the background layer ontop of the main layer to give the left and right side a border*/
+.modeUnread-3Cxepe .content-1gYQeQ::before {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  background: rgba(var(--darker-background-color), var(--other-transparency));
+  content: "";
+  position: absolute;
+  left: 0px;
+  width: 99%; /* container height - (border thickness * 2) */
+  height: 100%; /* container height - (border thickness * 2) */
+}
+
+/* Change background color of unread channels on hover*/
+#app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
+#app-mount .modeUnread-3Cxepe .content-1gYQeQ:hover {
+  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+}
+
+/* Hover effect in channels background color/clip-path*/
+.wrapper-NhbLHG:hover .content-1gYQeQ {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
