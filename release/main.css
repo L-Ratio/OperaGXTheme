@@ -439,7 +439,7 @@ html #app-mount:before,
   border: 1px solid rgb(var(--accent-color-1)) !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
-  border-radius: 5px !important;
+  border-radius: 0px;
 }
 
 .container-1Lk8p7 {
@@ -691,6 +691,20 @@ html #app-mount:before,
 /* Popout when hovering over specatators in when stream watching*/
 .popoutWrapper-3ks_kl {
   border: var(--border-color-accent-1);
+}
+
+/* Add border around badges*/ /* Non-nitro users*/
+.userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR.containerWithContent-2Yws8V,
+.userProfileOuterUnthemed-11rPfA .badgeList-2aoHPw.containerWithContent-2Yws8V {
+  border: var(--border-color-accent-1);
+  border-radius: 0px;
+}
+
+/* Add border around badges*/ /* Nitro users*/
+.userProfileOuterUnthemed-11rPfA .profileBadges-2pItdR.containerWithContent-2Yws8V,
+.userProfileOuterUnthemed-11rPfA .badgeList-2aoHPw.containerWithContent-2Yws8V {
+  border: var(--border-color-accent-1);
+  border-radius: 0px;
 }
 
 /* Tooltips border */
@@ -1226,25 +1240,27 @@ html #app-mount:before,
 .quickswitcher-pKcM9U {
   background: rgb(var(--darker-background-color));
   border: var(--border-color-accent-1);
+  border-radius: 0px;
+  /* search bar for  quickswitch and searchbar in quickswitch*/
 }
-
-/* search bar for  quickswitch and searchbar in quickswitch*/
-.searchBarComponent-3N7dCG:hover {
+.quickswitcher-pKcM9U .searchBarComponent-3N7dCG:hover {
   border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), var(--other-highlighted-transparency));
 }
-
-.input-3r5zZY:focus-within {
+.quickswitcher-pKcM9U .input-3r5zZY:focus-within {
+  border-radius: 0px;
+}
+.quickswitcher-pKcM9U .input-3r5zZY:focus-within:focus-within {
   border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), var(--other-highlighted-transparency));
   animation: accent-blinking 450ms infinite;
 }
-
-.contentDefault-17ewQQ,
-.contentUnread-1_MVDK {
+.quickswitcher-pKcM9U .contentDefault-17ewQQ,
+.quickswitcher-pKcM9U .contentUnread-1_MVDK {
+  background: rgb(var(--darker-background-color));
   border-radius: 0px;
   cursor: default;
 }
-.contentDefault-17ewQQ:hover,
-.contentUnread-1_MVDK:hover {
+.quickswitcher-pKcM9U .contentDefault-17ewQQ:hover,
+.quickswitcher-pKcM9U .contentUnread-1_MVDK:hover {
   background-color: rgba(var(--accent-color-1), 0.15);
   border-left: solid 2px;
   border-left-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
@@ -2331,7 +2347,12 @@ code.inline {
 .messageInputContainer-24qqT,
 .inputWrapper-2K8ds1,
 .inner-2pOSmK,
-.container-2oNtJn {
+.container-2oNtJn,
+.drawerSizingWrapper-1txdWG,
+.userPopoutOuter-1OHwPL,
+.userProfileModalOuter-2wdWjU,
+.container-1SX9VC,
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
   border-radius: 0px !important;
 }
 
