@@ -940,6 +940,14 @@ html #app-mount:before,
 }
 
 /*Buttons Design */
+/*Change most buttons shapes*/
+.lookFilled-1H2Jvj.colorGreen-jIPCAS,
+.lookFilled-1H2Jvj.colorBrand-2M3O3N {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 6px;
+}
+
 /* Change most button color to black*/
 .lookFilled-1H2Jvj.colorBrand-2M3O3N {
   color: rgb(var(--font-in-accent)) !important;
@@ -1246,10 +1254,10 @@ html #app-mount:before,
 .quickswitcher-pKcM9U .searchBarComponent-3N7dCG:hover {
   border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), var(--other-highlighted-transparency));
 }
-.quickswitcher-pKcM9U .input-3r5zZY:focus-within {
+.quickswitcher-pKcM9U .input-3r5zZY {
   border-radius: 0px;
 }
-.quickswitcher-pKcM9U .input-3r5zZY:focus-within:focus-within {
+.quickswitcher-pKcM9U .input-3r5zZY:focus-within {
   border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), var(--other-highlighted-transparency));
   animation: accent-blinking 450ms infinite;
 }
@@ -2168,47 +2176,47 @@ code.inline {
 
 /*#endregion Scrollbars*/
 /* Change background color*/
-.directoryModal-YJsOMv {
+[class*=directory] {
   background-color: rgb(var(--dark-background-color)) !important;
 }
 
-.directoryModal-YJsOMv .item-2Nx4LP.container-2NdZr9.hasImage-CFE7SV.clickable-O5xo4T,
-.directoryModal-YJsOMv .item-2Nx4LP.linkCard-2SSonX.container-2NdZr9.hasImage-CFE7SV,
-.directoryModal-YJsOMv .itemContainer-RkoeKz,
-.directoryModal-YJsOMv .category-2OvQ93,
-.directoryModal-YJsOMv .container-SidGiM,
-.directoryModal-YJsOMv .content-19Pm_9,
-.directoryModal-YJsOMv .searchBox-pyIJJj.search-2RHhW6.searchBar-20T4t6 {
+[class*=directory] .item-2Nx4LP.container-2NdZr9.hasImage-CFE7SV.clickable-O5xo4T,
+[class*=directory] .item-2Nx4LP.linkCard-2SSonX.container-2NdZr9.hasImage-CFE7SV,
+[class*=directory] .itemContainer-RkoeKz,
+[class*=directory] .category-2OvQ93,
+[class*=directory] .container-SidGiM,
+[class*=directory] .content-19Pm_9,
+[class*=directory] .searchBox-pyIJJj.search-2RHhW6.searchBar-20T4t6 {
   border: var(--border-color-accent-1);
   border-radius: 6px;
   background-color: rgb(var(--darker-background-color)) !important;
 }
 
-.directoryModal-YJsOMv .clickable-O5xo4T.container-2NdZr9:hover {
+[class*=directory] .clickable-O5xo4T.container-2NdZr9:hover {
   color: var(--normal-hover-font);
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.2), rgba(var(--accent-color-2), 0.2));
 }
 
-.directoryModal-YJsOMv .collectionBottomMargin-Tqi9ac {
+[class*=directory] .collectionBottomMargin-Tqi9ac {
   border: var(--border-color-accent-1);
 }
 
-.directoryModal-YJsOMv .category-2OvQ93:hover {
+[class*=directory] .category-2OvQ93:hover {
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.2), rgba(var(--accent-color-2), 0.2));
 }
 
-.directoryModal-YJsOMv .category-qFAw-K.activeCategory-1iqXig.selected-g-kMVV.themed-2-lozF {
+[class*=directory] .category-qFAw-K.activeCategory-1iqXig.selected-g-kMVV.themed-2-lozF {
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
 }
 
-.directoryModal-YJsOMv .searchBox-pyIJJj.search-2RHhW6 {
+[class*=directory] .searchBox-pyIJJj.search-2RHhW6 {
   margin-top: 10px;
   margin-left: 5px;
   margin-right: 5px;
   background: rgb(var(--dark-background-color)) !important;
 }
 
-.directoryModal-YJsOMv .container-2NdZr9.clickable-O5xo4T {
+[class*=directory] .container-2NdZr9.clickable-O5xo4T {
   background-color: rgb(var(--darker-background-color));
 }
 
@@ -2218,12 +2226,12 @@ code.inline {
 }
 
 /* Adds a bigger gap between the scrollbar and cards*/
-.directoryModal-YJsOMv .itemsContainer-mAsB3S {
+[class*=directory] .itemsContainer-mAsB3S {
   margin-bottom: 5px;
 }
 
 .content-1jQy2l.container-2IKOsH {
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
