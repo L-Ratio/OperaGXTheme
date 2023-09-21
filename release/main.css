@@ -2230,6 +2230,64 @@ code.inline {
   margin-bottom: 5px;
 }
 
+.guildList-3GXKvP .loaded-igpmmx {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 20px;
+  background: rgba(var(--accent-color-1), var(--border-brightness));
+  padding: 1px;
+  padding-right: 3px;
+  border: none !important;
+  border-radius: 0px !important;
+}
+
+.guildList-3GXKvP .card-2TuZPZ {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 20px;
+  border-radius: 0px !important;
+  margin: 1px;
+}
+
+.itemCard-3Etziu,
+.sidebar-1tnWFu .button-1EGGcP,
+.newMessagesBar-1hF-9G,
+.layout-1qmrhw,
+.messageInputContainer-24qqT,
+.inputWrapper-2K8ds1,
+.inner-2pOSmK,
+.container-2oNtJn,
+.drawerSizingWrapper-1txdWG,
+.userPopoutOuter-1OHwPL,
+.userProfileModalOuter-2wdWjU,
+.container-1SX9VC,
+.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
+  border-radius: 0px !important;
+}
+
+.content-1jQy2l.container-2qjEOK {
+  background: transparent !important;
+}
+.content-1jQy2l.container-2qjEOK .mainTableContainer-3Nxvkd {
+  border-radius: 0px;
+  border: var(--border-color-accent-1);
+}
+.content-1jQy2l.container-2qjEOK .button-2XiUpU {
+  border: var(--border-color-accent-1);
+}
+.content-1jQy2l.container-2qjEOK .otherRoles-LMys1u:hover {
+  background-color: rgba(var(--accent-color-1), 0.5);
+}
+.content-1jQy2l.container-2qjEOK .searchInput-2KKmkU {
+  border: var(--border-color-accent-1);
+}
+
+.thin-RnSY0a.scrollerBase-1Pkza4:has(.content-1jQy2l.container-2qjEOK .mainTableContainer-3Nxvkd) {
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
+  backdrop-filter: blur(var(--chat-background-blur)) !important;
+}
+
 .content-1jQy2l.container-2IKOsH {
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
@@ -2327,41 +2385,6 @@ code.inline {
   background-color: rgb(var(--dark-background-color)) !important;
   border-radius: 5px;
   margin: 15px 0px 10px;
-}
-
-.guildList-3GXKvP .loaded-igpmmx {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 20px;
-  background: rgba(var(--accent-color-1), var(--border-brightness));
-  padding: 1px;
-  padding-right: 3px;
-  border: none !important;
-  border-radius: 0px !important;
-}
-
-.guildList-3GXKvP .card-2TuZPZ {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 20px;
-  border-radius: 0px !important;
-  margin: 1px;
-}
-
-.itemCard-3Etziu,
-.sidebar-1tnWFu .button-1EGGcP,
-.newMessagesBar-1hF-9G,
-.layout-1qmrhw,
-.messageInputContainer-24qqT,
-.inputWrapper-2K8ds1,
-.inner-2pOSmK,
-.container-2oNtJn,
-.drawerSizingWrapper-1txdWG,
-.userPopoutOuter-1OHwPL,
-.userProfileModalOuter-2wdWjU,
-.container-1SX9VC,
-.jumpToPresentBar-1cEnH0.barBase-3xxDXu {
-  border-radius: 0px !important;
 }
 
 /* Create Channel/Category Border*/
