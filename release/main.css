@@ -292,8 +292,8 @@ code,
 }
 
 #app-mount,
-#app-mount :where(.app__00c92,
-.bg__7adbf,
+#app-mount :where(.app_de4237,
+.bg__12180,
 .guilds__2b93a,
 .scroller__3d071,
 .sidebar_ded4b5,
@@ -307,7 +307,7 @@ code,
 .member_b44d5d,
 .members__9f47b,
 .container-3wLKDe,
-.mainCard-3KBsBI,
+.mainCard__8a660,
 .container__5c7e7,
 .privateChannels__93473,
 .scroller__4b984,
@@ -737,34 +737,50 @@ html #app-mount:before,
   border-radius: 0px !important;
 }
 
-/* Pills */
-.container-3kfp0r,
-.tagsButton-4pwOKH.button_afdfd9.lookFilled-yCfaCM.sizeMin-DfpWCE.grow-2sR_-F,
-.sortButton-n-cIAH.button_afdfd9.lookFilled-yCfaCM.sizeMin-DfpWCE.grow-2sR_-F,
-.pill_f055c3.clickable__8b375.tag-19iIl1 .pill_f055c3.clickable__8b375.small_d2f964,
-.pill_f055c3.clickable__8b375.tag-19iIl1 {
+/* Make forums background transparent*/
+.container_b181b6 {
+  background: transparent !important;
+}
+.container_b181b6 .container__1b27a {
   border: var(--border-color-accent-1);
 }
 
-/* Pill hover effect*/
-.pill_f055c3.clickable__8b375.selected_dc72d1.tag-3T_qsl,
-.pill_f055c3.clickable__8b375.selected_dc72d1.tag-19iIl1 {
-  border-color: rgb(var(--accent-color-2));
-  background-color: rgba(var(--accent-color-1), 0.15);
+/* Pop out when selecting tags*/
+.container_ae7412 {
+  border: var(--border-color-accent-1);
 }
 
-.pill_f055c3.clickable__8b375.tag-3T_qsl:hover,
+/* Pills */
+.container_b181b6,
+.tagsButton-4pwOKH.button_afdfd9.lookFilled-yCfaCM.sizeMin-DfpWCE.grow-2sR_-F,
+.sortButton-n-cIAH.button_afdfd9.lookFilled-yCfaCM.sizeMin-DfpWCE.grow-2sR_-F,
+.pill_f055c3.clickable__8b375.tag-19iIl1 .pill_f055c3.clickable__8b375.small_d2f964,
+.pill_f055c3.clickable__8b375.tag-19iIl1,
+.pill_f055c3.small_d2f964 .pill_f055c3.tag_d2e476 {
+  border: var(--border-color-accent-1);
+}
+
+.pill_f055c3.tag_d2e476 .pill_f055c3.clickable__8b375.selected_dc72d1.tag__40098,
+.pill_f055c3.clickable__8b375.selected_dc72d1.tag_d2e476,
+.pill_f055c3.clickable__8b375.selected_dc72d1.tag-19iIl1,
+.pill_f055c3.selected_dc72d1 {
+  border-color: rgb(var(--accent-color-2)) !important;
+  background-color: rgba(var(--accent-color-1), 0.15) !important;
+}
+
+.pill_f055c3.clickable__8b375.tag__40098:hover,
+.pill_f055c3.clickable__8b375.tag_d2e476:hover,
 .pill_f055c3.clickable__8b375.tag-19iIl:hover {
   border-color: rgb(var(--accent-color-2));
   background-color: rgba(var(--accent-color-1), 0.15);
 }
 
 /* Chat borders */
-#app-mount .mainCard-3KBsBI {
+#app-mount .mainCard__8a660 {
   border: var(--border-color-accent-1) !important;
 }
 
-#app-mount .mainCard-3KBsBI {
+#app-mount .mainCard__8a660 {
   background-color: rgba(var(--darker-background-color), 0.7) !important;
 }
 
@@ -3182,12 +3198,6 @@ code.inline {
   text-transform: unset;
 }
 
-/* Hover over channels color*/
-#app-mount .containerDefault-1ZnADq:hover .content-3at_AU,
-#app-mount .containerDefault__3187b:hover .link__95dc0 {
-  border-left: solid rgba(var(--accent-color-2), var(--other-highlighted-transparency)) 2px;
-}
-
 /* Hover over channel move to the right*/
 #app-mount :where(.modeUnread-1zpFdA:hover,
 .content-3at_AU:hover,
@@ -3217,7 +3227,6 @@ code.inline {
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
 #app-mount .modeUnread_f74c03 .link__95dc0 {
-  border-left: solid rgb(var(--fullwhite-font)) 2px;
   background-color: rgb(var(--fullwhite-font));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3373,12 +3382,6 @@ code.inline {
   text-transform: unset;
 }
 
-/* Hover over channels color*/
-#app-mount .containerDefault-1ZnADq:hover .content-3at_AU,
-#app-mount .containerDefault__3187b:hover .wrapper__7bcde {
-  border-left: solid rgba(var(--accent-color-2), var(--other-highlighted-transparency)) 2px;
-}
-
 /* Hover over channel move to the right*/
 #app-mount :where(.modeUnread-1zpFdA:hover,
 .content-3at_AU:hover,
@@ -3408,7 +3411,6 @@ code.inline {
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
 #app-mount .modeUnread_f74c03 .wrapper__7bcde {
-  border-left: solid rgb(var(--fullwhite-font)) 2px;
   background-color: rgb(var(--fullwhite-font));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
