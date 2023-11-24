@@ -3201,7 +3201,7 @@ code.inline {
 /* Hover over channel move to the right*/
 #app-mount :where(.modeUnread-1zpFdA:hover,
 .content-3at_AU:hover,
-.modeUnread_f74c03:hover,
+.modeUnreadImportant_efb53e:hover,
 .link__95dc0:hover,
 .modeSelected__487d6:hover) {
   padding-left: 2px;
@@ -3226,7 +3226,7 @@ code.inline {
 
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
-#app-mount .modeUnread_f74c03 .link__95dc0 {
+#app-mount .modeUnreadImportant_efb53e .link__95dc0 {
   background-color: rgb(var(--fullwhite-font));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3236,7 +3236,7 @@ code.inline {
 }
 
 /* Adds the background layer ontop of the main layer to give the left and right side a border*/
-.modeUnread_f74c03 .link__95dc0::before {
+.modeUnreadImportant_efb53e .link__95dc0::before {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
@@ -3251,7 +3251,7 @@ code.inline {
 
 /* Change background color of unread channels on hover*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
-#app-mount .modeUnread_f74c03 .link__95dc0:hover {
+#app-mount .modeUnreadImportant_efb53e .link__95dc0:hover {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
 }
 
@@ -3265,11 +3265,11 @@ code.inline {
 }
 
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg,
-#app-mount .modeUnread_f74c03 .name__8d1ec {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec {
   font-weight: 600;
 }
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg:hover,
-#app-mount .modeUnread_f74c03 .name__8d1ec:hover {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec:hover {
   font-weight: bolder;
 }
 
@@ -3296,13 +3296,13 @@ code.inline {
 
 #app-mount .modeUnread-1zpFdA .icon-1_QxNX,
 #app-mount .modeUnread-1zpFdA:hover .icon-1_QxNX,
-#app-mount .modeUnread_f74c03 .icon_eff5d4,
-#app-mount .modeUnread_f74c03:hover .icon_eff5d4 {
+#app-mount .modeUnreadImportant_efb53e .icon_eff5d4,
+#app-mount .modeUnreadImportant_efb53e:hover .icon_eff5d4 {
   color: rgb(var(--normal-font));
 }
 
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg,
-#app-mount .modeUnread_f74c03 .name__8d1ec {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec {
   color: rgb(var(--fullwhite-font));
 }
 
@@ -3385,7 +3385,7 @@ code.inline {
 /* Hover over channel move to the right*/
 #app-mount :where(.modeUnread-1zpFdA:hover,
 .content-3at_AU:hover,
-.modeUnread_f74c03:hover,
+.modeUnreadImportant_efb53e:hover,
 .wrapper__7bcde:hover,
 .modeSelected__487d6:hover) {
   padding-left: 2px;
@@ -3410,7 +3410,7 @@ code.inline {
 
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU,
-#app-mount .modeUnread_f74c03 .wrapper__7bcde {
+#app-mount .modeUnreadImportant_efb53e .wrapper__7bcde {
   background-color: rgb(var(--fullwhite-font));
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3420,7 +3420,7 @@ code.inline {
 }
 
 /* Adds the background layer ontop of the main layer to give the left and right side a border*/
-.modeUnread_f74c03 .wrapper__7bcde::before {
+.modeUnreadImportant_efb53e .wrapper__7bcde::before {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
@@ -3434,7 +3434,7 @@ code.inline {
 
 /* Change background color of unread channels on hover*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
-#app-mount .modeUnread_f74c03 .wrapper__7bcde:hover {
+#app-mount .modeUnreadImportant_efb53e .wrapper__7bcde:hover {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
 }
 
@@ -3448,11 +3448,11 @@ code.inline {
 }
 
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg,
-#app-mount .modeUnread_f74c03 .name__8d1ec {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec {
   font-weight: 600;
 }
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg:hover,
-#app-mount .modeUnread_f74c03 .name__8d1ec:hover {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec:hover {
   font-weight: bolder;
 }
 
@@ -3479,13 +3479,13 @@ code.inline {
 
 #app-mount .modeUnread-1zpFdA .icon-1_QxNX,
 #app-mount .modeUnread-1zpFdA:hover .icon-1_QxNX,
-#app-mount .modeUnread_f74c03 .icon_eff5d4,
-#app-mount .modeUnread_f74c03:hover .icon_eff5d4 {
+#app-mount .modeUnreadImportant_efb53e .icon_eff5d4,
+#app-mount .modeUnreadImportant_efb53e:hover .icon_eff5d4 {
   color: rgb(var(--normal-font));
 }
 
 #app-mount .modeUnread-1zpFdA .name-3_Dsmg,
-#app-mount .modeUnread_f74c03 .name__8d1ec {
+#app-mount .modeUnreadImportant_efb53e .name__8d1ec {
   color: rgb(var(--fullwhite-font));
 }
 
