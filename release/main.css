@@ -1844,7 +1844,7 @@ code.inline {
 /* Anything thats not a video/embed attachment border*/
 .nonMediaAttachmentItem__10b1b {
   border: var(--border-color-accent-1);
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* The button for that AKA the trash button*/
@@ -1852,7 +1852,7 @@ code.inline {
   border: var(--border-color-accent-1);
   overflow: hidden;
   outline: none;
-  border-radius: 5px;
+  border-radius: 0px;
 }
 
 /* Border around thread boxes in chat*/
@@ -1863,6 +1863,23 @@ code.inline {
 /* Quick Formatting*/
 .toolbar_c7b525 {
   border: var(--border-color-accent-1);
+}
+
+/* Events posted in chat*/
+.wrapper_efe67f.clickable_ce4e6c {
+  border: var(--border-color-accent-1);
+  border-radius: 0px;
+}
+.wrapper_efe67f.clickable_ce4e6c .button__7411d {
+  color: rgb(var(--font-in-accent)) !important;
+  background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
+  border-radius: 2px;
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 6px;
+}
+.wrapper_efe67f.clickable_ce4e6c .button__7411d:hover {
+  background: linear-gradient(135deg, rgb(var(--accent-color-1), 0.5), rgb(var(--accent-color-2), 0.5)) !important;
 }
 
 .app-focused .channelTextArea__2e60f,
@@ -2415,6 +2432,19 @@ code.inline {
   margin: 15px 0px 10px;
 }
 
+.shopScrollBackgroundPrimary_bb1f42 {
+  border-top: var(--border-color-accent-1);
+  border-right: var(--border-color-accent-1);
+}
+.shopScrollBackgroundPrimary_bb1f42 .shopCard_f7822b {
+  border-color: rgba(var(--accent-color-1), 0.5) !important;
+  border-radius: 0px;
+}
+.shopScrollBackgroundPrimary_bb1f42 .banner_cc9062.shopBanner__8d00b,
+.shopScrollBackgroundPrimary_bb1f42 .heroBanner_d3ffc9.heroBannerWithSidebar_e6b2f9 {
+  border-radius: 0px;
+}
+
 /* Create Channel/Category Border*/
 .modal-1Kmy_E {
   border: var(--border-color-accent-1) !important;
@@ -2903,13 +2933,13 @@ code.inline {
 .inspector__993e1,
 .wrapper__4f229.categoryList_f8c48f,
 .listWrapper__7a5c9,
-.categoryList__5dbc1 {
+.categoryList__5dbc1,
+.categoryList_f8c48f {
   border-top: 1px solid rgb(var(--accent-color-1));
 }
 
-.wrapper__4f229.categoryListWithSearch-2jrzH6.categoryList__5dbc1,
-.wrapper__4f229.categoryList_f8c48f,
-.categoryList__5dbc1 {
+.categoryList__5dbc1,
+.categoryList_f8c48f {
   margin-top: 2px;
   border-right: 1px solid rgb(var(--accent-color-1));
 }
