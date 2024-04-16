@@ -435,8 +435,7 @@ html #app-mount:before,
 * added as of 3/3/2023
 ! might break most borders :/
 */
-.root_a28985.fullscreenOnMobile__05784,
-.root_a28985.fullscreenOnMobile__05784 {
+.root_a28985.fullscreenOnMobile__05784:not(:has(.userProfileOuterThemed_a425f3)) {
   border: 1px solid rgb(var(--accent-color-1)) !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -692,20 +691,6 @@ html #app-mount:before,
 /* Popout when hovering over specatators in when stream watching*/
 .popoutWrapper__5121c {
   border: var(--border-color-accent-1);
-}
-
-/* Add border around badges*/ /* Non-nitro users*/
-.userProfileOuterUnthemed_e14365 .profileBadges__1f2ab.containerWithContent_a67357,
-.userProfileOuterUnthemed_e14365 .badgeList-2aoHPw.containerWithContent_a67357 {
-  border: var(--border-color-accent-1);
-  border-radius: 0px;
-}
-
-/* Add border around badges*/ /* Nitro users*/
-.userProfileOuterUnthemed_e14365 .profileBadges__1f2ab.containerWithContent_a67357,
-.userProfileOuterUnthemed_e14365 .badgeList-2aoHPw.containerWithContent_a67357 {
-  border: var(--border-color-accent-1);
-  border-radius: 0px;
 }
 
 /* Tooltips border */
@@ -1845,13 +1830,14 @@ code.inline {
 }
 
 /* Anything thats not a video/embed attachment border*/
-.nonMediaAttachmentItem__80bd4 {
-  border: var(--border-color-accent-1);
-  border-radius: 0px;
+.nonVisualMediaItemContainer__81ce5,
+.nonVisualMediaItem__6faf4 + .nonVisualMediaItem__6faf4 {
+  border: var(--border-color-accent-1) !important;
+  border-radius: 0px !important;
 }
 
 /* The button for that AKA the trash button*/
-.hoverButtonGroup__304b2.nonMediaAttachment_ef83c1 {
+.hoverButtonGroup__745e4.nonMediaMosaicItem__6d1a2 {
   border: var(--border-color-accent-1);
   overflow: hidden;
   outline: none;
@@ -2891,15 +2877,15 @@ code.inline {
 }
 
 /* User profile popout for Non nitro users*/
-.userProfileOuterUnthemed-2b2rsv,
-.userProfileInnerThemedNonPremium-1gT-zY .containerWithContent-2_V0PM,
-.userProfileOuterUnthemed_e14365 {
-  border: 1px solid rgba(var(--accent-color-1), 1);
+.userPopoutOuter_d67f56:has(.userProfileInnerThemedNonPremium_b64fb4) {
+  border: var(--border-color-accent-1) !important;
+  border-radius: 0px !important;
 }
 
-.userProfileInnerThemedNonPremium_ed9022 .role_d81130 {
+.userProfileInnerThemedNonPremium_b64fb4 .profileBadges__1f2ab,
+.userProfileInnerThemedNonPremium_b64fb4 .rolePill_f50ff5 {
   border: 1px solid rgb(65, 65, 67) !important;
-  background: rgb(18, 18, 20) !important;
+  background: rgba(var(--dark-background-color)) !important;
 }
 
 /* What's new / Changelog background and border */
