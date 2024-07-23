@@ -1440,6 +1440,7 @@ html #app-mount:before,
   border: var(--border-color-accent-1);
 }
 
+/* Nitro tab theming*/
 .applicationStore_cecc86 {
   border-right: var(--border-color-accent-1);
 }
@@ -1883,6 +1884,19 @@ code.inline {
 /* Messages Bar / AKA new messages since...*/
 .newMessagesBar_cf58b5 {
   background-color: rgb(var(--accent-color-1)) !important;
+}
+
+/* Apps menu/ commands menu */
+.autocomplete_bcc24e.outerWrapper_fe2299 {
+  background-color: rgb(var(--dark-background-color)) !important;
+  border: var(--border-color-accent-1);
+  border-radius: 0px;
+}
+.autocomplete_bcc24e.outerWrapper_fe2299 .wrapper_efd8e6 {
+  border-right: var(--border-color-accent-1);
+}
+.autocomplete_bcc24e.outerWrapper_fe2299 .categoryHeader_fe2299 {
+  background-color: rgb(var(--accent-color-1));
 }
 
 .app-focused .channelTextArea_a7d72e,
