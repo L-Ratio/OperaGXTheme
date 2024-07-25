@@ -261,7 +261,7 @@ code,
 }
 
 /* Embed Background and border */
-#app-mount .embedFull_ad0b71 {
+#app-mount .embedFull_b0068a {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
   border: 2px solid;
   cursor: default;
@@ -271,7 +271,7 @@ code,
 }
 
 /* Embed Hover Effect*/
-#app-mount .embedFull_ad0b71:hover {
+#app-mount .embedFull_b0068a:hover {
   background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 
