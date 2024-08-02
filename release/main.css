@@ -1899,6 +1899,16 @@ code.inline {
   background-color: rgb(var(--accent-color-1));
 }
 
+/* Eomji menu when using : */
+.autocomplete_bcc24e {
+  background-color: rgb(var(--dark-background-color));
+  border: var(--border-color-accent-1);
+  border-radius: 0px;
+}
+.autocomplete_bcc24e .base_bcc24e:not(:has(.autocompleteRowIcon_bcc24e)) {
+  border-bottom: var(--border-color-accent-1);
+}
+
 .app-focused .channelTextArea_a7d72e,
 .app-focused .channelTextArea_d5deea,
 .app-focused .channelTextAreaUpload_f82cc7,
