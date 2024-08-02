@@ -3339,8 +3339,33 @@ code.inline {
 
 /* Change background color of unread channels on hover*/
 #app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
-#app-mount .modeUnreadImportant_d8bfb3 .link_d8bfb3:hover {
-  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
+#app-mount .modeUnreadImportant_d8bfb3 .link_d8bfb3:hover,
+#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3:hover {
+  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)) !important;
+}
+
+/* for "less important" channel border */
+#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3 { /* Is the border of it */
+  background-color: rgb(var(--muted-font)) !important;
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  box-sizing: border-box;
+  margin-right: 5px;
+  opacity: 100%;
+  /* Adds the background layer ontop of the main layer to give the left and right side a border*/
+}
+#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3::before {
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  background: rgba(var(--darker-background-color), var(--other-transparency));
+  content: "";
+  position: absolute;
+  margin: 1px !important; /*One of the fixes to the border being broken*/
+  left: -1px;
+  width: 99%;
+  height: 100%;
 }
 
 /* Hover effect in channels background color/clip-path*/
