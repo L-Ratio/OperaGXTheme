@@ -592,7 +592,8 @@ html #app-mount:before,
 }
 
 /* Header bar border on the right*/
-.container_e44302.themed_e44302 {
+.container_e44302.themed_e44302,
+.container_fc4f04 {
   border-right: var(--border-color-accent-1);
 }
 
@@ -1306,7 +1307,7 @@ html #app-mount:before,
 }
 
 /* Header */
-.container-2Rl01u,
+.container_fc4f04,
 .container_e44302.themed_e44302 {
   background: rgba(var(--header-transparency-color), var(--header-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--header-background-blur));
