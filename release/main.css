@@ -333,6 +333,11 @@ code,
   background-color: transparent;
 }
 
+/* Fixes transparency not workking*/
+body, .appMount_ea7e65 {
+  background: transparent;
+}
+
 /* Main background*/
 html #app-mount:before,
 .theme-dark #app-mount,
