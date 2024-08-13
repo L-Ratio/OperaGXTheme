@@ -217,7 +217,7 @@ span[class*=hljs],
 span[class*=hljs] span,
 .codeLine-3a3dbd span span span,
 code,
-.markup_d6076c code.inline,
+.markup_f8f345 code.inline,
 .codeBlockText-311wOq,
 .codeLine-3a3dbd,
 .after_inlineCode-WydEur,
@@ -232,26 +232,26 @@ code,
 .wrapper_a5bc92 *,
 .inviteCode-3IYjBf,
 #bd-customcss-editor *,
-.timestamp_ec86aa span,
+.timestamp_f9f2ca span,
 .timestamp__28d64,
-.messageContent_ec86aa:after {
+.messageContent_f9f2ca:after {
   font-family: var(--cbcf) !important;
 }
 
 /* Loading Channel Messages */
-.wrapper_b211c6,
+.wrapper_b75bb9,
 .wrapper_ba0ffb {
   background: transparent;
 }
 
-.wrapper_b211c6[style*=margin-top] {
+.wrapper_b75bb9[style*=margin-top] {
   border-top: solid 1px rgba(var(--accent-color-1), calc(var(--lines-transparency) * 0.3));
   margin-top: calc(1rem - 1px) !important;
 }
 
-.attachment_b211c6,
-.avatar_b211c6,
-.blob_b211c6 {
+.attachment_b75bb9,
+.avatar_b75bb9,
+.blob_b75bb9 {
   opacity: 0.5 !important;
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   border-radius: 2px;
@@ -261,17 +261,16 @@ code,
 }
 
 /* Embed Background and border */
-#app-mount .embedFull_b0068a {
+#app-mount .embedFull_b0068a,
+.gridContainer_b0068a {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
   border: 2px solid;
   cursor: default;
-  border-color: inherit;
   overflow: hidden;
   z-index: 0;
 }
-
-/* Embed Hover Effect*/
-#app-mount .embedFull_b0068a:hover {
+#app-mount .embedFull_b0068a:hover,
+.gridContainer_b0068a:hover {
   background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
 }
 
@@ -311,11 +310,11 @@ code,
 .container_c2739c,
 .privateChannels_f0963d,
 .scroller_c47fa9,
-.container_e44302.themed_e44302,
+.container_fc4f04.themed_fc4f04,
 .nowPlayingColumn_c2739c,
 .container_bf550a,
 .wrapper_cd82a7,
-.inset_c0f6a6,
+.inset_ac5d22,
 .section_cd82a7,
 .scroller__244e5,
 .applicationStore_cecc86,
@@ -330,7 +329,7 @@ code,
 .container_d1c246,
 .container_b385c8,
 .scrollerInner_e2e187 > .wrapper_ba0ffb,
-.scrollerInner_e2e187 > .wrapper_ba0ffb .wrapper_b211c6) {
+.scrollerInner_e2e187 > .wrapper_ba0ffb .wrapper_b75bb9) {
   background-color: transparent;
 }
 
@@ -387,7 +386,7 @@ html #app-mount:before,
   color: rgb(var(--fullwhite-font));
 }
 
-.children_e44302::after {
+.children_fc4f04::after {
   background: transparent !important;
 }
 
@@ -396,7 +395,7 @@ html #app-mount:before,
 }
 
 /* Mute/LeaveCall/Stream/Deafen/Settings Button hover */
-.button_f67531.enabled_f67531.button_dd4f85.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
+.button_adca65.enabled_adca65.button_dd4f85.lookBlank-21BCro.colorBrand-I6CyqQ.grow-2sR_-F:hover {
   background: linear-gradient(135deg, rgba(var(--accent-color-1), 0.5), rgba(var(--accent-color-2), 0.5));
 }
 
@@ -554,7 +553,7 @@ html #app-mount:before,
   border-bottom: none;
 }
 
-.flex_bba380.flex_ec1a20.horizontalReverse_bba380.horizontalReverse_d76671.flex_ec1a20.directionRowReverse_f644aa.justifyBetween_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer-31IekZ.footerSeparator-VzAYwb {
+.flex_dc333f.flex_ec1a20.horizontalReverse_dc333f.horizontalReverse_d76671.flex_ec1a20.directionRowReverse_f644aa.justifyBetween_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer-31IekZ.footerSeparator-VzAYwb {
   border: var(--border-color-accent-1);
 }
 
@@ -567,15 +566,15 @@ html #app-mount:before,
 }
 
 /* Expand file preview borders*/
-[aria-label="Plaintext file previews"] .modalContent_ad9cbd {
+[aria-label="Plaintext file previews"] .modalContent_d8e2d0 {
   border: var(--border-color-accent-1);
 }
 
-[aria-label="Plaintext file previews"] .modalContent_ad9cbd .footer_ad9cbd {
+[aria-label="Plaintext file previews"] .modalContent_d8e2d0 .footer_d8e2d0 {
   border-top: var(--border-color-accent-1);
 }
 
-#app-mount .autocomplete_f23da8 {
+#app-mount .autocomplete_bcc24e {
   background-color: rgb(var(--darker-background-color));
   border-radius: 0px;
   border: solid 1px rgb(var(--accent-color-2));
@@ -592,7 +591,7 @@ html #app-mount:before,
 }
 
 /* Header bar border on the right*/
-.container_e44302.themed_e44302,
+.container_fc4f04.themed_fc4f04,
 .container_fc4f04 {
   border-right: var(--border-color-accent-1);
 }
@@ -656,7 +655,7 @@ html #app-mount:before,
 }
 
 /* Nitro button in chat remove the border below the animation*/
-.flex_bba380.flex_ec1a20.horizontal_bba380.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyStart_ec1a20.alignCenter_ec1a20.noWrap_ec1a20.header-1zd7se {
+.flex_dc333f.flex_ec1a20.horizontal_dc333f.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyStart_ec1a20.alignCenter_ec1a20.noWrap_ec1a20.header-1zd7se {
   border-bottom: none !important;
 }
 
@@ -904,12 +903,12 @@ html #app-mount:before,
   padding: 12px 4px 0 8px;
 }
 
-.icon_e44302.privateChannelRecipientsInviteButtonIcon_c47fa9 {
+.icon_fc4f04.privateChannelRecipientsInviteButtonIcon_c47fa9 {
   color: rgb(var(--accent-color-1));
   stroke: transparent !important;
 }
 
-.icon_e44302.privateChannelRecipientsInviteButtonIcon_c47fa9:hover {
+.icon_fc4f04.privateChannelRecipientsInviteButtonIcon_c47fa9:hover {
   color: rgb(var(--fullwhite-font));
 }
 
@@ -1208,13 +1207,13 @@ html #app-mount:before,
 }
 
 /*Page buttons*/
-.pageButtonNext_cb56ee,
-.pageButtonPrev_cb56ee,
-.pageIndicator_cb56ee {
+.pageButtonNext_d6a4eb,
+.pageButtonPrev_d6a4eb,
+.pageIndicator_d6a4eb {
   border-color: rgb(var(--accent-color-1)) !important;
 }
 
-.pageActions_cb56ee {
+.pageActions_d6a4eb {
   background-color: transparent !important;
 }
 
@@ -1281,14 +1280,14 @@ html #app-mount:before,
   border: solid 1px rgba(var(--accent-color-1, 250, 30, 70), var(--other-highlighted-transparency));
   animation: accent-blinking 450ms infinite;
 }
-.quickswitcher_f4e139 .contentDefault_f14193,
-.quickswitcher_f4e139 .contentUnread_f14193 {
+.quickswitcher_f4e139 .contentDefault_e3c1c6,
+.quickswitcher_f4e139 .contentUnread_e3c1c6 {
   background: rgb(var(--darker-background-color));
   border-radius: 0px;
   cursor: default;
 }
-.quickswitcher_f4e139 .contentDefault_f14193:hover,
-.quickswitcher_f4e139 .contentUnread_f14193:hover {
+.quickswitcher_f4e139 .contentDefault_e3c1c6:hover,
+.quickswitcher_f4e139 .contentUnread_e3c1c6:hover {
   background-color: rgba(var(--accent-color-1), 0.15);
   border-left: solid 2px;
   border-left-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
@@ -1308,7 +1307,7 @@ html #app-mount:before,
 
 /* Header */
 .container_fc4f04,
-.container_e44302.themed_e44302 {
+.container_fc4f04.themed_fc4f04 {
   background: rgba(var(--header-transparency-color), var(--header-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--header-background-blur));
   backdrop-filter: blur(var(--header-background-blur));
@@ -1445,7 +1444,7 @@ html #app-mount:before,
 .applicationStore_cecc86 {
   border-right: var(--border-color-accent-1);
 }
-.applicationStore_cecc86 .container_e44302.themed_e44302 {
+.applicationStore_cecc86 .container_fc4f04.themed_fc4f04 {
   border-bottom: var(--border-color-accent-1);
   border-right: none !important;
 }
@@ -1481,7 +1480,7 @@ html #app-mount:before,
   padding-bottom: 4px;
 }
 
-.menu_d90b3d .scroller_dcade6 {
+.menu_d90b3d .scroller_d53d65 {
   background-color: rgb(var(--dark-background-color));
 }
 
@@ -1491,12 +1490,12 @@ html #app-mount:before,
   max-width: fit-content;
 }
 
-.menu_d90b3d .listItems_dcade6 .item-1OdjEX {
+.menu_d90b3d .listItems_d53d65 .item-1OdjEX {
   min-height: 32px;
   padding-left: 10px;
 }
 
-.menu_d90b3d .listItems_dcade6 {
+.menu_d90b3d .listItems_d53d65 {
   inset: 0 !important;
 }
 
@@ -1561,12 +1560,12 @@ strong {
   font-weight: bold;
 }
 
-.markup_d6076c strong {
+.markup_f8f345 strong {
   font-weight: 600;
   text-shadow: var(--shadow-currentcolor);
 }
 
-#app-mount .messageContent_ec86aa {
+#app-mount .messageContent_f9f2ca {
   font-weight: 500;
   color: rgb(var(--normal-font));
 }
@@ -1575,10 +1574,10 @@ strong {
   transition: 150ms background-color cubic-bezier(0, 0, 0.35, 1);
 }
 
-#app-mount .isFailed_ec86aa,
-#app-mount .isFailed_ec86aa .hljs,
-#app-mount .isFailed_ec86aa a,
-#app-mount .isFailed_ec86aa code.inline {
+#app-mount .isFailed_f9f2ca,
+#app-mount .isFailed_f9f2ca .hljs,
+#app-mount .isFailed_f9f2ca a,
+#app-mount .isFailed_f9f2ca code.inline {
   color: rgb(var(--gx-red));
 }
 
@@ -1618,15 +1617,15 @@ strong {
   background-color: rgba(var(--accent-color-1), 0.13) !important;
 }
 
-.compact_ec86aa.wrapper_ec86aa,
-.cozy_ec86aa.wrapper_ec86aa {
+.compact_f9f2ca.wrapper_f9f2ca,
+.cozy_f9f2ca.wrapper_f9f2ca {
   padding-top: 3px;
   padding-bottom: 0px;
   min-height: unset;
 }
 
 /* New date/New day */
-#app-mount .content_fc5f50 {
+#app-mount .content_c2654d {
   background: linear-gradient(135deg, rgba(var(--dark-background-color), var(--other-highlighted-transparency)), rgba(var(--darker-background-color), var(--other-highlighted-transparency)));
   border: solid 1px rgba(var(--accent-color-2), var(--other-transparency));
   border-radius: 0px !important;
@@ -1638,7 +1637,7 @@ strong {
   text-align: center;
 }
 
-#app-mount .content_fc5f50:hover {
+#app-mount .content_c2654d:hover {
   background: rgb(var(--dark-background-color));
   color: rgb(var(--fullwhite-font));
 }
@@ -1653,22 +1652,22 @@ strong {
 }
 
 /* Unreads */
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
   background: linear-gradient(270deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   color: rgb(var(--font-in-accent));
 }
 
-.unreadPillCap_fc5f50 > path {
+.unreadPillCap_c2654d > path {
   fill: rgb(var(--accent-color-2));
   color: rgb(var(--accent-color-2));
 }
 
-.isUnread_fc5f50,
-.isUnread_fc5f50 .content_fc5f50 {
+.isUnread_c2654d,
+.isUnread_c2654d .content_c2654d {
   color: rgb(var(--accent-color-2)) !important;
 }
 
-.isUnread_fc5f50 {
+.isUnread_c2654d {
   border-color: rgb(var(--accent-color-2)) !important;
 }
 
@@ -1678,7 +1677,7 @@ strong {
 }
 
 /* UnreadsBars */
-.bar_c10249 {
+.bar_edf32f {
   background-color: rgba(var(--darker-background-color), 0.95);
   border-radius: 1px;
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -1686,34 +1685,34 @@ strong {
   --cp-size: 6px;
 }
 
-.bar_c10249:hover {
+.bar_edf32f:hover {
   background-color: rgba(var(--dark-background-color), 1);
 }
 
-.unreadBar-3YD_k9 .text_c10249,
-.unreadBar_c43953 .text_c10249 {
+.unreadBar-3YD_k9 .text_edf32f,
+.unreadBar_c43953 .text_edf32f {
   font-style: italic;
   color: rgb(var(--fullwhite-font));
 }
 
 /* MentionBars */
-.mention_c10249 {
+.mention_edf32f {
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
-.mention_c10249:hover {
+.mention_edf32f:hover {
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
 
-.mention_c10249 .text_c10249 {
+.mention_edf32f .text_edf32f {
   color: rgb(var(--font-in-accent));
 }
 
 /* Quotes */
-.blockquoteDivider_d6076c {
+.blockquoteDivider_f8f345 {
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
 }
 
-.blockquoteContainer_d6076c .blockquoteDivider_d6076c {
+.blockquoteContainer_f8f345 .blockquoteDivider_f8f345 {
   border-radius: 0px;
 }
 
@@ -1731,7 +1730,7 @@ strong {
 }
 
 /* Codeblocks and codelines */
-.markup_d6076c code,
+.markup_f8f345 code,
 .after_inlineCode-WydEur,
 .before_inlineCode-xn8Llh,
 .inlineCode-2auMQi {
@@ -1740,12 +1739,12 @@ strong {
   border-radius: 0px;
 }
 
-.markup_d6076c code:hover {
+.markup_f8f345 code:hover {
   background-color: rgba(var(--dark-background-color), var(--other-highlighted-transparency));
   border-color: rgb(var(--accent-color-2));
 }
 
-.full-motion.app-focused .markup_d6076c code:hover {
+.full-motion.app-focused .markup_f8f345 code:hover {
   animation: accent-blinking 450ms infinite;
 }
 
@@ -1794,7 +1793,7 @@ code.inline {
 }
 
 .replySpine-M8CUPF:before,
-.repliedMessage_ec86aa:before {
+.repliedMessage_f9f2ca:before {
   border-radius: 0px;
 }
 
@@ -1807,7 +1806,7 @@ code.inline {
 }
 
 /* Quick tools */
-.wrapper_ef319f {
+.wrapper_f7e168 {
   border: var(--border-color-accent-1);
 }
 
@@ -1822,16 +1821,16 @@ code.inline {
 }
 
 /* Discord Invite*/
-.wrapper_b9fe76 {
+.wrapper_a71a1c {
   border: var(--border-color-accent-1);
 }
 
-.inviteSplash_b9fe76 {
+.inviteSplash_a71a1c {
   border-bottom: var(--border-color-accent-1);
 }
 
 /* Attachment hover background */
-.attachment_a4623d.horizontal_ec1a20.flex_ec1a20.directionRow__65900.alignCenter_ec1a20.embedWrapper_b558d0.attachmentContentItem__47a25:hover {
+.attachment_b52bef.horizontal_ec1a20.flex_ec1a20.directionRow__65900.alignCenter_ec1a20.embedWrapper_b558d0.attachmentContentItem__47a25:hover {
   border-color: rgb(var(--accent-color-1));
 }
 
@@ -1841,14 +1840,14 @@ code.inline {
 }
 
 /* Anything thats not a video/embed attachment border*/
-.nonVisualMediaItemContainer_df7417,
-.nonVisualMediaItem_df7417 + .nonVisualMediaItem_df7417 {
+.nonVisualMediaItemContainer_cda674,
+.nonVisualMediaItem_cda674 + .nonVisualMediaItem_cda674 {
   border: var(--border-color-accent-1) !important;
   border-radius: 0px !important;
 }
 
 /* The button for that AKA the trash button*/
-.hoverButtonGroup_ab8b23.nonMediaMosaicItem_ab8b23 {
+.hoverButtonGroup_e5c1dc.nonMediaMosaicItem_e5c1dc {
   border: var(--border-color-accent-1);
   overflow: hidden;
   outline: none;
@@ -1866,11 +1865,11 @@ code.inline {
 }
 
 /* Events posted in chat*/
-.wrapper_b9fe76.clickable_a75489 {
+.wrapper_a71a1c.clickable_a75489 {
   border: var(--border-color-accent-1);
   border-radius: 0px;
 }
-.wrapper_b9fe76.clickable_a75489 .button_a75489 {
+.wrapper_a71a1c.clickable_a75489 .button_a75489 {
   color: rgb(var(--font-in-accent)) !important;
   background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
   border-radius: 2px;
@@ -1878,7 +1877,7 @@ code.inline {
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
-.wrapper_b9fe76.clickable_a75489 .button_a75489:hover {
+.wrapper_a71a1c.clickable_a75489 .button_a75489:hover {
   background: linear-gradient(135deg, rgb(var(--accent-color-1), 0.5), rgb(var(--accent-color-2), 0.5)) !important;
 }
 
@@ -1940,10 +1939,10 @@ code.inline {
   padding-top: 1px;
   padding-bottom: 1px;
 }
-.app-focused .channelTextArea_a7d72e:focus-within .button_cecf00,
-.app-focused .channelTextArea_d5deea:focus-within .button_cecf00,
-.app-focused .channelTextAreaUpload_f82cc7:focus-within .button_cecf00,
-.app-focused .channelTextArea_d0696b:focus-within .button_cecf00 {
+.app-focused .channelTextArea_a7d72e:focus-within .button_f9af59,
+.app-focused .channelTextArea_d5deea:focus-within .button_f9af59,
+.app-focused .channelTextAreaUpload_f82cc7:focus-within .button_f9af59,
+.app-focused .channelTextArea_d0696b:focus-within .button_f9af59 {
   color: var(--interactive-normal);
   /* Buttons */
 }
@@ -1954,10 +1953,10 @@ code.inline {
   fill: var(--interactive-normal);
   /* Attached Button Focused*/
 }
-.app-focused .channelTextArea_a7d72e:focus-within .sprite_af14ca,
-.app-focused .channelTextArea_d5deea:focus-within .sprite_af14ca,
-.app-focused .channelTextAreaUpload_f82cc7:focus-within .sprite_af14ca,
-.app-focused .channelTextArea_d0696b:focus-within .sprite_af14ca {
+.app-focused .channelTextArea_a7d72e:focus-within .sprite_d91a75,
+.app-focused .channelTextArea_d5deea:focus-within .sprite_d91a75,
+.app-focused .channelTextAreaUpload_f82cc7:focus-within .sprite_d91a75,
+.app-focused .channelTextArea_d0696b:focus-within .sprite_d91a75 {
   filter: grayscale(0%) !important;
   opacity: 1;
   /* Emoji Button Focused*/
@@ -1979,9 +1978,9 @@ code.inline {
   transition-property: background-color, border-color, color;
 }
 
-.channelTextArea_a7d72e .button_cecf00,
-.channelTextArea_d5deea .button_cecf00,
-.channelTextAreaUpload_f82cc7 .button_cecf00,
+.channelTextArea_a7d72e .button_f9af59,
+.channelTextArea_d5deea .button_f9af59,
+.channelTextAreaUpload_f82cc7 .button_f9af59,
 .channelTextArea_d0696b {
   /* buttons */
   color: var(--text-muted);
@@ -1996,16 +1995,16 @@ code.inline {
   transition: fill 200ms cubic-bezier(0, 0, 0.35, 1) !important;
 }
 
-.channelTextArea_a7d72e .sprite_af14ca,
-.channelTextArea_d5deea .sprite_af14ca,
-.channelTextAreaUpload_f82cc7 .sprite_af14ca,
-.channelTextArea_d0696b .sprite_af14ca {
+.channelTextArea_a7d72e .sprite_d91a75,
+.channelTextArea_d5deea .sprite_d91a75,
+.channelTextAreaUpload_f82cc7 .sprite_d91a75,
+.channelTextArea_d0696b .sprite_d91a75 {
   /* emoji btn */
   opacity: 0.6;
   transition: opacity 200ms cubic-bezier(0, 0, 0.35, 1) !important;
 }
 
-#app-mount .markup_d6076c.slateTextArea_e52116,
+#app-mount .markup_f8f345.slateTextArea_e52116,
 #app-mount .placeholder__443e5 {
   font-weight: 400;
 }
@@ -2113,7 +2112,7 @@ code.inline {
           backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 
-.title_a7d72e.background_c54132.container_e44302.themed_e44302 {
+.title_a7d72e.background_c54132.container_fc4f04.themed_fc4f04 {
   background: rgba(var(--header-transparency-color), var(--header-transparency));
   -webkit-backdrop-filter: blur(var(--header-background-blur));
           backdrop-filter: blur(var(--header-background-blur));
@@ -2239,11 +2238,11 @@ code.inline {
 }
 
 /* Emoji picker categories */
-.scroller_dcade6.list-obNEuP::-webkit-scrollbar {
+.scroller_d53d65.list-obNEuP::-webkit-scrollbar {
   width: 0 !important;
 }
 
-.scroller_dcade6.list-obNEuP:hover::-webkit-scrollbar {
+.scroller_d53d65.list-obNEuP:hover::-webkit-scrollbar {
   width: 6px !important;
 }
 
@@ -2294,7 +2293,7 @@ code.inline {
 }
 
 /* Fix lightmode card under home etccc*/
-.theme-light .card_eb1ca6 {
+.theme-light .card_e90879 {
   background-color: rgb(var(--dark-background-color));
 }
 
@@ -2303,7 +2302,7 @@ code.inline {
   margin-bottom: 5px;
 }
 
-.guildList_c8c448 .loaded_eb1ca6 {
+.guildList_c8c448 .loaded_e90879 {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 20px;
@@ -2314,7 +2313,7 @@ code.inline {
   border-radius: 0px !important;
 }
 
-.guildList_c8c448 .card_eb1ca6 {
+.guildList_c8c448 .card_e90879 {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 20px;
@@ -2325,7 +2324,7 @@ code.inline {
 .itemCard_f02fcf,
 .sidebar_a4d4d9 .button_adcaac,
 .newMessagesBar_cf58b5,
-.layout_e9f61e,
+.layout_d808b0,
 .messageInputContainer-24qqT,
 .inputWrapper_f8bc55,
 .inner__999f6,
@@ -2468,7 +2467,7 @@ code.inline {
   /* Removing Background from the shop page*/
   /* Giving Shopcards cut edges*/
 }
-.shop_e77fa3 .container_e44302.themed_e44302 {
+.shop_e77fa3 .container_fc4f04.themed_fc4f04 {
   border-right: none !important;
   border-bottom: var(--border-color-accent-1);
 }
@@ -2538,7 +2537,7 @@ code.inline {
   border-bottom: none;
 }
 
-.flex_bba380.flex_ec1a20.horizontalReverse_bba380.horizontalReverse_d76671.flex_ec1a20.directionRowReverse_f644aa.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer-31IekZ.footer-34a4-c.footerSeparator-VzAYwb {
+.flex_dc333f.flex_ec1a20.horizontalReverse_dc333f.horizontalReverse_d76671.flex_ec1a20.directionRowReverse_f644aa.justifyStart_ec1a20.alignStretch_ec1a20.noWrap_ec1a20.footer-31IekZ.footer-34a4-c.footerSeparator-VzAYwb {
   border: var(--border-color-accent-1);
 }
 
@@ -2548,7 +2547,7 @@ code.inline {
 }
 
 /* Change event part 1/2/3 Font color*/
-.colorBrand_fbc755.size12_fb468f {
+.colorBrand_d1aa77.size12_e8b2ab {
   color: rgb(var(--fullwhite-font));
 }
 
@@ -3002,7 +3001,7 @@ code.inline {
   border-right: 1px solid rgb(var(--accent-color-1));
 }
 
-.scroller_dcade6.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt {
+.scroller_d53d65.list-obNEuP.none-2-_0dP.scrollerBase-_bVAAt {
   border-right: 1px solid rgb(var(--accent-color-1));
 }
 
@@ -3202,7 +3201,7 @@ code.inline {
 }
 
 #app-mount .channel_c91bad,
-#app-mount .layout_e9f61e {
+#app-mount .layout_d808b0 {
   border-radius: 0px;
   cursor: default;
   padding: 0px !important;
@@ -3213,26 +3212,26 @@ code.inline {
 
 /* Hover Effect for Memebers of the server*/
 #app-mount .channel_c91bad:hover,
-#app-mount .layout_e9f61e:hover {
+#app-mount .layout_d808b0:hover {
   border-left: var(--border-color-accent-1);
   border-width: 2px;
 }
 
-#app-mount .clickable_e9f61e {
+#app-mount .clickable_d808b0 {
   background: none;
 }
 
-#app-mount .layout_e9f61e:hover > .avatar_e9f61e {
+#app-mount .layout_d808b0:hover > .avatar_d808b0 {
   padding-left: 4px;
 }
 
-#app-mount .selected_e9f61e {
+#app-mount .selected_d808b0 {
   background-color: rgba(var(--accent-color-1), 0.3);
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
 }
-#app-mount .selected_e9f61e:hover {
+#app-mount .selected_d808b0:hover {
   background: rgba(var(--accent-color-1), 0.5) !important;
 }
 
@@ -3247,12 +3246,12 @@ code.inline {
 }
 
 /* When a user is selected in a group chat*/
-[aria-expanded=true] .layout_e9f61e {
+[aria-expanded=true] .layout_d808b0 {
   background-color: rgba(var(--accent-color-1), 0.3);
   border-left: solid 2px rgb(var(--accent-color-1)) !important;
 }
 
-[aria-expanded=true] .layout_e9f61e .avatar_e9f61e {
+[aria-expanded=true] .layout_d808b0 .avatar_d808b0 {
   margin-left: 5px !important;
 }
 
@@ -3321,10 +3320,10 @@ code.inline {
   --cp-size: 10px;
   box-sizing: border-box;
   margin-right: 5px;
+  /* Adds the background layer ontop of the main layer to give the left and right side a border*/
 }
-
-/* Adds the background layer ontop of the main layer to give the left and right side a border*/
-.modeUnreadImportant_d8bfb3 .link_d8bfb3::before {
+#app-mount .modeUnread-1zpFdA .content-3at_AU::before,
+#app-mount .modeUnreadImportant_d8bfb3 .link_d8bfb3::before {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
@@ -3333,19 +3332,13 @@ code.inline {
   position: absolute;
   margin: 1px !important; /*One of the fixes to the border being broken*/
   left: -1px;
-  width: 99%; /* container height - (border thickness * 2) */
-  height: 100%; /* container height - (border thickness * 2) */
-}
-
-/* Change background color of unread channels on hover*/
-#app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
-#app-mount .modeUnreadImportant_d8bfb3 .link_d8bfb3:hover,
-#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3:hover {
-  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)) !important;
+  width: 99%;
+  height: 100%;
 }
 
 /* for "less important" channel border */
-#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3 { /* Is the border of it */
+#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3 {
+  /* Is the border of it */
   background-color: rgb(var(--muted-font)) !important;
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
@@ -3368,7 +3361,15 @@ code.inline {
   height: 100%;
 }
 
-/* Hover effect in channels background color/clip-path*/
+/* 
+/* Change background color of unread channels on hover*/
+#app-mount .modeUnread-1zpFdA .content-3at_AU:hover,
+#app-mount .modeUnreadImportant_d8bfb3 .link_d8bfb3:hover,
+#app-mount .modeUnreadLessImportant_d8bfb3 .link_d8bfb3:hover {
+  background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency)) !important;
+}
+
+/*Hover effect in channels background color/clip-path*/
 .wrapper_d8bfb3:hover .link_d8bfb3 {
   -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
           clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
