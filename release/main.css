@@ -329,11 +329,14 @@ code,
 .contentRegion_c25c6d,
 .contentRegionScroller_c25c6d,
 .chatTarget_d1c246,
+.sidebarContainer_a3a4ce,
+.container_e462a4,
 .container_d1c246,
 .container_b385c8,
 .scrollerInner_e2e187 > .wrapper_ba0ffb,
 .scrollerInner_e2e187 > .wrapper_ba0ffb .wrapper_b75bb9) {
   background-color: transparent;
+  background: transparent;
 }
 
 /* Fixes transparency not workking*/
@@ -1464,7 +1467,6 @@ html #app-mount:before,
 }
 
 /* Main context menu border*/
-.menu_d90b3d,
 .menu_d90b3d {
   background-color: rgb(var(--darker-background-color));
   border: var(--border-color-accent-1);
@@ -1861,7 +1863,7 @@ code.inline {
 }
 
 /* The button for that AKA the trash button*/
-.hoverButtonGroup_e5c1dc.nonMediaMosaicItem_e5c1dc {
+.hoverButtonGroup_d0395d.nonMediaMosaicItem_d0395d {
   border: var(--border-color-accent-1);
   overflow: hidden;
   outline: none;
@@ -1922,6 +1924,13 @@ code.inline {
 }
 .autocomplete_bcc24e .base_bcc24e:not(:has(.autocompleteRowIcon_bcc24e)) {
   border-bottom: var(--border-color-accent-1);
+}
+
+/* Reaction menu hover*/
+.popoverReactionHoverBar_e986d9 {
+  background-color: rgb(var(--darker-background-color)) !important;
+  border: var(--border-color-accent-1) !important;
+  border-radius: 0px !important;
 }
 
 .app-focused .channelTextArea_a7d72e,
@@ -2515,6 +2524,80 @@ code.inline {
 .shop_e77fa3 .banner_da16fe.shopBanner_be5025,
 .shop_e77fa3 .heroBanner_d3ffc9.heroBannerWithSidebar_e6b2f9 {
   border-radius: 0px;
+}
+
+.container_a56260,
+.scroller_b91a2d {
+  background: transparent !important;
+}
+
+.contentContainer_a56260 {
+  background: transparent !important;
+  -webkit-backdrop-filter: none !important;
+          backdrop-filter: none !important;
+}
+
+.container_fc867b,
+.container_d746e5 {
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
+  backdrop-filter: blur(var(--chat-background-blur)) !important;
+  border-right: var(--border-color-accent-1);
+}
+
+.container_a97111 {
+  border-radius: 0px !important;
+  border: var(--border-color-accent-1);
+}
+
+.container_f2bc91,
+.contents_f2bc91,
+.heroAssetWrapper_f2bc91,
+.overlay_f2bc91 {
+  border-radius: 0px !important;
+}
+
+.container_b97772,
+.backdrop_accde0,
+.header_e462a4 {
+  border-bottom: var(--border-color-accent-1);
+}
+
+.headerBar_accde0:after {
+  background: transparent !important;
+}
+
+.navItem_e462a4 {
+  padding: 6px !important;
+  border-radius: 0px;
+  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  border-radius: 0px;
+}
+
+.navItem_e462a4.selected_e462a4 {
+  background-color: rgb(var(--accent-color-1), 50%) !important;
+}
+
+.submenuWrapper_f2bc91 {
+  border-radius: 0px !important;
+  border: var(--border-color-accent-1);
+}
+.submenuWrapper_f2bc91:hover {
+  background-color: rgb(var(--accent-color-1), 20%) !important;
+}
+
+.transitionGroup_c73cee {
+  border: var(--border-color-accent-1);
+}
+.transitionGroup_c73cee .guildDetails_c73cee {
+  border-top: var(--border-color-accent-1);
+}
+
+.transitionGroup_c73cee:hover {
+  border-radius: 0px;
+  background-color: rgb(var(--accent-color-1), 20%) !important;
 }
 
 /* Create Channel/Category Border*/
