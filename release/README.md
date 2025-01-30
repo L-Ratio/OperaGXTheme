@@ -39,6 +39,7 @@ OperaGXTheme is a highly customizable theme built trying to mimic the look of Op
    - Search for `OperaGX`
      - Open the file
          - Edit the given values to change how the theme looks
+3. A simplier way to do it is by using the [theme editor by gibbu](https://bdeditor.dev/theme/operagxtheme)
 </details>
 
 
@@ -46,8 +47,8 @@ OperaGXTheme is a highly customizable theme built trying to mimic the look of Op
 ## Previews
 
    images are currently (somewhat) out of date, they will be updated sometime
-![image](../Backgrounds/discordpreview1.png)
-![image](../Backgrounds/discordpreview2.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordpreview1.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordpreview2.png)
 
 ## Customizing Theme
 
