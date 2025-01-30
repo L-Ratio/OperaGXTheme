@@ -53,8 +53,9 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 </div>
 <details>
   <summary>VenCord</summary>
-
+   
    ### Installing
+0. You can also follow the instructions for BetterDiscord, if you wish to not do it this way.
 1. Copy `https://l-ratio.github.io/OperaGXTheme/release/OperaGX.theme.css`
    - Paste it in themes
   ### Customization
@@ -69,8 +70,8 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 ## Previews
 
    images are currently out of date, they will be updated sometime
-![image](https://i.imgur.com/vzKM14l.png)
-![image](https://i.imgur.com/IZug1CP.png)
+![image](./Backgrounds/discordpreview1.png)
+![image](./Backgrounds/discordpreview2.png)
 
 ## Customizing Theme
 
