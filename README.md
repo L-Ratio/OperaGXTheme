@@ -75,7 +75,7 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 
 ## Customizing Theme
 
-   To customize the theme please refer to the `theme.css` file
+   To customize the theme please refer to the `theme.css` file or use the [theme editor by gibbu](https://bdeditor.dev/theme/operagxtheme)
 
 ## Bugs/Issue/Suggestions
 
