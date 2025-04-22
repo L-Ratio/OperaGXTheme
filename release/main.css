@@ -3138,6 +3138,16 @@ code.inline {
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
+.visual-refresh .panels_c48ade {
+  width: 100% !important;
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
+  backdrop-filter: blur(var(--chat-background-blur)) !important;
+  left: 0px !important;
+}
+.visual-refresh .sidebar_c48ade:after {
+  display: none !important;
+}
 
 .title_c38106 {
   border: var(--border-color-accent-1) !important;
