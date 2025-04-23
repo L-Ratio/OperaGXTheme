@@ -3114,6 +3114,7 @@ code.inline {
 .visual-refresh .container__2637a {
   margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs)) !important;
   border-bottom: var(--border-color-accent-1);
+  padding-bottom: 0px !important;
 }
 .visual-refresh .svg_cc5dd2 {
   top: 0px !important;
