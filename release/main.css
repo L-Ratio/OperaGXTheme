@@ -1263,12 +1263,6 @@ html #app-mount:before,
 }
 
 /* Friends list*/
-.peopleColumn__133bf {
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency));
-  -webkit-backdrop-filter: blur(var(--chat-background-blur));
-          backdrop-filter: blur(var(--chat-background-blur));
-}
-
 /* Active Now Tab*/
 .container__7d20c {
   background: transparent;
@@ -1352,19 +1346,11 @@ html #app-mount:before,
 }
 
 /* Serverlist */
-.wrapper_ef3116.guilds_c48ade {
-  background: rgba(var(--serverlist-transparency-color), var(--serverlist-transparency)) !important;
-  -webkit-backdrop-filter: blur(var(--serverlist-background-blur));
-  backdrop-filter: blur(var(--serverlist-background-blur));
-}
-
 .tree-3tCaw8:focus {
   outline: transparent;
 }
 
-.sidebar_c48ade,
-.nowPlayingColumn__133bf .sidebar_c48ade,
-.nowPlayingColumn__133bf {
+.sidebar_c48ade {
   background-color: rgba(var(--channels-transparency-color), var(--channels-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--channels-background-blur));
   backdrop-filter: blur(var(--channels-background-blur));
@@ -3132,21 +3118,20 @@ code.inline {
 .visual-refresh .sectionDivider__629e4 {
   display: none !important;
 }
-.visual-refresh .tabBody__133bf,
-.visual-refresh .scroller__99e7c {
+.visual-refresh .tabBody__133bf {
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 .visual-refresh .panels_c48ade {
   width: 100% !important;
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
-  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
-  backdrop-filter: blur(var(--chat-background-blur)) !important;
   left: 0px !important;
 }
-.visual-refresh .sidebar_c48ade:after {
-  display: none !important;
+.visual-refresh .sidebarListRounded_c48ade {
+  -webkit-backdrop-filter: none !important;
+  backdrop-filter: none !important;
+  border-top-left-radius: var(--radius-md);
+  background-color: transparent !important;
 }
 
 .title_c38106 {
@@ -3169,12 +3154,6 @@ code.inline {
 
 .outer_c0bea0:not(.custom-profile-theme) .inner_c0bea0 {
   background-color: rgb(var(--dark-background-color)) !important;
-}
-
-.content_f75fb0 {
-  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
-  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
-  backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 
 /* Create Channel/Category Border*/
