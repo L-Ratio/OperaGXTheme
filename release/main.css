@@ -1357,6 +1357,10 @@ html #app-mount:before,
   border-radius: 0px !important;
 }
 
+.sidebar_c48ade:after {
+  display: none !important;
+}
+
 .platform-web .sidebar_c48ade {
   border-top: none;
 }
@@ -3108,7 +3112,6 @@ code.inline {
   border-bottom: var(--border-color-accent-1);
 }
 .visual-refresh .container__2637a {
-  padding-bottom: 62px !important;
   margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs)) !important;
   border-bottom: var(--border-color-accent-1);
 }
