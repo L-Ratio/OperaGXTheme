@@ -6,6 +6,7 @@
 
 .theme-light,
 .theme-dark,
+.theme-darker,
 .theme-midnight {
   --text-normal: rgb(var(--normal-font)) !important;
   --text-muted: rgb(var(--muted-font)) !important;
@@ -59,6 +60,9 @@
   --background-surface-high: rgba(var(--dark-background-color), var(--other-transparency)) !important;
   --background-surface-higher: rgba(var(--dark-background-color), var(--other-transparency)) !important;
   --background-surface-highest: rgba(var(--dark-background-color), var(--other-transparency)) !important;
+  --background-base-low: rgba(var(--darker-background-color), var(--other-transparency)) !important;
+  --background-base-lower: rgba(var(--darker-background-color), var(--other-transparency)) !important;
+  --background-base-lowest: rgba(var(--darker-background-color), var(--other-transparency)) !important;
   --app-border-frame: none!important;
   --divider-subtle: none!important;
   --border-subtle: rgba(var(--accent-color-1),var(--border-brightness))!important;
@@ -727,32 +731,16 @@ html #app-mount:before,
 }
 
 /* Tooltips border */
-#app-mount .tooltip-14MtrL,
-#app-mount .tooltipBlack-vMYxvw,
 .tooltipPointer__382e7,
 .tooltip__382e7 {
   border: solid 1px rgb(var(--accent-color-1));
   background: linear-gradient(135deg, rgb(var(--darker-background-color)), rgb(var(--dark-background-color)));
-  border-radius: 0px;
-  color: rgb(var(--fullwhite-font));
-}
-
-.tooltipPointer-3L49xb,
-.tooltipPointer__382e7 {
-  display: none;
-}
-
-.tooltipRight-2TSb42 {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
-.guildNameText-74xXQn {
-  color: rgb(var(--fullwhite-font));
-}
-
-[class*=tooltip-] {
   border-radius: 0px !important;
+  color: rgb(var(--fullwhite-font));
+}
+
+.tooltipPointer__382e7 {
+  display: none !important;
 }
 
 /* Make forums background transparent*/
