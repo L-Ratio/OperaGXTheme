@@ -290,7 +290,6 @@ code,
 .gridContainer__623de {
   background-color: rgba(var(--darker-background-color), var(--other-transparency));
   cursor: default;
-  overflow: hidden;
   border-left: 1px solid;
   border-color: inherit;
   border-radius: 0px;
