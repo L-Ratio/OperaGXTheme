@@ -78,6 +78,7 @@
   --radius-xxl: 0px!important;
   --radius-round: 0px!important;
   --user-profile-overlay-background: rgb(var(--darker-background-color))!important;
+  --user-profile-background-hover: rgba(var(--accent-color-2), 0.25)!important;
 }
 
 /* thai */
@@ -282,8 +283,7 @@ code,
   opacity: 0.5 !important;
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 4px;
 }
 
@@ -416,7 +416,7 @@ html #app-mount:before,
 * added as of 3/3/2023
 ! might break most borders :/
 */
-.root__49fc1.fullscreenOnMobile__49fc1:not(:has(.userProfileOuterThemed_c69a7b)) {
+.root__49fc1.fullscreenOnMobile__49fc1:not(:has(.userProfileOuterThemed_c69a7b, .user-profile-modal-v2)) {
   border: 1px solid rgb(var(--accent-color-1)) !important;
   box-shadow: none !important;
   -webkit-box-shadow: none !important;
@@ -880,9 +880,9 @@ html #app-mount:before,
 /*Buttons Design */
 /*Change most buttons shapes*/
 .lookFilled__201d5.colorGreen__201d5,
-.lookFilled__201d5.colorBrand__201d5 {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+.lookFilled__201d5.colorBrand__201d5,
+.button__6af3a {
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
 
@@ -895,8 +895,7 @@ html #app-mount:before,
   color: rgb(var(--font-in-accent)) !important;
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
 
@@ -905,7 +904,6 @@ html #app-mount:before,
   background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
   border-radius: 2px;
   font-weight: 1000 !important;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
@@ -915,8 +913,7 @@ html #app-mount:before,
 
 .side_b3f026 .item_b3f026,
 #app-mount .ui-tab-bar-item {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 5px;
   border-radius: 2px;
 }
@@ -925,7 +922,6 @@ html #app-mount:before,
   color: rgb(var(--font-in-accent));
   background: linear-gradient(135deg, rgb(var(--accent-color-1)), rgb(var(--accent-color-2)));
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
@@ -950,7 +946,6 @@ html #app-mount:before,
   color: rgb(var(--font-in-accent)) !important;
   background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
@@ -1501,8 +1496,7 @@ strong {
 .bar__3b95d {
   background-color: rgba(var(--darker-background-color), 0.95);
   border-radius: 1px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
 
@@ -1695,7 +1689,6 @@ code.inline {
   background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
   border-radius: 2px;
   font-weight: 1000 !important;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
@@ -2072,8 +2065,7 @@ code.inline {
 }
 
 .guildList_c8c448 .loaded_e90879 {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 20px;
   background: rgba(var(--accent-color-1), var(--border-brightness));
   padding: 1px;
@@ -2083,8 +2075,7 @@ code.inline {
 }
 
 .guildList_c8c448 .card_e90879 {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 20px;
   border-radius: 0px !important;
   margin: 1px;
@@ -2224,14 +2215,12 @@ code.inline {
   color: rgb(var(--font-in-accent)) !important;
   background: rgb(var(--accent-color-1)) !important;
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 16px;
 }
 .shop__6db1d .shopCard_c3d04b:not(:has(.profileEffectShopPreview_c3d04b))::before {
   background: rgb(var(--darker-background-color));
   border-radius: 4px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 17px;
   left: 0px;
@@ -2290,7 +2279,6 @@ code.inline {
 .navItem__551b0 {
   padding: 6px !important;
   border-radius: 0px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   border-radius: 0px;
@@ -2362,6 +2350,9 @@ code.inline {
   border-top-left-radius: var(--radius-md);
   background-color: transparent !important;
 }
+.visual-refresh .searchBar__97492 {
+  border: none !important;
+}
 
 .title_c38106 {
   border: var(--border-color-accent-1) !important;
@@ -2383,6 +2374,31 @@ code.inline {
 
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
   background-color: rgb(var(--dark-background-color)) !important;
+}
+
+.inner_c0bea0 .profile__9c3be {
+  margin-bottom: 20px;
+  outline: none !important;
+  background-color: rgb(var(--darker-background-color)) !important;
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 25px;
+}
+.inner_c0bea0 .profile__9c3be .mask__68edb {
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), 100% 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 25px;
+}
+
+.popover__2d0ab {
+  border: var(--border-color-accent-1) !important;
+  background-color: rgb(var(--darker-background-color)) !important;
+  border-radius: 0px !important;
+}
+
+.toolbarContainer__39ec2 {
+  border: var(--border-color-accent-1) !important;
+}
+.toolbarContainer__39ec2 .overlay_c0bea0.card__39ec2:hover {
+  background-color: rgba(var(--accent-color-1), 0.4);
 }
 
 /* Create group dm */
@@ -2694,8 +2710,7 @@ code.inline {
 }
 
 .navButton__08434 {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
 
@@ -2748,8 +2763,7 @@ code.inline {
   color: rgb(var(--fullwhite-font));
   background: linear-gradient(135deg, rgb(var(--gx-red)), rgb(var(--gx-red-2)));
   border-radius: 2px;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
   margin-right: 300px;
 }
@@ -2919,7 +2933,6 @@ code.inline {
   background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
   border-radius: 2px;
   font-weight: 1000 !important;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
 }
@@ -2953,18 +2966,18 @@ code.inline {
 
 /* Activity in member list*/
 .container__0f2e8 {
-  border: var(--border-color-accent-1);
+  border: var(--border-color-accent-1) !important;
   border-radius: 0px !important;
 }
 .container__0f2e8:hover {
-  background-color: rgb(var(--accent-color-1), 0.5);
+  background-color: rgb(var(--accent-color-1), 0.5) !important;
 }
 
 .selected__0f2e8 {
-  background-color: rgb(var(--accent-color-1), 0.5);
+  background-color: rgb(var(--accent-color-1), 0.5) !important;
 }
 .selected__0f2e8:hover {
-  background-color: rgb(var(--accent-color-1), 0.5);
+  background-color: rgb(var(--accent-color-1), 0.5) !important;
 }
 
 .defaultTextInputWrapper__7b848,
@@ -3019,23 +3032,6 @@ code.inline {
   cursor: default;
 }
 
-#app-mount .channel__972a0,
-#app-mount .layout__91a9d {
-  border-radius: 0px;
-  cursor: default;
-  padding: 0px !important;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 10px;
-}
-
-/* Hover Effect for Memebers of the server*/
-#app-mount .channel__972a0:hover,
-#app-mount .layout__91a9d:hover {
-  border-left: var(--border-color-accent-1);
-  border-width: 2px;
-}
-
 #app-mount .clickable__91a9d {
   background: none;
 }
@@ -3046,8 +3042,7 @@ code.inline {
 
 #app-mount .selected__91a9d {
   background-color: rgba(var(--accent-color-1), 0.3);
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
 }
 #app-mount .selected__91a9d:hover {
@@ -3062,16 +3057,6 @@ code.inline {
 #app-mount .interactiveSelected__972a0:hover {
   border-left: 0px;
   padding-left: 0px;
-}
-
-/* When a user is selected in a group chat*/
-[aria-expanded=true] .layout__91a9d {
-  background-color: rgba(var(--accent-color-1), 0.3);
-  border-left: solid 2px rgb(var(--accent-color-1)) !important;
-}
-
-[aria-expanded=true] .layout__91a9d .avatar__91a9d {
-  margin-left: 5px !important;
 }
 
 /* Channel Emojis */
@@ -3111,8 +3096,7 @@ code.inline {
 #app-mount :where(.modeSelected__2ea32 .link__2ea32,
 .modeSelected__2ea32:hover .link__2ea32) {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   margin-right: 5px !important;
 }
@@ -3124,16 +3108,14 @@ code.inline {
 /* Adds a layer in the backgroudn to give the outside a border*/
 #app-mount .modeUnreadImportant__2ea32 .link__2ea32 {
   background-color: rgb(var(--fullwhite-font));
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   box-sizing: border-box;
   margin-right: 5px;
   /* Adds the background layer ontop of the main layer to give the left and right side a border*/
 }
 #app-mount .modeUnreadImportant__2ea32 .link__2ea32::before {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   background: rgba(var(--darker-background-color), var(--other-transparency));
   content: "";
@@ -3148,8 +3130,7 @@ code.inline {
 #app-mount .modeUnreadLessImportant__2ea32 .link__2ea32 {
   /* Is the border of it */
   background-color: rgb(var(--muted-font)) !important;
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   box-sizing: border-box;
   margin-right: 5px;
@@ -3157,8 +3138,7 @@ code.inline {
   /* Adds the background layer ontop of the main layer to give the left and right side a border*/
 }
 #app-mount .modeUnreadLessImportant__2ea32 .link__2ea32::before {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   background: rgba(var(--darker-background-color), var(--other-transparency));
   content: "";
@@ -3178,8 +3158,7 @@ code.inline {
 
 /*Hover effect in channels background color/clip-path*/
 .wrapper__2ea32:hover .link__2ea32 {
-  -webkit-clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-          clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 10px;
   margin-right: 5px;
   background: rgb(var(--accent-color-1), 0.2);
