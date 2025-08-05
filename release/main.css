@@ -3059,6 +3059,12 @@ code.inline {
   padding-left: 0px;
 }
 
+.interactive__972a0 {
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 10px;
+  border-radius: 0px !important;
+}
+
 /* Channel Emojis */
 .channelEmoji_eda5df {
   z-index: 1;
