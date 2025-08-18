@@ -2401,6 +2401,18 @@ code.inline {
   background-color: rgba(var(--accent-color-1), 0.4);
 }
 
+.baseShapeRound__2b1f5 {
+  border-radius: 500px !important;
+}
+
+.lowerBadge_cc5dd2 {
+  bottom: -4px !important;
+}
+.lowerBadge_cc5dd2 .base__2b1f5 {
+  min-height: 18px;
+  min-width: 18px;
+}
+
 /* Create group dm */
 .popout_cba592 {
   background: transparent;
