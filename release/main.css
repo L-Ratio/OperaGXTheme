@@ -1581,6 +1581,10 @@ code.inline {
   transition-property: background-color, border-color, color;
 }
 
+.clipContainer__841c8 {
+  padding-top: 0px;
+}
+
 .app-focused .channelTextArea_f75fb0:hover .container__841c8,
 .app-focused .channelTextArea__5126c:hover .container__841c8,
 .app-focused .channelTextAreaUpload_dbca3c:hover .container__841c8,
@@ -1659,6 +1663,15 @@ code.inline {
 .nonVisualMediaItem_f4758a + .nonVisualMediaItem_f4758a {
   border: var(--border-color-accent-1) !important;
   border-radius: 0px !important;
+}
+
+.nonVisualMediaItem_f4758a .footer__4d95d {
+  border: none !important;
+  border-top: 1px solid red;
+}
+.nonVisualMediaItem_f4758a .textContainer__4d95d {
+  border-bottom: 1px solid rgb(var(--accent-color-1)) !important;
+  border: none;
 }
 
 /* The button for that AKA the trash button*/
@@ -2079,6 +2092,10 @@ code.inline {
   --cp-size: 20px;
   border-radius: 0px !important;
   margin: 1px;
+}
+
+.scroller__629e4 {
+  margin-bottom: 0px !important;
 }
 
 .itemCard__7e549,
