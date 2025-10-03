@@ -2434,6 +2434,14 @@ code.inline {
   margin-top: 4px;
 }
 
+.scroller__99e7c {
+  margin-bottom: calc(var(--custom-app-panels-height, 0) + 20px - 16px) !important;
+}
+
+.tree_ef3116 {
+  margin-bottom: 15px;
+}
+
 /* Create group dm */
 .popout_cba592 {
   background: transparent;
