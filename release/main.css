@@ -3148,7 +3148,7 @@ code.inline {
 .modeSelected__2ea32:hover .link__2ea32) {
   background-color: rgba(var(--accent-color-1), var(--other-highlighted-transparency));
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 10px;
+  --cp-size: 0;
   margin-right: 5px !important;
 }
 
