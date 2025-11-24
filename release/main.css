@@ -77,7 +77,6 @@
   --radius-xl: 0px!important;
   --radius-xxl: 0px!important;
   --radius-round: 0px!important;
-  --user-profile-overlay-background: rgb(var(--darker-background-color))!important;
   --user-profile-background-hover: rgba(var(--accent-color-2), 0.25)!important;
 }
 
@@ -426,6 +425,12 @@ html #app-mount:before,
 
 /*
    * End of above */
+.base__5e434 {
+  border-top: var(--border-color-accent-1);
+  border-bottom: var(--border-color-accent-1);
+  box-shadow: none;
+}
+
 .tree_ef3116 {
   border-left: var(--border-color-accent-1);
   border-right: var(--border-color-accent-1);
@@ -436,9 +441,13 @@ html #app-mount:before,
   border-bottom: var(--border-color-accent-1);
 }
 
-.sidebar_c48ade,
-.sidebar__5e434,
 .nowPlayingColumn__133bf {
+  border-right: var(--border-color-accent-1);
+}
+
+.sidebar_c48ade,
+.sidebar__5e434 {
+  border-left: var(--border-color-accent-1) !important;
   border-right: var(--border-color-accent-1);
 }
 
@@ -2149,6 +2158,10 @@ code.inline {
   backdrop-filter: blur(var(--chat-background-blur)) !important;
 }
 
+.content_f75fb0 .outer_c0bea0 {
+  border-right: var(--border-color-accent-1) !important;
+}
+
 .content_f75fb0.container__0b563 {
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
@@ -2403,6 +2416,9 @@ code.inline {
 
 .outer_c0bea0:not(.custom-user-profile-theme) .inner_c0bea0 {
   background-color: rgb(var(--dark-background-color)) !important;
+}
+.outer_c0bea0:not(.custom-user-profile-theme) .overlay_c0bea0 {
+  background: rgb(var(--darker-background-color)) !important;
 }
 
 .inner_c0bea0 .profile__9c3be {
