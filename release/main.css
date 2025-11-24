@@ -321,6 +321,7 @@ code,
 .mainCard_f369db,
 .container__133bf,
 .privateChannels__35e86,
+.privateChannels_e6b769,
 .scroller__99e7c,
 .container__9293f.themed__9293f,
 .nowPlayingColumn__133bf,
@@ -436,6 +437,7 @@ html #app-mount:before,
 }
 
 .sidebar_c48ade,
+.sidebar__5e434,
 .nowPlayingColumn__133bf {
   border-right: var(--border-color-accent-1);
 }
@@ -1179,7 +1181,7 @@ html #app-mount:before,
 .quickswitcher_ac6cb0 {
   background: rgb(var(--darker-background-color));
   border: var(--border-color-accent-1);
-  border-radius: 0px;
+  border-radius: 0px !important;
   /* search bar for  quickswitch and searchbar in quickswitch*/
 }
 .quickswitcher_ac6cb0 .searchBarComponent__35e86:hover {
@@ -1205,6 +1207,14 @@ html #app-mount:before,
   border-left-color: rgba(var(--accent-color-2), var(--other-highlighted-transparency));
   cursor: default;
 }
+.quickswitcher_ac6cb0 .protip_ac6cb0 {
+  padding-bottom: 5px;
+}
+
+.container__8a031:has(.quickswitcher_ac6cb0) {
+  border: none !important;
+  background: transparent !important;
+}
 
 /* Top bar */
 .withFrame__421ed {
@@ -1225,14 +1235,16 @@ html #app-mount:before,
   backdrop-filter: blur(var(--header-background-blur));
 }
 
-.sidebar_c48ade {
+.sidebar_c48ade,
+.sidebar__5e434 {
   background-color: rgba(var(--channels-transparency-color), var(--channels-transparency)) !important;
   -webkit-backdrop-filter: blur(var(--channels-background-blur));
   backdrop-filter: blur(var(--channels-background-blur));
   border-radius: 0px !important;
 }
 
-.sidebar_c48ade:after {
+.sidebar_c48ade:after,
+.sidebar__5e434::after {
   display: none !important;
 }
 
