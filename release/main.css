@@ -1771,6 +1771,7 @@ code.inline {
   border-radius: 0px !important;
   transition: 200ms cubic-bezier(0, 0, 0.35, 1) !important;
   transition-property: background-color, border-color, color;
+  background-color: rgba(var(--darker-background-color), var(--chatbox-focused-transparency)) !important;
 }
 .app-focused .channelTextArea_f75fb0:hover {
   border-color: rgba(var(--accent-color-2, 255, 55, 109), var(--other-highlighted-transparency));
