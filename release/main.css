@@ -84,6 +84,7 @@
   --control-primary-background-default: rgb(var(--accent-color-1)) !important;
   --control-primary-background-hover: rgba(var(--accent-color-1), 0.15)!important;
   --text-brand: rgb(var(--accent-color-2)) !important;
+  --checkbox-background-selected-default: rgb(var(--accent-color-1)) !important;
 }
 
 /* thai */
@@ -893,6 +894,12 @@ html #app-mount:before,
 /*Change most buttons shapes*/
 .lookFilled__201d5.colorGreen__201d5,
 .lookFilled__201d5.colorBrand__201d5,
+.button_a22cb0:not(.secondary_a22cb0, .removeButton__1fed1, .critical-secondary_a22cb0) {
+  color: rgb(var(--font-in-accent)) !important;
+}
+
+.lookFilled__201d5.colorGreen__201d5,
+.lookFilled__201d5.colorBrand__201d5,
 .button_a22cb0 {
   clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
   --cp-size: 6px;
@@ -965,14 +972,11 @@ html #app-mount:before,
   background: linear-gradient(135deg, rgb(var(--accent-color-1), 0.5), rgb(var(--accent-color-2), 0.5)) !important;
 }
 
-/* Remove phone number button*/
-.removeButton__1fed1 .contents__201d5 {
-  color: red !important;
-}
-
-.removeButton__1fed1 .contents-3ca1mk {
-  /* Website Button*/
-  color: red !important;
+.removeButton__1fed1 .contents__201d5,
+.removeButton__1fed1 .contents-3ca1mk,
+.field_a27e58.fieldSpacer_a27e58 .removeButton_a27e58 .secondary__7a01b,
+.control__5a838 .button_a22cb0.sm_a22cb0.secondary_a22cb0.hasText_a22cb0 {
+  color: var(--red-new-28);
 }
 
 /* Disable account button*/
@@ -1181,6 +1185,10 @@ html #app-mount:before,
 
 .tabBar__133bf .addFriend__133bf.addFriend__133bf.addFriend__133bf[aria-selected=true] {
   color: rgb(var(--fullwhite-font));
+}
+
+.peopleColumn__133bf .divider_cc6179 {
+  background: transparent !important;
 }
 
 /* Quick Switch Background and border */
@@ -1640,7 +1648,7 @@ code.inline {
 
 /* Quick tools */
 .wrapper_f7ecac {
-  border: var(--border-color-accent-1);
+  border: var(--border-color-accent-1) !important;
 }
 
 /* Border around reactions */
@@ -1795,7 +1803,8 @@ code.inline {
 
 .channelTextArea_f75fb0 .scrollableContainer__74017,
 .channelTextAreaUpload_b78547 .scrollableContainer__74017,
-.channelTextArea__74017 .scrollableContainer__74017 {
+.channelTextArea__74017 .scrollableContainer__74017,
+.themedBackground__74017 {
   background-color: rgba(var(--darker-background-color), var(--chatbox-transparency)) !important;
   padding-top: 1px;
   padding-bottom: 1px;
@@ -2228,49 +2237,46 @@ code.inline {
   background-color: rgb(var(--dark-background-color));
 }
 
+.shopViewWrapper__6db1d {
+  border-top: var(--border-color-accent-1) !important;
+  border-right: var(--border-color-accent-1) !important;
+  overflow: hidden;
+}
+.shopViewWrapper__6db1d .productCardContainer_fcbddd {
+  border: var(--border-color-accent-1) !important;
+  border-radius: 0px !important;
+}
+.shopViewWrapper__6db1d .filterBar__1feb0 {
+  border-right: var(--border-color-accent-1) !important;
+}
+.shopViewWrapper__6db1d .secondary_a22cb0 {
+  color: rgb(var(--font-in-accent)) !important;
+  background: linear-gradient(135deg, rgba(var(--accent-color-1)), rgba(var(--accent-color-2))) !important;
+  border-radius: 2px;
+  font-weight: 1000 !important;
+  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
+  --cp-size: 6px;
+}
+.shopViewWrapper__6db1d .secondary_a22cb0:hover {
+  background: linear-gradient(135deg, rgb(var(--accent-color-1), 0.5), rgb(var(--accent-color-2), 0.5)) !important;
+}
+.shopViewWrapper__6db1d .secondary_a22cb0 {
+  opacity: 0.8;
+}
+
+.shopScroll__08415,
+.shop__08415,
+.page__1feb0,
+.shopScroll__1feb0,
+.filterBar__11877,
+.pageWrapper__1feb0 {
+  background: transparent !important;
+  background-color: transparent !important;
+}
+
 .shop__6db1d {
-  border-right: var(--border-color-accent-1);
   background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
   backdrop-filter: blur(var(--chat-background-blur)) !important;
-}
-.shop__6db1d .container__9293f.themed__9293f {
-  border-right: none !important;
-  border-bottom: var(--border-color-accent-1);
-}
-.shop__6db1d {
-  /* Removing Background from the shop page*/
-}
-.shop__6db1d .shopScroll__6db1d,
-.shop__6db1d .shopViewWrapper__6db1d,
-.shop__6db1d .shop__08415 {
-  background: transparent !important;
-}
-.shop__6db1d {
-  /* Giving Shopcards cut edges*/
-}
-.shop__6db1d .shopCard_c3d04b:not(:has(.profileEffectShopPreview_c3d04b))::before {
-  background: rgb(var(--darker-background-color));
-  border-radius: 4px;
-  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 17px;
-  left: 0px;
-  top: -2px;
-  width: 100%;
-  height: 100%;
-  content: "";
-  position: absolute;
-}
-.shop__6db1d .shopCard_c3d04b:not(:has(.profileEffectShopPreview_c3d04b)) {
-  border-color: rgba(var(--accent-color-1), 0.5) !important;
-  color: rgb(var(--font-in-accent)) !important;
-  background: rgb(var(--accent-color-1)) !important;
-  border-radius: 2px;
-  clip-path: polygon(var(--cp-size) 0, 100% 0, 100% calc(100% - var(--cp-size)), calc(100% - var(--cp-size)) 100%, 0 100%, 0 var(--cp-size));
-  --cp-size: 16px;
-}
-.shop__6db1d .banner__9ed41.shopBanner__7f856,
-.shop__6db1d .heroBanner_d3ffc9.heroBannerWithSidebar_e6b2f9 {
-  border-radius: 0px;
 }
 
 .container_a56260,
