@@ -1694,7 +1694,7 @@ code.inline {
 }
 
 /* Anything thats not a video/embed attachment border*/
-.nonVisualMediaItem_f4758a {
+.nonVisualMediaItem_f4758a:not(:has(.rippleContainer_a8e786)) {
   border: var(--border-color-accent-1) !important;
   border-radius: 0px !important;
 }
