@@ -69,7 +69,7 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 
 ## Previews
 
-   images are currently out of date, they will be updated sometime
+   images are currently (from 9/1/2026) out of date, they will be updated sometime
 ![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated2.png)
 ![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated3.png)
 ![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated1.png)
