@@ -435,11 +435,6 @@ html #app-mount:before,
   box-shadow: none;
 }
 
-.tree_ef3116 {
-  border-left: var(--border-color-accent-1);
-  border-right: var(--border-color-accent-1);
-}
-
 .nowPlayingColumn__133bf {
   border-right: var(--border-color-accent-1);
 }
@@ -2249,9 +2244,44 @@ code.inline {
   background-color: rgb(var(--dark-background-color));
 }
 
+.wrapper__260e1 {
+  border: none !important;
+}
+
 .cardPrimary__73069 {
   border: var(--border-color-accent-1) !important;
   background-color: rgb(var(--dark-background-color)) !important;
+}
+
+.wrapper_ef3116.guilds__5e434 {
+  margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) - 2px) !important;
+  border-right: var(--border-color-accent-1);
+  -webkit-mask: none !important;
+          mask: none !important;
+}
+
+.tree_ef3116 {
+  border: none !important;
+  -webkit-mask: linear-gradient(180deg, #000, transparent) bottom/100% 16px no-repeat, linear-gradient(#000, #000) top/100% calc(100% - 15px) no-repeat;
+          mask: linear-gradient(180deg, #000, transparent) bottom/100% 16px no-repeat, linear-gradient(#000, #000) top/100% calc(100% - 15px) no-repeat;
+  -webkit-mask-image: linear-gradient(rgb(0, 0, 0), transparent), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+          mask-image: linear-gradient(rgb(0, 0, 0), transparent), linear-gradient(rgb(0, 0, 0), rgb(0, 0, 0));
+  -webkit-mask-position-x: center, center;
+  -webkit-mask-position-y: bottom, top;
+  -webkit-mask-size: 100% 16px, 100% calc(100% - 15px);
+          mask-size: 100% 16px, 100% calc(100% - 15px);
+  -webkit-mask-repeat: no-repeat, no-repeat;
+          mask-repeat: no-repeat, no-repeat;
+  -webkit-mask-origin: content-box;
+          mask-origin: content-box;
+  -webkit-mask-clip: content-box;
+          mask-clip: content-box;
+  -webkit-mask-composite: source-over, source-over;
+          mask-composite: add, add;
+}
+
+.sidebarList__5e434 {
+  border-left: none;
 }
 
 .shopViewWrapper__6db1d {
@@ -2449,10 +2479,6 @@ code.inline {
   border-top: none !important;
 }
 
-.tree_ef3116 {
-  border-left: none !important;
-}
-
 .outer_c0bea0:not(.custom-user-profile-theme),
 .menuOverlay_ce8328 {
   border: var(--border-color-accent-1) !important;
@@ -2510,17 +2536,8 @@ code.inline {
   margin-bottom: calc(var(--custom-app-panels-height, 0) + 20px - 16px) !important;
 }
 
-.tree_ef3116 {
-  margin-bottom: 15px;
-}
-
 .fade_faf9c0.didRender_faf9c0 .picker__09f65 .wrapper__4106a {
   background-color: transparent;
-}
-
-.wrapper_ef3116.guilds__5e434 {
-  margin-bottom: calc(var(--custom-app-panels-height, 0) + var(--space-xs) - 16px);
-  padding-bottom: 15px;
 }
 
 /* Create group dm */
