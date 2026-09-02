@@ -26,7 +26,7 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 <div style=”text-align:center;” align="center">
 <h5 align="left">
 
-   <img src="https://cdn.discordapp.com/icons/86004744966914048/babd1af3fa6011a50e418a80f4970ceb.webp?size=96" width="75" height="75"/>
+   <img src="https://betterdiscord.app/resources/branding/logo_small.svg" width="75" height="75"/>
 
 </h5>
 </div>
@@ -70,8 +70,9 @@ OperaGXTheme is a highly customizable theme built off of trying to look like Ope
 ## Previews
 
    images are currently out of date, they will be updated sometime
-![image](./Backgrounds/discordpreview1.png)
-![image](./Backgrounds/discordpreview2.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated2.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated3.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated1.png)
 
 ## Customizing Theme
 

@@ -23,7 +23,7 @@ OperaGXTheme is a highly customizable theme built trying to mimic the look of Op
 <div style=”text-align:center;” align="center">
 <h5 align="left">
 
-   <img src="https://cdn.discordapp.com/icons/86004744966914048/babd1af3fa6011a50e418a80f4970ceb.webp?size=96" width="75" height="75"/>
+   <img src="https://betterdiscord.app/resources/branding/logo_small.svg" width="75" height="75"/>
 
 </h5>
 </div>
@@ -46,9 +46,10 @@ OperaGXTheme is a highly customizable theme built trying to mimic the look of Op
 
 ## Previews
 
-   images are currently (somewhat) out of date, they will be updated sometime
-![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordpreview1.png)
-![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordpreview2.png)
+   images are currently (from 9/1/2026) out of date, they will be updated sometime
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated2.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated3.png)
+![image](https://raw.githubusercontent.com/L-Ratio/OperaGXTheme/refs/heads/main/Backgrounds/discordPreviewUpdated1.png)
 
 ## Customizing Theme
 
